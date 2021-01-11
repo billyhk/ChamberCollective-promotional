@@ -1,0 +1,36 @@
+// .footer-border-top {
+// 	background: white;
+// 	height: 2px;
+// 	opacity: 0.65;
+// }
+// .footer-border-top:hover {
+// 	opacity: 1;
+// }
+
+.bottom-footer {
+	min-height: 15vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border-top: 4px solid white;
+	opacity: 0.65;
+    transition: 1s;
+    
+	a {
+		text-decoration: none;
+		text-transform: uppercase;
+		padding: 0 2%;
+		color: white;
+		opacity: 0.65;
+		transition: 1s;
+	}
+	a:hover {
+		opacity: 1;
+	}
+}
+
+.bottom-footer:hover {
+	opacity: 1;
+}

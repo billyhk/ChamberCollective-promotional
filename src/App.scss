@@ -4,6 +4,10 @@ body {
 	margin: 0 auto;
 	font-family: 'Helvetica';
 }
+.app-container {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
 
 .hidden {
 	display: none;
