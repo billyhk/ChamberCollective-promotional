@@ -1,0 +1,19 @@
+body {
+	background: black;
+	color: white;
+	margin: 0 auto;
+	font-family: 'Helvetica';
+}
+
+.hidden {
+	display: none;
+}
+
+main {
+	article {
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

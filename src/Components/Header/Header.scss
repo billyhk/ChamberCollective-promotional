@@ -1,0 +1,22 @@
+header {
+	text-align: center;
+	background: violet;
+	z-index: 100;
+	position: fixed;
+    top: 0;
+    
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	position: relative;;
+
+	/* background: rgb(128, 128, 128); */
+	z-index: 2;
+	position: fixed;
+	width: 100vw;
+
+	transition: 1.5s;
+	/* opacity: .65; */
+
+}
