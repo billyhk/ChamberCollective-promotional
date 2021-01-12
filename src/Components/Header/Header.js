@@ -24,11 +24,10 @@ const Header = () => {
 	document.addEventListener('scroll', debounce(storeScroll), { passive: true });
 	storeScroll();
 
-
 	return (
 		<header className='header-container'>
-			<div class='header-left'>LOGO</div>
-			<div class='header-right'>
+			<div className='header-left'>LOGO</div>
+			<div className='header-right'>
 				{' '}
 				<Link to='#'>About</Link>
 				<Link to='#'>Members</Link>
