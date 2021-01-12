@@ -1,5 +1,6 @@
 import './Header.scss';
 import { Link } from 'react-router-dom';
+import logo from '../../Component-Images/NuCalm_Logo.png';
 
 const Header = () => {
 	/*
@@ -27,8 +28,8 @@ const Header = () => {
 	return (
 		<header className='header-container'>
 			<div className='header-left'>
-				<span className='hamburger-icon'>&#9776;</span>
-				<span class='header-logo'>LOGO</span>
+				<p className='hamburger-icon'>&#9776;</p>
+				<img src={logo} alt='nucalm-logo' className='header-logo'></img>
 			</div>
 			<div className='header-right'>
 				{' '}

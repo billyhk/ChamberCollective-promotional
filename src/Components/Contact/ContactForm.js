@@ -2,12 +2,13 @@ import React from 'react';
 
 const ContactForm = ({
 	handleSubmit,
+	/*
 	handleChange,
 	setName,
 	setEmail,
 	setChecked,
+	*/
 }) => {
-
 	return (
 		<form className='contact-form' onSubmit={handleSubmit}>
 			<div className='contact-form-input-container'>
@@ -17,10 +18,12 @@ const ContactForm = ({
 					type='text'
 					placeholder='Name'
 					required
+					/*
 					onChange={(e) => {
 						setName(e.target.value);
 						handleChange(e);
 					}}
+					*/
 				/>
 				<input
 					id='email'
@@ -28,10 +31,12 @@ const ContactForm = ({
 					type='email'
 					placeholder='Email'
 					required
+					/*
 					onChange={(e) => {
 						setEmail(e.target.value);
 						handleChange(e);
 					}}
+					*/
 				/>
 			</div>
 			<div className='checkbox-container'>
@@ -42,10 +47,12 @@ const ContactForm = ({
 					id='newsletter'
 					type='checkbox'
 					name='newsletter'
+					/*
 					onChange={(e) => {
 						setChecked(e.target.checked);
 						handleChange(e);
 					}}
+					*/
 				/>
 			</div>
 			<div className='button-container'>

@@ -3,12 +3,12 @@ import ContactForm from './ContactForm';
 import './Contact.scss';
 
 const Contact = () => {
+	const [showSuccess, setShowSuccess] = useState(false);
 	const [error, setError] = useState(false);
+	/*
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
 	const [checked, setChecked] = useState(false);
-
-	const [showSuccess, setShowSuccess] = useState(false);
 
 	// format the date for user submission
 	const dateOptions = {
@@ -47,28 +47,37 @@ const Contact = () => {
 			legalConsentOptions,
 		});
 	};
-
+	 */
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		const url =
-			'https://api.hsforms.com/submissions/v3/integration/submit/:9106681/:63a46aea-85e2-444b-9da6-a9608c6ab835';
-		console.log(formData);
-		fetch(url, {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-			body: JSON.stringify(formData),
+		/*
+		 */
+		// console.log(formData);
+		setShowSuccess(false);
+		setTimeout(() => {
+			setShowSuccess(true);
+		}, 1500);
+	/*
+	const url =
+		'https://api.hsforms.com/submissions/v3/integration/submit/9106681/63a46aea-85e2-444b-9da6-a9608c6ab835';
+	fetch(url, {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json',
+			'Access-Control-Allow-Origin': '*',
+		},
+		body: JSON.stringify(formData),
+	})
+		.then((res) => {
+			if (res) {
+				res.json();
+				setShowSuccess(true);
+			} else {
+				setError(true);
+			}
 		})
-			.then((res) => {
-				if (res) {
-					res.json();
-					setShowSuccess(true);
-				} else {
-					setError(true);
-				}
-			})
-			.catch(console.error);
+		.catch(console.error);
+	*/
 	};
 
 	return (
@@ -78,11 +87,13 @@ const Contact = () => {
 			<h2>Contact us, and let us know how we can help.</h2>
 			<ContactForm
 				handleSubmit={handleSubmit}
+				/*
 				handleChange={handleChange}
 				name={name}
 				setName={setName}
 				setEmail={setEmail}
 				setChecked={setChecked}
+				*/
 			/>
 			{!error && showSuccess && (
 				<h2 className='success-msg'>
