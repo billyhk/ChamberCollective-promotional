@@ -26,7 +26,10 @@ const Header = () => {
 
 	return (
 		<header className='header-container'>
-			<div className='header-left'>LOGO</div>
+			<div className='header-left'>
+				<span className='hamburger-icon'>&#9776;</span>
+				<span class='header-logo'>LOGO</span>
+			</div>
 			<div className='header-right'>
 				{' '}
 				<Link to='#'>About</Link>

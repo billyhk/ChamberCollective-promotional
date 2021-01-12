@@ -40,6 +40,24 @@ header {
 }
 
 //  ------------------------- //
+// ---- HAMBURGER & LOGO --- //
+// ------------------------ //
+
+.header-logo {
+	font-size: 2.5vmin;
+}
+.hamburger-icon {
+	display: none;
+	font-size: 2rem;
+	padding-right: 1vmin;
+}
+
+.header-left:hover {
+	color: yellow;
+	transition: 1s;
+}
+
+//  ------------------------- //
 // ------- NAV LINKS ------- //
 //  ----------------------- //
 
@@ -72,3 +90,12 @@ html:not([data-scroll='0']) header {
 //  ----------------------------------- //
 // ------- End Header Animation ------ //
 //  --------------------------------- //
+
+@media only screen and (max-width: 765px) {
+	.hamburger-icon {
+		display: unset;
+	}
+	.header-right {
+		display: none;
+	}
+}
