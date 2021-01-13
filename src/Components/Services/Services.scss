@@ -1,0 +1,74 @@
+article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
+
+	* {
+		z-index: 100;
+	}
+}
+
+.a1,
+.a2,
+.a3 {
+	#services-header {
+		opacity: 1;
+		padding: 10%;
+		h1 {
+			font-weight: 200;
+			letter-spacing: 0;
+			font-size: 8.5vmin;
+			text-align: center;
+		}
+		h2 {
+			font-weight: 200;
+			font-size: 2.5vmin;
+		}
+		ul {
+			list-style: none;
+			padding-top: 25px;
+
+			display: flex;
+			align-items: center;
+			justify-content: space-evenly;
+			list-style: none;
+			li {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 0 2%;
+				img {
+					width: 100%;
+					opacity: 1;
+					background: color;
+				}
+			}
+		}
+	}
+}
+
+.a2-header,
+.a3-header {
+	h2 {
+		text-align: left;
+	}
+}
+
+.a1:before,
+.a2:before,
+.a3:before {
+	content: '';
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+
+	background: url(../../Component-Images/NYC_Skyline.png);
+	opacity: 0.45;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
