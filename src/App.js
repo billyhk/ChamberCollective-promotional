@@ -7,12 +7,12 @@ import $ from 'jquery';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Footer from './Components/Footer/Footer';
+import Contact from './Components/Contact/Contact.js';
 
 window.jQuery = $;
 require('jquery-scrollify');
 
 const App = () => {
-
 	useEffect(() => {
 		$(function () {
 			$.scrollify({
@@ -40,6 +40,12 @@ const App = () => {
 				<Switch>
 					<Route exact path='/' component={Home} />
 				</Switch>
+				<Route
+					path='*'
+					render={() => {
+						return <Contact />;
+					}}
+				/>
 			</main>
 			<Route
 				path='*'

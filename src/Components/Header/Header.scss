@@ -1,7 +1,36 @@
-$header-base-color: gray;
-$header-animation-color: rgb(107, 107, 220);
+$header-base-color: rgba(0, 0, 0, 0);
+$header-animation-color: rgb(63, 98, 159);
 
-header {
+//  --------------------------------------- //
+// ------- STICKY HEADER Animation ------- //
+//  ------------------------------------- //
+
+/* Reserve the same height at the top of the page as the header min-height */
+
+/* Switch to fixed positioning, and stick the header to the top of the page */
+html:not([data-scroll='0']) header {
+	opacity: 0.65;
+	// background: $header-animation-color;
+	background: rgba(0, 0, 0, 0);
+
+	/* This box-shadow will help sell the floating effect */
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+}
+
+html:not([data-scroll='0']) .sidebar-links {
+	background: rgba(0, 0, 0, 0);
+}
+
+.header-container:hover {
+	background: $header-base-color;
+	opacity: 1;
+}
+
+//  ----------------------------------- //
+// ------- End Header Animation ------ //
+//  --------------------------------- //
+
+.header-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -19,10 +48,17 @@ header {
 
 	position: fixed;
 	top: 0;
+}
+//  ------------------------- //
+// ------- NAV LINKS ------- //
+//  ----------------------- //
 
-	div {
-		padding: 0 2%;
-	}
+.header-right {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+	padding: 0 2%;
 	a {
 		text-decoration: none;
 		text-transform: uppercase;
@@ -40,35 +76,101 @@ header {
 }
 
 //  ------------------------- //
-// ------- NAV LINKS ------- //
-//  ----------------------- //
+// ---- HAMBURGER & LOGO --- //
+// ------------------------ //
 
-.header-right {
+.header-left {
 	display: flex;
-	justify-content: space-evenly;
 	align-items: center;
+	justify-content: space-evenly;
+
+	margin-left: 1%;
+
+	* {
+		display: grid;
+		place-items: center;
+		transition: 1s;
+		opacity: 0.65;
+	}
+	*:hover {
+		opacity: 1;
+	}
+	p {
+		font-size: 2rem;
+		padding-bottom: 5%;
+		margin: 0 5%;
+		cursor: pointer;
+	}
+	img {
+		padding: 0 2%;
+		height: 25px;
+	}
 }
 
-//  --------------------------------------- //
-// ------- STICKY HEADER Animation ------- //
-//  ------------------------------------- //
-
-/* Reserve the same height at the top of the page as the header min-height */
-
-/* Switch to fixed positioning, and stick the header to the top of the page */
-html:not([data-scroll='0']) header {
-	opacity: 0.65;
-	background: $header-animation-color;
-
-	/* This box-shadow will help sell the floating effect */
-	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+.hamburger-icon {
+	display: none;
+	z-index: 300;
 }
 
-.header-container:hover {
-	background: $header-base-color;
-	opacity: 1;
+.hamburger-icon:hover {
+	color: $header-animation-color;
 }
 
-//  ----------------------------------- //
-// ------- End Header Animation ------ //
-//  --------------------------------- //
+//  ----------------------- //
+// ------- Side Nav ------ //
+//  --------------------- //
+
+.side-nav {
+	display: none;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transition: 1s;
+
+	z-index: 200;
+
+	&#closed {
+		transform: translateX(-100%);
+	}
+	&#open {
+		transform: translateX(0);
+	}
+
+	div {
+		background: $header-base-color;
+
+		transition: 1s;
+
+		display: grid;
+		text-align: left;
+		position: absolute;
+		top: 100%;
+		padding: 2.5%;
+		border-bottom-right-radius: 2ch;
+
+		a {
+			text-decoration: none;
+			text-transform: uppercase;
+			color: white;
+			opacity: 0.65;
+			transition: 1s;
+			font-weight: 500;
+			font-size: 4vmin;
+			width: 100%;
+			padding: 10% 5% 10% 5%;
+		}
+		a:hover {
+			opacity: 1;
+		}
+	}
+}
+
+@media only screen and (max-width: 765px) {
+	.hamburger-icon,
+	.side-nav {
+		display: unset;
+	}
+	.header-right {
+		display: none;
+	}
+}
