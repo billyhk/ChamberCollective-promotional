@@ -1,6 +1,12 @@
+import { useEffect } from 'react';
+
 import './About.scss';
 
 const About = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	return (
 		<main className='about-container'>
 			<article className='a1'>

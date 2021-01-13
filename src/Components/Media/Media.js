@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+
 import './Media.scss';
 import NYT_Logo from '../../Component-Images/NYT_Logo.png';
 import FastCo_Logo from '../../Component-Images/FastCo_Logo.png';
@@ -6,6 +8,10 @@ import Today_Show_Logo from '../../Component-Images/Today_Show_Logo.png';
 import WS_Logo from '../../Component-Images/WS_Logo.png';
 
 const Media = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	return (
 		<main className='home-container'>
 			<article className='a1'>

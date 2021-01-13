@@ -53,7 +53,7 @@ const Header = () => {
 				<p className='hamburger-icon' onClick={toggleSide}>
 					&#9776;
 				</p>
-				<Link to='/' onClick={toTop}>
+				<Link to='/'>
 					<img src={logo} alt='nucalm-logo' className='header-logo'></img>
 				</Link>
 			</div>
@@ -62,19 +62,14 @@ const Header = () => {
 				id={open ? 'open' : 'closed'}
 				onClick={toggleSide}>
 				<div className='sidebar-links'>
-					<Link to='/' onClick={toTop}>
-						<span
-							id={/home/.test(window.location.href) ? 'active' : 'not-active'}>
-							Home
-						</span>
-					</Link>
-					<Link to='/about' onClick={toTop}>
+					<Link to='/'>Home</Link>
+					<Link to='/about'>
 						<span
 							id={/about/.test(window.location.href) ? 'active' : 'not-active'}>
 							About
 						</span>
 					</Link>
-					<Link to='/members' onClick={toTop}>
+					<Link to='/members'>
 						<span
 							id={
 								/members/.test(window.location.href) ? 'active' : 'not-active'
@@ -82,13 +77,13 @@ const Header = () => {
 							Members
 						</span>
 					</Link>
-					<Link to='/media' onClick={toTop}>
+					<Link to='/media'>
 						<span
 							id={/media/.test(window.location.href) ? 'active' : 'not-active'}>
 							The Cache
 						</span>
 					</Link>
-					<Link to='/services' onClick={toTop}>
+					<Link to='/services'>
 						<span
 							id={
 								/services/.test(window.location.href) ? 'active' : 'not-active'
@@ -96,7 +91,7 @@ const Header = () => {
 							Services
 						</span>
 					</Link>
-					<Link to='/contact' onClick={toTop}>
+					<Link to='/contact'>
 						<span
 							id={
 								/contact/.test(window.location.href) ? 'active' : 'not-active'
@@ -107,25 +102,25 @@ const Header = () => {
 				</div>
 			</nav>
 			<div className='header-right'>
-				<Link to='/about' onClick={toTop}>
+				<Link to='/about'>
 					<span
 						id={/about/.test(window.location.href) ? 'active' : 'not-active'}>
 						About
 					</span>
 				</Link>
-				<Link to='/members' onClick={toTop}>
+				<Link to='/members'>
 					<span
 						id={/members/.test(window.location.href) ? 'active' : 'not-active'}>
 						Members
 					</span>
 				</Link>
-				<Link to='/media' onClick={toTop}>
+				<Link to='/media'>
 					<span
 						id={/media/.test(window.location.href) ? 'active' : 'not-active'}>
 						The Cache
 					</span>
 				</Link>
-				<Link to='/services' onClick={toTop}>
+				<Link to='/services'>
 					<span
 						id={
 							/services/.test(window.location.href) ? 'active' : 'not-active'
@@ -133,7 +128,7 @@ const Header = () => {
 						Services
 					</span>
 				</Link>
-				<Link to='/contact' onClick={toTop}>
+				<Link to='/contact'>
 					<span
 						id={/contact/.test(window.location.href) ? 'active' : 'not-active'}>
 						Contact

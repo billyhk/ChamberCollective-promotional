@@ -1,7 +1,29 @@
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.scss';
 
+import $ from 'jquery';
+window.jQuery = $;
+require('jquery-scrollify');
+
 const Home = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+
+		// $(function () {
+		// 	$.scrollify({
+		// 		section: 'article',
+		// 		easing: 'easeOutExpo',
+		// 		scrollSpeed: 1100,
+		// 		// offset: 0,
+		// 		overflowScroll: true,
+		// 		updateHash: true,
+		// 		touchScroll: false,
+		// 		setHeights: true,
+		// 	});
+		// });
+	}, []);
+
 	const toTop = () => {
 		window.scrollTo({
 			top: 0,
@@ -14,10 +36,8 @@ const Home = () => {
 		<main className='home-container'>
 			<article className='a1' id='opening-panel'>
 				<div className='a1-header' id='home-header'>
-					<Link to='#' onClick={toTop}>
-						<h1>The Community</h1>
-						<h2>A partnership about growth and recovery</h2>
-					</Link>
+					<h1>The Community</h1>
+					<h2>A partnership about growth and recovery</h2>
 				</div>
 			</article>
 			<article className='a2'>

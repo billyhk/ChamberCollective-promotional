@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import './App.scss';
-import $ from 'jquery';
 
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
@@ -16,19 +15,18 @@ import Services from './Components/Services/Services';
 
 import ContactForm from './Components/Contact-Form/Contact';
 
+import $ from 'jquery';
 window.jQuery = $;
 require('jquery-scrollify');
 
 const App = () => {
 	useEffect(() => {
-		window.scrollTo(0, 0);
-
 		$(function () {
 			$.scrollify({
 				section: 'article',
-				easing: 'easeOutExpo',
-				scrollSpeed: 1100,
-				// offset: 0,
+				// easing: 'easeOutExpo',
+				scrollSpeed: 850,
+				offset: 0,
 				overflowScroll: false,
 				updateHash: true,
 				touchScroll: false,

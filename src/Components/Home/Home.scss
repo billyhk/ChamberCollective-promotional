@@ -10,11 +10,7 @@ article {
 	}
 }
 
-// #opening-panel > div {
-// 	opacity: 1;
-// }
-
-.a1,
+// .a1,
 .a2,
 .a3,
 .a4,
@@ -46,8 +42,22 @@ article {
 	}
 }
 
-#home-header {
-	text-align: center;
+.a1 {
+	#home-header {
+		max-width: 70vw;
+
+		h1,
+		h2 {
+			font-weight: 200;
+			text-align: center;
+		}
+		h1 {
+			font-size: 9.5vmin;
+		}
+		h2 {
+			font-size: 4.25vmin;
+		}
+	}
 }
 
 .a1:before,

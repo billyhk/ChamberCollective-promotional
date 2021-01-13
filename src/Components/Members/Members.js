@@ -1,8 +1,29 @@
+import { useEffect } from 'react';
+
 import './Members.scss';
 
 import Aaron_Profile from '../../Component-Images/Aaron_Profile.png';
 
+import $ from 'jquery';
+window.jQuery = $;
+require('jquery-scrollify');
+
 const Members = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+		// $(function () {
+		// 	$.scrollify({
+		// 		section: 'article',
+		// 		easing: 'easeOutExpo',
+		// 		scrollSpeed: 1100,
+		// 		// offset: 0,
+		// 		overflowScroll: true,
+		// 		updateHash: true,
+		// 		touchScroll: false,
+		// 		setHeights: true,
+		// 	});
+		// });
+	}, []);
 	return (
 		<main className='members-container'>
 			{/* <article className='a1'>

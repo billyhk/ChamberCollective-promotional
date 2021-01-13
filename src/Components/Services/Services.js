@@ -1,6 +1,11 @@
+import { useEffect } from 'react';
 import './Services.scss';
 
 const Services = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	return (
 		<main className='services-container'>
 			<article className='a1'>
