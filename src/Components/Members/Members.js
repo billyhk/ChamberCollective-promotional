@@ -5,7 +5,7 @@ import Aaron_Profile from '../../Component-Images/Aaron_Profile.png';
 const Members = () => {
 	return (
 		<main className='members-container'>
-			<article className='a1'>
+			{/* <article className='a1'>
 				<div className='a1-header' id='members-header'>
 					<h1>The Members</h1>
 					<h2>A partnership about growth and recovery</h2>
@@ -117,7 +117,7 @@ const Members = () => {
 			</article>
 			<article className='a4'>
 				<h1>Contact</h1>
-			</article>
+			</article> */}
 		</main>
 	);
 };

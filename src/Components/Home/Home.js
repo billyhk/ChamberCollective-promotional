@@ -5,7 +5,7 @@ const Home = () => {
 	return (
 		<main className='home-container'>
 			<article className='a1' id='opening-panel'>
-				<div className='a1-header'>
+				<div className='a1-header' id='home-header'>
 					<Link to='#'>
 						<h1>The Community</h1>
 						<h2>A partnership about growth and recovery</h2>
@@ -13,7 +13,7 @@ const Home = () => {
 				</div>
 			</article>
 			<article className='a2'>
-				<div class='a2-header'>
+				<div class='a2-header' id='home-header'>
 					<Link to='#'>
 						<h1>About</h1>
 						<h2>
@@ -25,7 +25,7 @@ const Home = () => {
 				</div>
 			</article>
 			<article className='a3'>
-				<div class='a3-header'>
+				<div class='a3-header' id='home-header'>
 					<Link to='#'>
 						<h1>Members</h1>
 						<h2>
@@ -36,7 +36,7 @@ const Home = () => {
 				</div>
 			</article>
 			<article className='a4'>
-				<div class='a4-header'>
+				<div class='a4-header' id='home-header'>
 					<Link to='#'>
 						<h1>The Cache</h1>
 						<h2>The latest media on what our members have been up to.</h2>
@@ -44,7 +44,7 @@ const Home = () => {
 				</div>
 			</article>
 			<article className='a5'>
-				<div class='a5-header'>
+				<div class='a5-header' id='home-header'>
 					<Link to='#'>
 						<h1>The Nu Standard of Service</h1>
 						<h2>

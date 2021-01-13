@@ -1,5 +1,4 @@
 import './About.scss';
-// import NYC_Skyline from '../../Images/NYC_Skyline.png';
 
 const About = () => {
 	return (

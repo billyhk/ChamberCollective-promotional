@@ -10,7 +10,24 @@ article {
 	}
 }
 
-.a1,
+.a1 {
+	#services-header {
+		padding: 10%;
+		h1,
+		h2 {
+			font-weight: 200;
+			text-align: center;
+		}
+		h1 {
+			font-size: 15vmin;
+		}
+		h2 {
+			font-size: 5vmin;
+		}
+	}
+}
+
+// .a1,
 .a2,
 .a3 {
 	#services-header {
@@ -19,8 +36,8 @@ article {
 		h1 {
 			font-weight: 200;
 			letter-spacing: 0;
-			font-size: 8.5vmin;
 			text-align: center;
+			font-size: 8.5vmin;
 		}
 		h2 {
 			font-weight: 200;
@@ -49,10 +66,11 @@ article {
 	}
 }
 
-.a2-header,
-.a3-header {
-	h2 {
-		text-align: left;
+.a2-header .a3-header {
+	&#services-header {
+		h2 {
+			text-align: left;
+		}
 	}
 }
 

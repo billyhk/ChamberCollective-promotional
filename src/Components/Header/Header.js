@@ -34,6 +34,13 @@ const Header = () => {
 
 	const toTop = () => {
 		window.scrollTo({
+			top: 0,
+			left: 0,
+			// behavior: 'smooth',
+		});
+	};
+	const toTopSmooth = () => {
+		window.scrollTo({
 			top: 100,
 			left: 100,
 			behavior: 'smooth',
@@ -92,7 +99,7 @@ const Header = () => {
 					Contact
 				</Link>
 			</div>
-			<h1 class='nav-to-top' onClick={toTop}>
+			<h1 class='nav-to-top' onClick={toTopSmooth}>
 				&uArr;
 			</h1>
 		</header>
