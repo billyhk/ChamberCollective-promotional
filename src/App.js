@@ -7,7 +7,7 @@ import $ from 'jquery';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Footer from './Components/Footer/Footer';
-import Contact from './Components/Contact/Contact.js';
+import ContactForm from './Components/Contact-Form/Contact';
 
 window.jQuery = $;
 require('jquery-scrollify');
@@ -43,7 +43,7 @@ const App = () => {
 				<Route
 					path='*'
 					render={() => {
-						return <Contact />;
+						return <ContactForm />;
 					}}
 				/>
 			</main>
