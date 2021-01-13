@@ -44,7 +44,7 @@ const Header = () => {
 				className='side-nav'
 				id={open ? 'open' : 'closed'}
 				onClick={toggleSide}>
-				<div class='sidebar-links'>
+				<div className='sidebar-links'>
 					<Link to='#'>About</Link>
 					<Link to='#'>Members</Link>
 					<Link to='#'>The Cache</Link>
