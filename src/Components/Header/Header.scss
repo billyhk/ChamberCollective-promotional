@@ -74,6 +74,26 @@ html:not([data-scroll='0']) .sidebar-links {
 		opacity: 1;
 	}
 }
+.nav-to-top {
+	color: white;
+	position: fixed;
+	color: white;
+	bottom: 0;
+	right: 2%;
+	z-index: 2;
+	text-transform: uppercase;
+	transition: 1s;
+	opacity: 0.5;
+	font-size: 5vmin;
+	border: 2px solid whitesmoke;
+	padding: 6px;
+	border-radius: 0.5ch;
+	cursor: pointer;
+}
+
+.nav-to-top:hover {
+	opacity: 1;
+}
 
 //  ------------------------- //
 // ---- HAMBURGER & LOGO --- //

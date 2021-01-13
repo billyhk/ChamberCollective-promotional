@@ -32,6 +32,14 @@ const Header = () => {
 		setOpen(!open);
 	};
 
+	const toTop = () => {
+		window.scrollTo({
+			top: 100,
+			left: 100,
+			behavior: 'smooth',
+		});
+	};
+
 	return (
 		<header className='header-container'>
 			<div className='header-left'>
@@ -45,20 +53,23 @@ const Header = () => {
 				id={open ? 'open' : 'closed'}
 				onClick={toggleSide}>
 				<div className='sidebar-links'>
-					<Link to='#'>About</Link>
-					<Link to='#'>Members</Link>
-					<Link to='#'>The Cache</Link>
-					<Link to='#'>Services</Link>
-					<Link to='#'>Contact</Link>
+					<Link to='/about'>About</Link>
+					<Link to='/members'>Members</Link>
+					<Link to='/media'>The Cache</Link>
+					<Link to='/services'>Services</Link>
+					<Link to='/contact'>Contact</Link>
 				</div>
 			</nav>
 			<div className='header-right'>
-				<Link to='#'>About</Link>
-				<Link to='#'>Members</Link>
-				<Link to='#'>The Cache</Link>
-				<Link to='#'>Services</Link>
-				<Link to='#'>Contact</Link>
+				<Link to='/about'>About</Link>
+				<Link to='members'>Members</Link>
+				<Link to='/media'>The Cache</Link>
+				<Link to='/services'>Services</Link>
+				<Link to='contact'>Contact</Link>
 			</div>
+			<h1 class='nav-to-top' onClick={toTop}>
+				&uArr;
+			</h1>
 		</header>
 	);
 };

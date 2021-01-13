@@ -16,7 +16,6 @@ import Services from './Components/Services/Services';
 
 import ContactForm from './Components/Contact-Form/Contact';
 
-
 window.jQuery = $;
 require('jquery-scrollify');
 
@@ -47,11 +46,11 @@ const App = () => {
 			<main>
 				<Switch>
 					<Route exact path='/' component={Home} />
-					<Route exact path='/About' component={About} />
-					<Route exact path='/Media' component={Media} />
-					<Route exact path='/Members' component={Members} />
-					<Route exact path='/Contact' component={Contact} />
-					<Route exact path='/Services' component={Services} />
+					<Route exact path='/about' component={About} />
+					<Route exact path='/media' component={Media} />
+					<Route exact path='/members' component={Members} />
+					<Route exact path='/contact' component={Contact} />
+					<Route exact path='/services' component={Services} />
 				</Switch>
 
 				<Route
@@ -60,7 +59,6 @@ const App = () => {
 						return <ContactForm />;
 					}}
 				/>
-
 			</main>
 			<Route
 				path='*'
