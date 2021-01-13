@@ -46,7 +46,7 @@ const Header = () => {
 				<p className='hamburger-icon' onClick={toggleSide}>
 					&#9776;
 				</p>
-				<Link to='/'>
+				<Link to='/' onClick={toTop}>
 					<img src={logo} alt='nucalm-logo' className='header-logo'></img>
 				</Link>
 			</div>
@@ -55,19 +55,39 @@ const Header = () => {
 				id={open ? 'open' : 'closed'}
 				onClick={toggleSide}>
 				<div className='sidebar-links'>
-					<Link to='/about'>About</Link>
-					<Link to='/members'>Members</Link>
-					<Link to='/media'>The Cache</Link>
-					<Link to='/services'>Services</Link>
-					<Link to='/contact'>Contact</Link>
+					<Link to='/about' onClick={toTop}>
+						About
+					</Link>
+					<Link to='/members' onClick={toTop}>
+						Members
+					</Link>
+					<Link to='/media' onClick={toTop}>
+						The Cache
+					</Link>
+					<Link to='/services' onClick={toTop}>
+						Services
+					</Link>
+					<Link to='/contact' onClick={toTop}>
+						Contact
+					</Link>
 				</div>
 			</nav>
 			<div className='header-right'>
-				<Link to='/about'>About</Link>
-				<Link to='members'>Members</Link>
-				<Link to='/media'>The Cache</Link>
-				<Link to='/services'>Services</Link>
-				<Link to='contact'>Contact</Link>
+				<Link to='/about' onClick={toTop}>
+					About
+				</Link>
+				<Link to='members' onClick={toTop}>
+					Members
+				</Link>
+				<Link to='/media' onClick={toTop}>
+					The Cache
+				</Link>
+				<Link to='/services' onClick={toTop}>
+					Services
+				</Link>
+				<Link to='contact' onClick={toTop}>
+					Contact
+				</Link>
 			</div>
 			<h1 class='nav-to-top' onClick={toTop}>
 				&uArr;

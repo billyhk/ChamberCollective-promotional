@@ -3,10 +3,12 @@
 	place-content: center;
 	text-align: center;
 	// position: relative;
-
+	* {
+		font-weight: 200;
+	}
 	h1 {
 		font-size: 15vmin;
-		letter-spacing: 1vmin;
+		// letter-spacing: 1vmin;
 		font-weight: 200;
 	}
 	h2 {
@@ -81,7 +83,7 @@
 	padding: 2%;
 }
 .success-msg {
-	color: rgb(119, 162, 172);
+	color: rgb(126, 167, 218);
 }
 .error-msg {
 	color: rgb(159, 105, 105);
