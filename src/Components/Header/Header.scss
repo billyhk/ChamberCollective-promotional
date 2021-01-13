@@ -1,7 +1,36 @@
-$header-base-color: gray;
-$header-animation-color: rgb(35, 60, 104);
+$header-base-color: rgba(0, 0, 0, 0);
+$header-animation-color: rgb(63, 98, 159);
 
-header {
+//  --------------------------------------- //
+// ------- STICKY HEADER Animation ------- //
+//  ------------------------------------- //
+
+/* Reserve the same height at the top of the page as the header min-height */
+
+/* Switch to fixed positioning, and stick the header to the top of the page */
+html:not([data-scroll='0']) header {
+	opacity: 0.65;
+	// background: $header-animation-color;
+	background: rgba(0, 0, 0, 0);
+
+	/* This box-shadow will help sell the floating effect */
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+}
+
+html:not([data-scroll='0']) .sidebar-links {
+	background: rgba(0, 0, 0, 0);
+}
+
+.header-container:hover {
+	background: $header-base-color;
+	opacity: 1;
+}
+
+//  ----------------------------------- //
+// ------- End Header Animation ------ //
+//  --------------------------------- //
+
+.header-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -70,6 +99,7 @@ header {
 		font-size: 2rem;
 		padding-bottom: 5%;
 		margin: 0 5%;
+		cursor: pointer;
 	}
 	img {
 		padding: 0 2%;
@@ -79,39 +109,65 @@ header {
 
 .hamburger-icon {
 	display: none;
+	z-index: 300;
 }
 
 .hamburger-icon:hover {
 	color: $header-animation-color;
 }
 
-//  --------------------------------------- //
-// ------- STICKY HEADER Animation ------- //
-//  ------------------------------------- //
+//  ----------------------- //
+// ------- Side Nav ------ //
+//  --------------------- //
 
-/* Reserve the same height at the top of the page as the header min-height */
+.side-nav {
+	display: none;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transition: 1s;
 
-/* Switch to fixed positioning, and stick the header to the top of the page */
-html:not([data-scroll='0']) header {
-	opacity: 0.65;
-	// background: $header-animation-color;
-	background: rgba(0, 0, 0, 0);
+	z-index: 200;
 
-	/* This box-shadow will help sell the floating effect */
-	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+	&#closed {
+		transform: translateX(-100%);
+	}
+	&#open {
+		transform: translateX(0);
+	}
+
+	div {
+		background: $header-base-color;
+
+		transition: 1s;
+
+		display: grid;
+		text-align: left;
+		position: absolute;
+		top: 100%;
+		padding: 2.5%;
+		border-bottom-right-radius: 2ch;
+
+		a {
+			text-decoration: none;
+			text-transform: uppercase;
+			color: white;
+			opacity: 0.65;
+			transition: 1s;
+			font-weight: 500;
+			font-size: 4vmin;
+			width: 100%;
+			padding: 10% 5% 10% 5%;
+		}
+		a:hover {
+			opacity: 1;
+		}
+	}
 }
-
-.header-container:hover {
-	background: $header-base-color;
-	opacity: 1;
-}
-
-//  ----------------------------------- //
-// ------- End Header Animation ------ //
-//  --------------------------------- //
 
 @media only screen and (max-width: 765px) {
-	.hamburger-icon {
+	.hamburger-icon,
+	.side-nav {
 		display: unset;
 	}
 	.header-right {
