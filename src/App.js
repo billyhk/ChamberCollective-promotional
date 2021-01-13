@@ -7,7 +7,15 @@ import $ from 'jquery';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Footer from './Components/Footer/Footer';
+
+import About from './Components/About/About';
+import Media from './Components/Media/Media';
+import Members from './Components/Members/Members';
+import Contact from './Components/Contact/Contact';
+import Services from './Components/Services/Services';
+
 import ContactForm from './Components/Contact-Form/Contact';
+
 
 window.jQuery = $;
 require('jquery-scrollify');
@@ -39,13 +47,20 @@ const App = () => {
 			<main>
 				<Switch>
 					<Route exact path='/' component={Home} />
+					<Route exact path='/About' component={About} />
+					<Route exact path='/Media' component={Media} />
+					<Route exact path='/Members' component={Members} />
+					<Route exact path='/Contact' component={Contact} />
+					<Route exact path='/Services' component={Services} />
 				</Switch>
+
 				<Route
 					path='*'
 					render={() => {
 						return <ContactForm />;
 					}}
 				/>
+
 			</main>
 			<Route
 				path='*'
