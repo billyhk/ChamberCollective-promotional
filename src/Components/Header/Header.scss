@@ -20,6 +20,10 @@ html:not([data-scroll='0']) .sidebar-links {
 	background: $header-base-color;
 	opacity: 1;
 }
+#active {
+	color: rgb(167, 229, 255);
+	border-bottom: 4px solid  rgb(98, 196, 238);
+}
 
 //  ----------------------------------- //
 // ------- End Header Animation ------ //

@@ -63,40 +63,81 @@ const Header = () => {
 				onClick={toggleSide}>
 				<div className='sidebar-links'>
 					<Link to='/' onClick={toTop}>
-						Home
+						<span
+							id={/home/.test(window.location.href) ? 'active' : 'not-active'}>
+							Home
+						</span>
 					</Link>
 					<Link to='/about' onClick={toTop}>
-						About
+						<span
+							id={/about/.test(window.location.href) ? 'active' : 'not-active'}>
+							About
+						</span>
 					</Link>
 					<Link to='/members' onClick={toTop}>
-						Members
+						<span
+							id={
+								/members/.test(window.location.href) ? 'active' : 'not-active'
+							}>
+							Members
+						</span>
 					</Link>
 					<Link to='/media' onClick={toTop}>
-						The Cache
+						<span
+							id={/media/.test(window.location.href) ? 'active' : 'not-active'}>
+							The Cache
+						</span>
 					</Link>
 					<Link to='/services' onClick={toTop}>
-						Services
+						<span
+							id={
+								/services/.test(window.location.href) ? 'active' : 'not-active'
+							}>
+							Services
+						</span>
 					</Link>
 					<Link to='/contact' onClick={toTop}>
-						Contact
+						<span
+							id={
+								/contact/.test(window.location.href) ? 'active' : 'not-active'
+							}>
+							Contact
+						</span>
 					</Link>
 				</div>
 			</nav>
 			<div className='header-right'>
 				<Link to='/about' onClick={toTop}>
-					About
+					<span
+						id={/about/.test(window.location.href) ? 'active' : 'not-active'}>
+						About
+					</span>
 				</Link>
-				<Link to='members' onClick={toTop}>
-					Members
+				<Link to='/members' onClick={toTop}>
+					<span
+						id={/members/.test(window.location.href) ? 'active' : 'not-active'}>
+						Members
+					</span>
 				</Link>
 				<Link to='/media' onClick={toTop}>
-					The Cache
+					<span
+						id={/media/.test(window.location.href) ? 'active' : 'not-active'}>
+						The Cache
+					</span>
 				</Link>
 				<Link to='/services' onClick={toTop}>
-					Services
+					<span
+						id={
+							/services/.test(window.location.href) ? 'active' : 'not-active'
+						}>
+						Services
+					</span>
 				</Link>
-				<Link to='contact' onClick={toTop}>
-					Contact
+				<Link to='/contact' onClick={toTop}>
+					<span
+						id={/contact/.test(window.location.href) ? 'active' : 'not-active'}>
+						Contact
+					</span>
 				</Link>
 			</div>
 			<h1 className='nav-to-top' onClick={toTopSmooth}>
