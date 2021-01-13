@@ -46,7 +46,9 @@ const Header = () => {
 				<p className='hamburger-icon' onClick={toggleSide}>
 					&#9776;
 				</p>
-				<img src={logo} alt='nucalm-logo' className='header-logo'></img>
+				<Link to='/'>
+					<img src={logo} alt='nucalm-logo' className='header-logo'></img>
+				</Link>
 			</div>
 			<nav
 				className='side-nav'

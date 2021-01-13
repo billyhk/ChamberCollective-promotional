@@ -10,11 +10,6 @@ $header-animation-color: rgb(63, 98, 159);
 /* Switch to fixed positioning, and stick the header to the top of the page */
 html:not([data-scroll='0']) header {
 	opacity: 0.65;
-	// background: $header-animation-color;
-	background: rgba(0, 0, 0, 0);
-
-	/* This box-shadow will help sell the floating effect */
-	// box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
 }
 
 html:not([data-scroll='0']) .sidebar-links {
@@ -59,6 +54,7 @@ html:not([data-scroll='0']) .sidebar-links {
 	align-items: center;
 
 	padding: 0 2%;
+
 	a {
 		text-decoration: none;
 		text-transform: uppercase;
@@ -77,17 +73,15 @@ html:not([data-scroll='0']) .sidebar-links {
 .nav-to-top {
 	color: white;
 	position: fixed;
-	color: white;
 	bottom: 0;
 	right: 2%;
-	z-index: 2;
-	text-transform: uppercase;
+	z-index: 200;
 	transition: 1s;
 	opacity: 0.5;
 	font-size: 5vmin;
 	border: 2px solid whitesmoke;
-	padding: 6px;
-	border-radius: 0.5ch;
+	padding: 2.5vmin;
+	border-radius: 50%;
 	cursor: pointer;
 }
 

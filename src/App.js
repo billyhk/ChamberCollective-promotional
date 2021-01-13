@@ -27,7 +27,7 @@ const App = () => {
 				easing: 'easeOutExpo',
 				scrollSpeed: 1100,
 				offset: 0,
-				overflowScroll: true,
+				overflowScroll: false,
 				updateHash: true,
 				touchScroll: false,
 				setHeights: true,
@@ -60,12 +60,12 @@ const App = () => {
 					}}
 				/>
 			</main>
-			<Route
+			{/* <Route
 				path='*'
 				render={() => {
 					return <Footer />;
 				}}
-			/>
+			/> */}
 		</div>
 	);
 };
