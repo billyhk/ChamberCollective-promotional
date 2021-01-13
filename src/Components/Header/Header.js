@@ -55,6 +55,9 @@ const Header = () => {
 				id={open ? 'open' : 'closed'}
 				onClick={toggleSide}>
 				<div className='sidebar-links'>
+					<Link to='/' onClick={toTop}>
+						Home
+					</Link>
 					<Link to='/about' onClick={toTop}>
 						About
 					</Link>

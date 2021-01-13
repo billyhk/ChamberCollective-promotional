@@ -13,7 +13,7 @@ html:not([data-scroll='0']) header {
 }
 
 html:not([data-scroll='0']) .sidebar-links {
-	background: rgba(0, 0, 0, 0);
+	// background: rgba(0, 0, 0, 0);
 }
 
 .header-container:hover {
@@ -32,7 +32,7 @@ html:not([data-scroll='0']) .sidebar-links {
 
 	text-align: center;
 	background: $header-base-color;
-	z-index: 100;
+	z-index: 500;
 	top: 0;
 
 	min-height: 5vh;
@@ -141,8 +141,6 @@ html:not([data-scroll='0']) .sidebar-links {
 	position: absolute;
 	transition: 1s;
 
-	z-index: 200;
-
 	&#closed {
 		transform: translateX(-100%);
 	}
@@ -151,7 +149,8 @@ html:not([data-scroll='0']) .sidebar-links {
 	}
 
 	div {
-		background: $header-base-color;
+		// background: $header-base-color;
+		background: rgba(167, 178, 222, 0.653);
 
 		transition: 1s;
 
@@ -169,7 +168,7 @@ html:not([data-scroll='0']) .sidebar-links {
 			opacity: 0.65;
 			transition: 1s;
 			font-weight: 500;
-			font-size: 4vmin;
+			font-size: 3vmin;
 			width: 100%;
 			padding: 10% 5% 10% 5%;
 		}

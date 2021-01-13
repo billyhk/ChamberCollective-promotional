@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom';
 import './Home.scss';
-// import NYC_Skyline from '../../Images/NYC_Skyline.png';
 
 const Home = () => {
 	return (
 		<main className='home-container'>
-			<article className='a1' id='panel'>
+			<article className='a1' id='opening-panel'>
 				<div className='a1-header'>
 					<Link to='#'>
 						<h1>The Community</h1>
