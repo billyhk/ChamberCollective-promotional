@@ -15,40 +15,40 @@ const Media = () => {
 				</div>
 			</article>
 			<article className='a2'>
-				<div class='a2-header' id='media-header'>
+				<div className='a2-header' id='media-header'>
 					<h1>Be In The Know</h1>
-					<ul class='logos-list'>
-						<li class='logos-item'>
+					<ul className='logos-list'>
+						<li className='logos-item'>
 							<img
-								class='logos-image'
+								className='logos-image'
 								src={NYT_Logo}
 								alt='New York Times logo'
 							/>
 						</li>
-						<li class='logos-item'>
+						<li className='logos-item'>
 							<img
-								class='logos-image'
+								className='logos-image'
 								d
 								src={WS_Logo}
 								alt='Wall Street Journal logo'
 							/>
 						</li>
-						<li class='logos-item'>
+						<li className='logos-item'>
 							<img
-								class='logos-image'
+								className='logos-image'
 								src={FastCo_Logo}
 								alt='Fast Company logo'
 							/>
 						</li>
-						<li class='logos-item'>
+						<li className='logos-item'>
 							<img
-								class='logos-image'
+								className='logos-image'
 								src={Today_Show_Logo}
 								alt='Today Show logo'
 							/>
 						</li>
-						<li class='logos-item'>
-							<img class='logos-image' src={GMA_Logo} alt='GMA logo' />
+						<li className='logos-item'>
+							<img className='logos-image' src={GMA_Logo} alt='GMA logo' />
 						</li>
 					</ul>
 

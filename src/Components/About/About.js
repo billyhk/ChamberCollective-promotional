@@ -9,7 +9,7 @@ const About = () => {
 				</div>
 			</article>
 			<article className='a2'>
-				<div class='a2-header' id='about-header'>
+				<div className='a2-header' id='about-header'>
 					<h1>The Mission</h1>
 					<h2>
 						To bring together high-performing individuals who will make a
@@ -18,7 +18,7 @@ const About = () => {
 				</div>
 			</article>
 			<article className='a3'>
-				<div class='a3-header' id='about-header'>
+				<div className='a3-header' id='about-header'>
 					<h2>
 						We’re a collective of individuals, athletes, sons, daughters,
 						hi-performers, entrepreneurs, moms, dads, musicians.{' '}

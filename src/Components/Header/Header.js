@@ -99,7 +99,7 @@ const Header = () => {
 					Contact
 				</Link>
 			</div>
-			<h1 class='nav-to-top' onClick={toTopSmooth}>
+			<h1 className='nav-to-top' onClick={toTopSmooth}>
 				&uArr;
 			</h1>
 		</header>

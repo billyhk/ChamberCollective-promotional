@@ -10,7 +10,7 @@ const Services = () => {
 				</div>
 			</article>
 			<article className='a2'>
-				<div class='a2-header' id='services-header'>
+				<div className='a2-header' id='services-header'>
 					<h1>The Nu Standard of Service</h1>
 					<h2>
 						Historically, the world has always changed at a blinding pace.
@@ -28,7 +28,7 @@ const Services = () => {
 				</div>
 			</article>
 			<article className='a3'>
-				<div class='a3-header' id='services-header'>
+				<div className='a3-header' id='services-header'>
 					<h1>The Nu Look of Wellness</h1>
 					<h2>
 						Effectively minimizing stress and improving the sleep quality of

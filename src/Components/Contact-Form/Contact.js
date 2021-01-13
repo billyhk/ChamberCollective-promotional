@@ -57,7 +57,7 @@ const Contact = () => {
 		setTimeout(() => {
 			setShowSuccess(true);
 		}, 1500);
-	/*
+		/*
 	const url =
 		'https://api.hsforms.com/submissions/v3/integration/submit/9106681/63a46aea-85e2-444b-9da6-a9608c6ab835';
 	fetch(url, {
@@ -95,16 +95,16 @@ const Contact = () => {
 				setChecked={setChecked}
 				*/
 			/>
-			{!error && showSuccess && (
-				<h2 className='success-msg'>
-					Thank You! Your information has been received!
-				</h2>
-			)}
-			{error && (
-				<h2 className='error-msg'>
-					We're Sorry! There was a problem. Please try again.
-				</h2>
-			)}
+				{!error && showSuccess && (
+					<h2 className='success-msg'>
+						Thank You! Your information has been received!
+					</h2>
+				)}
+				{error && (
+					<h2 className='error-msg'>
+						We're Sorry! There was a problem. Please try again.
+					</h2>
+				)}
 		</article>
 	);
 };

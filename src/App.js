@@ -21,12 +21,14 @@ require('jquery-scrollify');
 
 const App = () => {
 	useEffect(() => {
+		window.scrollTo(0, 0);
+
 		$(function () {
 			$.scrollify({
 				section: 'article',
 				easing: 'easeOutExpo',
 				scrollSpeed: 1100,
-				offset: 0,
+				// offset: 0,
 				overflowScroll: false,
 				updateHash: true,
 				touchScroll: false,
