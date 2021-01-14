@@ -38,17 +38,29 @@
 
 		padding: 4% 2%;
 		li {
-			position: relative;
-			place-items: center;
-			display: grid;
-			img {
-				width: 100%;
+			a {
+				place-items: center;
+				display: grid;
+				position: relative;
+				text-decoration: none;
+				color: white;
+
+				img {
+					width: 100%;
+					opacity: 1;
+					transition: 2s;
+				}
+				p {
+					text-align: center;
+					position: absolute;
+					font-size: 3vmin;
+					font-weight: 200;
+				}
 			}
-			p {
-				text-align: center;
-				position: absolute;
-				font-size: 3vmin;
-				font-weight: 200;
+			a:hover {
+				img {
+					opacity: 0.5;
+				}
 			}
 		}
 	}

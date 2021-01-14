@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-
+import { Link } from 'react-router-dom';
 import './Members.scss';
 
 import Aaron_Profile from '../../Component-Images/Aaron_Profile.png';
@@ -41,38 +41,44 @@ const Members = () => {
 					<div className='members-image-container'>
 						<ul>
 							<li>
-								<img
-									src={Aaron_Profile}
-									alt='aaron-profile'
-									className='profile-img'
-								/>
-								<p className='members-text-overlay'>
-									Aaron
-									<br /> Drogoszewski
-								</p>
+								<Link to='#'>
+									<img
+										src={Aaron_Profile}
+										alt='aaron-profile'
+										className='profile-img'
+									/>
+									<p className='members-text-overlay'>
+										Aaron
+										<br /> Drogoszewski
+									</p>
+								</Link>
 							</li>
 							<li>
-								<img
-									src={Aaron_Profile}
-									alt='aaron-profile'
-									className='profile-img'
-								/>
-								<p className='members-text-overlay'>
-									John
-									<br />
-									Joseph
-								</p>
+								<Link to='#'>
+									<img
+										src={Aaron_Profile}
+										alt='aaron-profile'
+										className='profile-img'
+									/>
+									<p className='members-text-overlay'>
+										John
+										<br />
+										Joseph
+									</p>
+								</Link>
 							</li>
 							<li>
-								<img
-									src={Aaron_Profile}
-									alt='aaron-profile'
-									className='profile-img'
-								/>
-								<p className='members-text-overlay'>
-									Nick <br />
-									Pags
-								</p>
+								<Link to='#'>
+									<img
+										src={Aaron_Profile}
+										alt='aaron-profile'
+										className='profile-img'
+									/>
+									<p className='members-text-overlay'>
+										Nick <br />
+										Pags
+									</p>
+								</Link>
 							</li>
 						</ul>
 					</div>
@@ -85,12 +91,14 @@ const Members = () => {
 			<article className='a3'>
 				<div className='a3-header' id='members-header'>
 					<p>
-						What I, personally have been known to say is: <br /><br />
-						“Fully comprehensive recovery is more than just technology”.<br />
+						What I, personally have been known to say is: <br />
+						<br />
+						“Fully comprehensive recovery is more than just technology”.
+						<br />
 						<br /> Not only do I still feel this way…but, the longer I’m in the
 						game, the more I realize how crucial it is to expand and deliver on
-						that statement. I don’t only want to help people live their
-						best lives… I want to change the world. The only way I can do so,
+						that statement. I don’t only want to help people live their best
+						lives… I want to change the world. The only way I can do so,
 						requires the subscription to two concepts:
 					</p>
 					<p>
@@ -98,9 +106,9 @@ const Members = () => {
 						changing one person’s world at a time. “The world exists as you
 						perceive it. It is not what you see…..but how you see it. It is not
 						what you hear…but how you hear it. It is not what you feel….but how
-						you feel about it” -Rumi <br /> <br /> *If we have the power to help one person
-						out of the 7,830,458,560 people on this planet today…it’s not only a
-						start, but our responsibility
+						you feel about it” -Rumi <br /> <br /> *If we have the power to help
+						one person out of the 7,830,458,560 people on this planet today…it’s
+						not only a start, but our responsibility
 					</p>
 					<p>
 						2. The belief that one person’s efforts to do so will never have the
@@ -116,7 +124,6 @@ const Members = () => {
 			</article>
 			<article className='a4'>
 				<div className='a4-header' id='members-header'>
-
 					<p>
 						The Chamber Syndicate is the collection of carefully, hand-picked
 						professionals I have asked to help me utilize everything inside the
