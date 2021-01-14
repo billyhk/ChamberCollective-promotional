@@ -1,36 +1,45 @@
+import { useEffect } from 'react';
+
 import './About.scss';
-import NYC_Skyline from '../../Images/NYC_Skyline.png';
 
 const About = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	return (
-		<main className='home-container'>
+		<main className='about-container'>
 			<article className='a1'>
-				<img src={NYC_Skyline}
-					alt='#'
-					className='a1-img' />
-				<h1>About</h1>
+				<div className='a1-header' id='about-header'>
+					<h1>About</h1>
+				</div>
 			</article>
 			<article className='a2'>
-				<img src={NYC_Skyline}
-					alt='#'
-					className='a2-img' />
-				<h1>The Mission</h1>
-				<p>To bring together high-performing individuals who will make a positive impact
-				on the world through personal discovery and growth. </p>
+				<div className='a2-header' id='about-header'>
+					<h1>The Mission</h1>
+					<h2>
+						To bring together high-performing individuals who will make a
+						positive impact on the world through personal discovery and growth.{' '}
+					</h2>
+				</div>
 			</article>
 			<article className='a3'>
-				<img src={NYC_Skyline}
-					alt='#'
-					className='a3-img' />
-				<p>We’re a collective of individuals, athletes, sons, daughters, hi-performers, 
-					entrepreneurs, moms, dads, musicians. </p>
-				<p>Most of us wear multiple labels on any given day but regardless of our responsibilities,
-					 we’re driven to operate at a high-level EVERY . . . SINGLE . . . DAY . </p>
-				<p>We will never accept good enough.</p>
-				<p>We’re wired to push the boundaries of what’s possible and . . . impossible. </p>
-			</article>
-			<article className='a4'>
-				<h1>Contact</h1>
+				<div className='a3-header' id='about-header'>
+					<h2>
+						We’re a collective of individuals, athletes, sons, daughters,
+						hi-performers, entrepreneurs, moms, dads, musicians.{' '}
+					</h2>
+					<h2>
+						Most of us wear multiple labels on any given day but regardless of
+						our responsibilities, we’re driven to operate at a high-level EVERY
+						. . . SINGLE . . . DAY .{' '}
+					</h2>
+					<h2>We will never accept good enough.</h2>
+					<h2>
+						We’re wired to push the boundaries of what’s possible and . . .
+						impossible.{' '}
+					</h2>
+				</div>
 			</article>
 		</main>
 	);

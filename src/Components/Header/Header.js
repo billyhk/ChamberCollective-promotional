@@ -32,33 +32,112 @@ const Header = () => {
 		setOpen(!open);
 	};
 
+	const toTop = () => {
+		window.scrollTo({
+			top: 0,
+			left: 0,
+			// behavior: 'smooth',
+		});
+	};
+	const toTopSmooth = () => {
+		window.scrollTo({
+			top: 100,
+			left: 100,
+			behavior: 'smooth',
+		});
+	};
+
 	return (
 		<header className='header-container'>
 			<div className='header-left'>
 				<p className='hamburger-icon' onClick={toggleSide}>
 					&#9776;
 				</p>
-				<img src={logo} alt='nucalm-logo' className='header-logo'></img>
+				<Link to='/'>
+					<img src={logo} alt='nucalm-logo' className='header-logo'></img>
+				</Link>
 			</div>
 			<nav
 				className='side-nav'
 				id={open ? 'open' : 'closed'}
 				onClick={toggleSide}>
-				<div class='sidebar-links'>
-					<Link to='#'>About</Link>
-					<Link to='#'>Members</Link>
-					<Link to='#'>The Cache</Link>
-					<Link to='#'>Services</Link>
-					<Link to='#'>Contact</Link>
+				<div className='sidebar-links'>
+					<Link to='/'>Home</Link>
+					<Link to='/about'>
+						<span
+							id={/about/.test(window.location.href) ? 'active' : 'not-active'}>
+							About
+						</span>
+					</Link>
+					<Link to='/members'>
+						<span
+							id={
+								/members/.test(window.location.href) ? 'active' : 'not-active'
+							}>
+							Members
+						</span>
+					</Link>
+					<Link to='/media'>
+						<span
+							id={/media/.test(window.location.href) ? 'active' : 'not-active'}>
+							The Cache
+						</span>
+					</Link>
+					<Link to='/services'>
+						<span
+							id={
+								/services/.test(window.location.href) ? 'active' : 'not-active'
+							}>
+							Services
+						</span>
+					</Link>
+					<Link to='/contact'>
+						<span
+							id={
+								/contact/.test(window.location.href) ? 'active' : 'not-active'
+							}>
+							Contact
+						</span>
+					</Link>
 				</div>
 			</nav>
 			<div className='header-right'>
-				<Link to='#'>About</Link>
-				<Link to='#'>Members</Link>
-				<Link to='#'>The Cache</Link>
-				<Link to='#'>Services</Link>
-				<Link to='#'>Contact</Link>
+				<Link to='/about'>
+					<span
+						id={/about/.test(window.location.href) ? 'active' : 'not-active'}>
+						About
+					</span>
+				</Link>
+				<Link to='/members'>
+					<span
+						id={/members/.test(window.location.href) ? 'active' : 'not-active'}>
+						Members
+					</span>
+				</Link>
+				<Link to='/media'>
+					<span
+						id={/media/.test(window.location.href) ? 'active' : 'not-active'}>
+						The Cache
+					</span>
+				</Link>
+				<Link to='/services'>
+					<span
+						id={
+							/services/.test(window.location.href) ? 'active' : 'not-active'
+						}>
+						Services
+					</span>
+				</Link>
+				<Link to='/contact'>
+					<span
+						id={/contact/.test(window.location.href) ? 'active' : 'not-active'}>
+						Contact
+					</span>
+				</Link>
 			</div>
+			<h1 className='nav-to-top' onClick={toTopSmooth}>
+				&uArr;
+			</h1>
 		</header>
 	);
 };

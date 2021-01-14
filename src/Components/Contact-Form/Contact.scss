@@ -3,10 +3,13 @@
 	place-content: center;
 	text-align: center;
 	// position: relative;
-
+	* {
+		font-weight: 200;
+	}
 	h1 {
 		font-size: 15vmin;
-		letter-spacing: 1vmin;
+		// letter-spacing: 1vmin;
+		font-weight: 200;
 	}
 	h2 {
 		font-size: 4vmin;
@@ -70,20 +73,20 @@
 
 .success-msg,
 .error-msg {
-	// position: absolute;
-	// text-align: center;
-	// display: grid;
-	// z-index: 200;
-	// width: 100%;
-	// height: 100%;
-	// place-items: center;
-	padding: 2%;
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	top: 12.5%;
+	border-radius: 2ch;
+	padding: 1%;
 }
 .success-msg {
-	color: rgb(119, 162, 172);
+	color: rgb(126, 167, 218);
+	border: 4px solid rgb(23, 199, 23);
 }
 .error-msg {
 	color: rgb(159, 105, 105);
+	border: 4px solid rgb(213, 58, 58);
 }
 
 @media only screen and (max-width: 1200px) {

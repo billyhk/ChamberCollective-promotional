@@ -1,0 +1,29 @@
+.a1 {
+	#contact-header {
+		opacity: 1;
+		text-align: center;
+		padding: 2%;
+		h1 {
+			font-weight: 200;
+			letter-spacing: 0;
+			font-size: 7.5vmin;
+		}
+	}
+}
+
+.contact-container {
+	.a1:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url(../../Component-Images/NYC_Skyline.png);
+		opacity: 0.45;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}

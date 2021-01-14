@@ -10,20 +10,19 @@ $header-animation-color: rgb(63, 98, 159);
 /* Switch to fixed positioning, and stick the header to the top of the page */
 html:not([data-scroll='0']) header {
 	opacity: 0.65;
-	// background: $header-animation-color;
-	background: rgba(0, 0, 0, 0);
-
-	/* This box-shadow will help sell the floating effect */
-	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
 }
 
 html:not([data-scroll='0']) .sidebar-links {
-	background: rgba(0, 0, 0, 0);
+	// background: rgba(0, 0, 0, 0);
 }
 
 .header-container:hover {
 	background: $header-base-color;
 	opacity: 1;
+}
+#active {
+	color: rgb(167, 229, 255);
+	border-bottom: 4px solid  rgb(98, 196, 238);
 }
 
 //  ----------------------------------- //
@@ -37,7 +36,7 @@ html:not([data-scroll='0']) .sidebar-links {
 
 	text-align: center;
 	background: $header-base-color;
-	z-index: 100;
+	z-index: 500;
 	top: 0;
 
 	min-height: 5vh;
@@ -59,6 +58,7 @@ html:not([data-scroll='0']) .sidebar-links {
 	align-items: center;
 
 	padding: 0 2%;
+
 	a {
 		text-decoration: none;
 		text-transform: uppercase;
@@ -73,6 +73,24 @@ html:not([data-scroll='0']) .sidebar-links {
 	a:hover {
 		opacity: 1;
 	}
+}
+.nav-to-top {
+	color: white;
+	position: fixed;
+	bottom: 0;
+	right: 2%;
+	z-index: 200;
+	transition: 1s;
+	opacity: 0.5;
+	font-size: 5vmin;
+	border: 2px solid whitesmoke;
+	padding: 2.5vmin;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.nav-to-top:hover {
+	opacity: 1;
 }
 
 //  ------------------------- //
@@ -127,8 +145,6 @@ html:not([data-scroll='0']) .sidebar-links {
 	position: absolute;
 	transition: 1s;
 
-	z-index: 200;
-
 	&#closed {
 		transform: translateX(-100%);
 	}
@@ -137,7 +153,8 @@ html:not([data-scroll='0']) .sidebar-links {
 	}
 
 	div {
-		background: $header-base-color;
+		// background: $header-base-color;
+		background: rgba(167, 178, 222, 0.653);
 
 		transition: 1s;
 
@@ -155,7 +172,7 @@ html:not([data-scroll='0']) .sidebar-links {
 			opacity: 0.65;
 			transition: 1s;
 			font-weight: 500;
-			font-size: 4vmin;
+			font-size: 3vmin;
 			width: 100%;
 			padding: 10% 5% 10% 5%;
 		}

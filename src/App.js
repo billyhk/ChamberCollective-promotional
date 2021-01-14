@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import './App.scss';
-import $ from 'jquery';
 
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
@@ -16,7 +15,7 @@ import Services from './Components/Services/Services';
 
 import ContactForm from './Components/Contact-Form/Contact';
 
-
+import $ from 'jquery';
 window.jQuery = $;
 require('jquery-scrollify');
 
@@ -25,10 +24,10 @@ const App = () => {
 		$(function () {
 			$.scrollify({
 				section: 'article',
-				easing: 'easeOutExpo',
-				scrollSpeed: 1100,
+				// easing: 'easeOutExpo',
+				scrollSpeed: 850,
 				offset: 0,
-				overflowScroll: true,
+				overflowScroll: false,
 				updateHash: true,
 				touchScroll: false,
 				setHeights: true,
@@ -47,11 +46,11 @@ const App = () => {
 			<main>
 				<Switch>
 					<Route exact path='/' component={Home} />
-					<Route exact path='/About' component={About} />
-					<Route exact path='/Media' component={Media} />
-					<Route exact path='/Members' component={Members} />
-					<Route exact path='/Contact' component={Contact} />
-					<Route exact path='/Services' component={Services} />
+					<Route exact path='/about' component={About} />
+					<Route exact path='/media' component={Media} />
+					<Route exact path='/members' component={Members} />
+					<Route exact path='/contact' component={Contact} />
+					<Route exact path='/services' component={Services} />
 				</Switch>
 
 				<Route
@@ -60,14 +59,13 @@ const App = () => {
 						return <ContactForm />;
 					}}
 				/>
-
 			</main>
-			<Route
+			{/* <Route
 				path='*'
 				render={() => {
 					return <Footer />;
 				}}
-			/>
+			/> */}
 		</div>
 	);
 };
