@@ -32,13 +32,6 @@ const Header = () => {
 		setOpen(!open);
 	};
 
-	const toTop = () => {
-		window.scrollTo({
-			top: 0,
-			left: 0,
-			// behavior: 'smooth',
-		});
-	};
 	const toTopSmooth = () => {
 		window.scrollTo({
 			top: 100,
