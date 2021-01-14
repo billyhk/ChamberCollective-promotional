@@ -1,27 +1,10 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.scss';
-
-import $ from 'jquery';
-window.jQuery = $;
-require('jquery-scrollify');
 
 const Home = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
-
-		// $(function () {
-		// 	$.scrollify({
-		// 		section: 'article',
-		// 		easing: 'easeOutExpo',
-		// 		scrollSpeed: 1100,
-		// 		// offset: 0,
-		// 		overflowScroll: true,
-		// 		updateHash: true,
-		// 		touchScroll: false,
-		// 		setHeights: true,
-		// 	});
-		// });
 	}, []);
 
 	const toTop = () => {

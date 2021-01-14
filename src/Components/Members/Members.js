@@ -26,7 +26,7 @@ const Members = () => {
 	}, []);
 	return (
 		<main className='members-container'>
-			{/* <article className='a1'>
+			<article className='a1'>
 				<div className='a1-header' id='members-header'>
 					<h1>The Members</h1>
 					<h2>A partnership about growth and recovery</h2>
@@ -38,12 +38,12 @@ const Members = () => {
 						The RēCOVER mission is to “Revolutionize the way you Live. Work.
 						Play. Train”.
 					</h2>
-					<img src={Aaron_Profile} alt='#' className='profile-img' />
+					{/* <img src={Aaron_Profile} alt='#' className='profile-img' />
 					<p>Aaron Drogoszewski</p>
 					<img src={Aaron_Profile} alt='#' className='profile-img' />
 					<p>John Joseph</p>
 					<img src={Aaron_Profile} alt='#' className='profile-img' />
-					<p>Nick Pags</p>
+					<p>Nick Pags</p> */}
 				</div>
 			</article>
 			<article className='a3'>
@@ -136,9 +136,6 @@ const Members = () => {
 				</p>
 				<h2>-Aaron Drogoszewski</h2>
 			</article>
-			<article className='a4'>
-				<h1>Contact</h1>
-			</article> */}
 		</main>
 	);
 };
