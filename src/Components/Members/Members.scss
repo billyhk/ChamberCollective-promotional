@@ -3,37 +3,52 @@
 .a3 {
 	#members-header {
 		opacity: 1;
-		padding: 10%;
-		h1 {
+		padding: 2% 0;
+		h1,
+		h2 {
+			text-align: center;
 			font-weight: 200;
+		}
+		h1 {
 			letter-spacing: 0;
 			font-size: 8.5vmin;
-			text-align: center;
 		}
 		h2 {
-			font-weight: 200;
-			font-size: 2.5vmin;
+			font-size: 3.5vmin;
 		}
-		ul {
-			list-style: none;
-			padding-top: 25px;
+	}
+}
 
-			display: flex;
-			align-items: center;
-			justify-content: space-evenly;
-			list-style: none;
-			li {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				padding: 0 2%;
-				img {
-					width: 100%;
-					opacity: 1;
-					background: color;
-				}
-			}
+.a2-header {
+	&#members-header {
+		h2 {
+			font-size: 3vmin;
 		}
+	}
+}
+
+.members-image-container {
+	display: grid;
+	place-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	grid-gap: 2rem;
+
+	padding: 0 2%;
+	position: relative;
+
+	img {
+		width: 100%;
+		display: block;
+		// transform: rotateX(180deg);
+	}
+	p {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 250px;
+		width: 300px;
 	}
 }
 
