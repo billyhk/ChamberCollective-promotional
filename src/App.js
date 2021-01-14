@@ -29,7 +29,7 @@ const App = () => {
 				offset: 0,
 				overflowScroll: false,
 				updateHash: true,
-				touchScroll: false,
+				touchScroll: true,
 				setHeights: true,
 			});
 		});
