@@ -38,12 +38,27 @@ const Members = () => {
 						The RēCOVER mission is to “Revolutionize the way you Live. Work.
 						Play. Train”.
 					</h2>
-					{/* <img src={Aaron_Profile} alt='#' className='profile-img' />
-					<p>Aaron Drogoszewski</p>
-					<img src={Aaron_Profile} alt='#' className='profile-img' />
-					<p>John Joseph</p>
-					<img src={Aaron_Profile} alt='#' className='profile-img' />
-					<p>Nick Pags</p> */}
+					<div className='members-image-container'>
+						{' '}
+						<img
+							src={Aaron_Profile}
+							alt='aaron-profile'
+							className='profile-img'
+						/>
+						<p className='members-text-overlay'>Aaron Drogoszewski</p>
+						<img
+							src={Aaron_Profile}
+							alt='aaron-profile'
+							className='profile-img'
+						/>
+						<p className='members-text-overlay'>John Joseph</p>
+						<img
+							src={Aaron_Profile}
+							alt='aaron-profile'
+							className='profile-img'
+						/>
+						<p className='members-text-overlay'>Nick Pags</p>
+					</div>
 				</div>
 			</article>
 			<article className='a3'>
