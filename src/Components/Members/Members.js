@@ -85,11 +85,11 @@ const Members = () => {
 			<article className='a3'>
 				<div className='a3-header' id='members-header'>
 					<p>
-						What I, personally have been known to say is: <br />
-						“Fully comprehensive recovery is more than just technology”.
+						What I, personally have been known to say is: <br /><br />
+						“Fully comprehensive recovery is more than just technology”.<br />
 						<br /> Not only do I still feel this way…but, the longer I’m in the
 						game, the more I realize how crucial it is to expand and deliver on
-						that statement. <br />I don’t only want to help people live their
+						that statement. I don’t only want to help people live their
 						best lives… I want to change the world. The only way I can do so,
 						requires the subscription to two concepts:
 					</p>
@@ -98,7 +98,7 @@ const Members = () => {
 						changing one person’s world at a time. “The world exists as you
 						perceive it. It is not what you see…..but how you see it. It is not
 						what you hear…but how you hear it. It is not what you feel….but how
-						you feel about it” -Rumi *If we have the power to help one person
+						you feel about it” -Rumi <br /> <br /> *If we have the power to help one person
 						out of the 7,830,458,560 people on this planet today…it’s not only a
 						start, but our responsibility
 					</p>
@@ -116,19 +116,7 @@ const Members = () => {
 			</article>
 			<article className='a4'>
 				<div className='a4-header' id='members-header'>
-					{' '}
-					<p>
-						The Chamber Syndicate is the collection of carefully, hand-picked
-						professionals I have asked to help me utilize everything inside the
-						Chamber to make the world outside of it, one that I’d feel proud to
-						live in.2. The belief that one person’s efforts to do so will never
-						have the potential for success that a syndicate of passionate human
-						beings working together can accomplish.{' '}
-					</p>
-					<p>
-						The Chamber is a hub for information, inspiration, community, and
-						networking.
-					</p>
+
 					<p>
 						The Chamber Syndicate is the collection of carefully, hand-picked
 						professionals I have asked to help me utilize everything inside the
@@ -136,7 +124,7 @@ const Members = () => {
 						live in. Stress, poor sleep, worry, anxiety, uncertainty, and the
 						feelings of disconnection from a positive source of energy, or
 						connection to a community will all negatively impact the world as it
-						was beautifully articulated by Rami. The word “salvation” is often
+						was beautifully articulated by Rumi. The word “salvation” is often
 						associated with religious gestures…however, if the dictionary
 						defines it as:
 					</p>
