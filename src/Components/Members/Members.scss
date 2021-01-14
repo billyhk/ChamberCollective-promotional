@@ -1,6 +1,7 @@
 .a1,
 .a2,
-.a3 {
+.a3,
+.a4 {
 	#members-header {
 		opacity: 1;
 		padding: 2% 0;
@@ -22,42 +23,48 @@
 .a2-header {
 	&#members-header {
 		h2 {
-			font-size: 3vmin;
+			font-size: 2.8vmin;
+			padding: 0 2%;
 		}
 	}
 }
 
 .members-image-container {
-	display: grid;
-	place-items: center;
-	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-	grid-gap: 2rem;
+	ul {
+		display: grid;
+		place-items: center;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		grid-gap: 2rem;
 
-	padding: 0 2%;
-	position: relative;
-
-	img {
-		width: 100%;
-		display: block;
-		// transform: rotateX(180deg);
-	}
-	p {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		height: 250px;
-		width: 300px;
+		padding: 4% 2%;
+		li {
+			position: relative;
+			place-items: center;
+			display: grid;
+			img {
+				width: 100%;
+			}
+			p {
+				text-align: center;
+				position: absolute;
+				font-size: 3vmin;
+				font-weight: 200;
+			}
+		}
 	}
 }
-
-// .a2-header,
-// .a3-header {
-// 	h2 {
-// 		text-align: left;
-// 	}
-// }
+.a3-header,
+.a4-header {
+	&#members-header {
+		padding: 0 2%;
+		h2 {
+			text-align: right;
+		}
+		p {
+			font-size: 2.25vmin;
+		}
+	}
+}
 
 .members-container {
 	.a1:before {
