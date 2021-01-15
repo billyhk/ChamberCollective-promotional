@@ -10,7 +10,7 @@ const ContactForm = ({
 	*/
 }) => {
 	return (
-		<form className='contact-form' onSubmit={handleSubmit}>
+		<form className='contact-form-form' onSubmit={handleSubmit}>
 			<div className='contact-form-input-container'>
 				<input
 					id='name'

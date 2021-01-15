@@ -53,12 +53,12 @@ const App = () => {
 					<Route exact path='/services' component={Services} />
 				</Switch>
 
-				<Route
+				{/* <Route
 					path='*'
 					render={() => {
 						return <ContactForm />;
 					}}
-				/>
+				/> */}
 			</main>
 			{/* <Route
 				path='*'
