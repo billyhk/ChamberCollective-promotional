@@ -6,51 +6,209 @@ const MemberAaron = () => {
 	}, []);
 	return (
 		<main className='member-aaron-container'>
-			<article className='a1'></article>
+			<article className='a1'>
+				<video class='title-video' alt='Video of Aaron' autoplay muted loop>
+					<source src='' />
+				</video>
+				<div className='a1-header' id='member-john-header'>
+					<h1>Aaron Drogoszewski</h1>
+				</div>
+			</article>
+			<article className='a2'>
+				<div className='a2-header' id='member-john-header'>
+					<h2>
+						There’s only one technology on the planet with a patent to minimize
+						stress without pharmaceuticals.
+					</h2>
+					<h3>That technology is the NuCalm system.</h3>
+				</div>
+			</article>
+			<article className='a3'>
+				<div className='a3-header' id='member-john-header'>
+					<p>
+						Stress isn’t a feeling…it’s a cocktail of biochemicals released by
+						our 40-million years evolved “Reptilian Brain”. Independent of
+						“feeling” stressed, these hormones and neurotransmitters were
+						beautifully designed to keep us safe in the face of danger by:
+					</p>
+					<br />
+					<ul>
+						<li>Heightening our senses</li>
+						<li>Increasing heart and respiratory rate</li>
+						<li>
+							Shifting blood flow away from internal organs and towards our
+							limbs
+						</li>
+						<li>
+							Strongly influencing all non-vital processes (Consumption,
+							urination, drive to procreate, etc.) to shut down, or at least
+							take a back seat for a while
+						</li>
+					</ul>
+				</div>
+			</article>
+			<article className='a4'>
+				<div className='a4-header' id='member-john-header'>
+					<p>
+						Unfortunately, our Reptilian Brain has a 34-million-year head start
+						over our 6 million years evolved “rational brain”, the Frontal and
+						Prefrontal Cortex. While the “rational brain” has succeeded at
+						making us human beings….it fails miserably at deciphering true
+						life-threating danger from:
+					</p>
+					<ul>
+						<li>Financial uncertainty</li>
+						<li>Social unrest</li>
+						<li>
+							Interpersonal conflict with a spouse, co-worker, friend, or
+							stranger
+						</li>
+						<li>Prolonged bursts of strenuous exercise and more</li>
+					</ul>
+				</div>
+			</article>
+			<article className='a5'>
+				<div className='a1-header' id='member-john-header'>
+					{' '}
+					<p>
+						The reptilian brain wastes no time stepping in for the shortcomings
+						of our “rational” brain in these moments and does what it had been
+						doing for 34 million years prior…fear, stress, and anxiety were once
+						paramount to our survival when confronted with true danger.
+					</p>
+					<p>
+						Seeing as you “can’t teach an old dog new tricks”… the portion of
+						our brains with “veteran status” proceeds to then signal the
+						production of all the biochemicals once needed in acute scenarios
+						for true safety…to cope with every issue raging from a marginal
+						annoyance all the way through what it was originally intended for.
+					</p>
+					<p>
+						Where trouble pokes it’s reptilian head into paradise, is when we
+						consider how these hormones and neurotransmitters perfectly crafted
+						to keep us alive in acute bursts, manifest in a much different
+						response when they are chronically, and habitually called to
+						“action”:
+					</p>
+					<ul>
+						<li>Compromised sleep</li>
+						<li>Decreased mental and physical performance outcomes</li>
+						<li>Impaired healing (wound resolution or athletic)</li>
+						<li>Affected decision making and personality</li>
+						<li>Weakened immune function</li>
+						<li>Proliferation of multiple diseases</li>
+						<li>Premature death</li>
+					</ul>
+				</div>
+			</article>
+			<article className='a6'>
+				<div className='a6-header' id='member-john-header'>
+					{' '}
+					<p>
+						Feelings aren’t facts…and the facts are that stress is the greatest
+						disruptor of our performance and quality of life (whether you “feel
+						it” or not). You cannot think or will your way out of a 40-million
+						year physiological response, as it’s too deeply engrained in our
+						history. The only way to quickly, predictably, and effectively
+						disrupt the great disruptor with this much history..is to utilize
+						the technology of the future, built through 20-years of
+						neuroscientific research.
+					</p>
+					<h2>
+						Over 2,000 apps currently exist to help people relax. Unfortunately,
+						relaxing and recovering are far from synonymous.
+					</h2>
+				</div>
+			</article>{' '}
+			<article className='a7'>
+				<div className='a7-header' id='member-john-header'>
+					{' '}
+					<h3>
+						NuCalm is the world’s only patented system for minimizing stress
+						without pharmaceuticals.
+					</h3>
+					<h4>What NuCalm is NOT:</h4>
+					<ul>
+						<li>A meditation app</li>
+						<li>A Binaural beat app</li>
+						<li>A new company / technology</li>
+						<li>Created by former marketing or sales professionals</li>
+						<li>Void of research</li>
+						<li>Dependent on loose correlative research</li>
+						<li>Effective for some but not others</li>
+						<li>Less effective over time due to adaptation</li>
+					</ul>
+					<h3>What NuCalm IS:</h3>
+					<ul>
+						<li>
+							The creation of a 20-year neuroscience company, designed by
+							neuroscientists, physicists, mathematicians, and naturopaths
+						</li>
+						<li>
+							A comprehensive 3-part system addressing all variables in the
+							stress response
+						</li>
+						<li>
+							Owner of the world’s only patent to minimize stress and improve
+							sleep quality without pharmaceuticals
+						</li>
+						<li>The world’s only “non-linear oscillating binaural beat"</li>
+						<li>
+							Researched by the world’s top scientists, including Harvard
+							Medical School, and NASA
+						</li>
+						<li>
+							The “secret weapon” of over 49 professional athletic teams,
+							including the Golden State Warriors, Philadelphia Eagles, Chicago
+							Blackhawks, Premiere League Soccer, over 15 international Olympic
+							teams, multiple UFC champions and more
+						</li>
+						<li>
+							Successfully utilized by multiple branches of the United States
+							military, and special Ops for both active combat applications, as
+							well as the transition of veterans back into “civilian life”, as
+							well as the FBI
+						</li>
+						<li>
+							Predictably effective for all demographics and manifestations of
+							the stress response from those suffering from PTSD, to athletic
+							stress/recovery, to patents and business professionals seeking
+							stress reduction, or improved sleep quality
+						</li>
+					</ul>
+				</div>
+			</article>{' '}
+			<article className='a8'>
+				<div className='a8-header' id='member-john-header'>
+					{' '}
+					<p>There are thousands of options to help you relax.</p>
+					<p>
+						But…If you are looking to recover, minimize stress, improve sleep
+						quality, and optimize performance:
+					</p>
+					<ul>
+						<p>There are no competitors.</p>
+						<p>There’s only one choice.</p>
+						<p>There’s only NuCalm.</p>
+					</ul>
+					<div class='final-anchor-container'>
+						<a href='https://www.nucalm.com/' target='blank' id='final-anchor'>
+							Click here for more information.
+						</a>
+					</div>
+				</div>
+			</article>{' '}
+			<article className='a9'>
+				<div className='a9-header' id='member-john-header'></div>
+			</article>{' '}
+			<article className='a10'>
+				<div className='a10-header' id='member-john-header'></div>
+			</article>{' '}
+			<article className='a11'>
+				<div className='a11-header' id='member-john-header'></div>
+			</article>
 		</main>
 	);
 };
 
 export default MemberAaron;
-
-
-//         			<article class="article1" id="panel1">
-// // 				<video class="title-video" alt="Video of Aaron" autoplay muted loop>
-// // 					<source src="Aaron.mp4" type="video/mp4" />
-// // 					<!-- Your browser does not support the video tag. -->
-// // 					<!-- background img here -->
-// // 				</video>
-// // 				<div class="title-headers">
-// // 					<h1>Nick Pags</h1>
-// // 					<h2>Coach, Speaker, Creator of Project Limitless</h2>
-// // 				</div>
-// // 			</article>
-
-// 			<article class="article2" id="panel2">
-// 				<img
-// 					src="DSC09897.jpg"
-// 					alt="Nick Pags Headshot"
-// 					class="article2-image"
-// 				/>
-// 				<div class="article2-logo-text-container">
-// 					<p class="article2-text">
-// 						Nick Pags is a motivational speaker and thought leader, mindset and emotional intelligence coach, consultant, Founding Theragun Master Trainer, and a lululemon Ambassador. While serving as a top contributor to the fitness industry, he is also laser focused on the community around him where he aims to inspire and educate. Nick has been working in the fitness industry for over 10 years. As a certified Behavioral Change Specialist and Weight Management Specialist, Nick’s training is fundamentally wholistic.
-// 					</p>
-// 					<h2 class="article2-bottom-header"> He focuses on how behaviors generate habits, <br> and habits form lives.</h2>
-// 				</div>
-// 			</article>
-// 			<article class="article6" id="panel6">
-// 				<img
-// 					src="IMG_4959 3.JPG"
-// 					alt="Photo of Aaron"
-// 					class="article6-image"
-// 				/>
-// 				<p class="article6-main-text">
-// 					Nick’s online mindset coaching business has serviced groups and individuals all over the world. He has coached hundreds of entrepreneurs in building successful businesses over the last 2 years. He created his podcast “LESSGOO” in March of 2019, with a mission of educating, motivating, and inspiring individuals to create dynamic change in their lives. Nick’s signature 8-week mindset coaching program, Project Limitless, kicks off another cohort in mid February. You can go to the link in his Instagram bio to apply. <br> <br> <br> <br> <br> <br> <br>
-// 				</p>
-
-// 				<h2 class="form-footer"> Click here to learn more about NuCalm </h2>
-// 				<h2 class="form-footer"> Proceed to the NuCalm Shop </h2>
-//
-// 				<!-- <hr class="bottom-line" /> -->
-// 			</article>
