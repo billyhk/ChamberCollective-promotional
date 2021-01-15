@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import ContactForm from '../Contact-Form/Contact';
+import '../Contact-Form/ContactForm.scss';
 
 import './About.scss';
 
@@ -41,7 +43,9 @@ const About = () => {
 					</h2>
 				</div>
 			</article>
-	
+			<article className='a-contact'>
+				<ContactForm />
+			</article>
 		</main>
 	);
 };

@@ -1,5 +1,8 @@
-import './Contact.scss';
 import { useState, useEffect } from 'react';
+import './Contact.scss';
+
+import ContactForm from '../Contact-Form/Contact';
+import '../Contact-Form/ContactForm.scss';
 
 const Contact = () => {
 	useEffect(() => {
@@ -21,6 +24,9 @@ const Contact = () => {
 				<div className='a1-header' id='contact-header'>
 					<h1>Connect with the Chamber</h1>
 				</div>
+			</article>
+			<article className='a-contact'>
+				<ContactForm />
 			</article>
 		</main>
 	);

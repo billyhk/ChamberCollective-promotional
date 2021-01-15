@@ -15,7 +15,7 @@ const Contact = () => {
 	};
 
 	return (
-		<article className='a-contact'>
+		// <article className='a-contact'>
 			<div className='a-contact-header' id='contact-form-header'>
 				<h1>Contact</h1>
 				<h2>Community is the foundation of the Chamber Collective.</h2>
@@ -32,7 +32,7 @@ const Contact = () => {
 					</h2>
 				)}
 			</div>
-		</article>
+		// </article>
 	);
 };
 

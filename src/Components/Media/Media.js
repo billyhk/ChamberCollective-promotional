@@ -7,6 +7,10 @@ import GMA_Logo from '../../Component-Images/GMA_Logo.png';
 import Today_Show_Logo from '../../Component-Images/Today_Show_Logo.png';
 import WS_Logo from '../../Component-Images/WS_Logo.png';
 
+import ContactForm from '../Contact-Form/Contact';
+
+import '../Contact-Form/ContactForm.scss';
+
 const Media = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -68,6 +72,10 @@ const Media = () => {
 					</h2>
 				</div>
 			</article>
+			<article className='a-contact'>
+				<ContactForm />
+			</article>
+			
 		</main>
 	);
 };

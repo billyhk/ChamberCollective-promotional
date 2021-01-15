@@ -5,7 +5,7 @@ import './App.scss';
 
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
-import Footer from './Components/Footer/Footer';
+// import Footer from './Components/Footer/Footer';
 
 import About from './Components/About/About';
 import Media from './Components/Media/Media';
@@ -13,7 +13,7 @@ import Members from './Components/Members/Members';
 import Contact from './Components/Contact/Contact';
 import Services from './Components/Services/Services';
 
-import ContactForm from './Components/Contact-Form/Contact';
+// import ContactForm from './Components/Contact-Form/Contact';
 
 import $ from 'jquery';
 window.jQuery = $;
@@ -53,12 +53,12 @@ const App = () => {
 					<Route exact path='/services' component={Services} />
 				</Switch>
 
-				<Route
+				{/* <Route
 					path='*'
 					render={() => {
 						return <ContactForm />;
 					}}
-				/>
+				/> */}
 			</main>
 			{/* <Route
 				path='*'

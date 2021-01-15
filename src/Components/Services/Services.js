@@ -1,5 +1,8 @@
 import { useEffect } from 'react';
 import './Services.scss';
+import ContactForm from '../Contact-Form/Contact';
+
+import '../Contact-Form/ContactForm.scss';
 
 const Services = () => {
 	useEffect(() => {
@@ -48,6 +51,9 @@ const Services = () => {
 						<br /> Other than how to get it to your team sooner than later.
 					</h2>
 				</div>
+			</article>
+			<article className='a-contact'>
+				<ContactForm />
 			</article>
 		</main>
 	);

@@ -4,25 +4,13 @@ import './Members.scss';
 
 import Aaron_Profile from '../../Component-Images/Aaron_Profile.png';
 
-import $ from 'jquery';
-window.jQuery = $;
-require('jquery-scrollify');
+import ContactForm from '../Contact-Form/Contact';
+
+import '../Contact-Form/ContactForm.scss';
 
 const Members = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
-		// $(function () {
-		// 	$.scrollify({
-		// 		section: 'article',
-		// 		easing: 'easeOutExpo',
-		// 		scrollSpeed: 1100,
-		// 		// offset: 0,
-		// 		overflowScroll: true,
-		// 		updateHash: true,
-		// 		touchScroll: false,
-		// 		setHeights: true,
-		// 	});
-		// });
 	}, []);
 	return (
 		<main className='members-container'>
@@ -163,6 +151,9 @@ const Members = () => {
 					</p>
 					<h2>-Aaron Drogoszewski</h2>
 				</div>
+			</article>
+			<article className='a-contact'>
+				<ContactForm />
 			</article>
 		</main>
 	);

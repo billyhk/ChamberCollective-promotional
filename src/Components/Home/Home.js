@@ -2,6 +2,10 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.scss';
 
+import ContactForm from '../Contact-Form/Contact';
+
+import '../Contact-Form/ContactForm.scss';
+
 const Home = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -65,6 +69,10 @@ const Home = () => {
 					</Link>
 				</div>
 			</article>
+			<article className='a-contact'>
+				<ContactForm />
+			</article>
+			
 		</main>
 	);
 };
