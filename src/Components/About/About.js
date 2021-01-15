@@ -41,6 +41,7 @@ const About = () => {
 					</h2>
 				</div>
 			</article>
+	
 		</main>
 	);
 };

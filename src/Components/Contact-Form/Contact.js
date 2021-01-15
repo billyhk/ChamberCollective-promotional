@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ContactForm from './ContactForm';
-import './Contact.scss';
+import './ContactForm.scss';
 
 const Contact = () => {
 	const [showSuccess, setShowSuccess] = useState(false);
@@ -81,31 +81,33 @@ const Contact = () => {
 	};
 
 	return (
-		<article className='contact-container'>
+		<div className='contact-form' id='contact-form'>
 			<h1>Contact</h1>
 			<h2>Community is the foundation of the Chamber Collective.</h2>
 			<h2>Contact us, and let us know how we can help.</h2>
-			<ContactForm
-				handleSubmit={handleSubmit}
-				/*
-				handleChange={handleChange}
-				name={name}
-				setName={setName}
-				setEmail={setEmail}
-				setChecked={setChecked}
-				*/
-			/>
-				{!error && showSuccess && (
-					<h2 className='success-msg'>
-						Thank You! Your information has been received!
-					</h2>
-				)}
-				{error && (
-					<h2 className='error-msg'>
-						We're Sorry! There was a problem. Please try again.
-					</h2>
-				)}
-		</article>
+			<div>
+				<ContactForm
+					handleSubmit={handleSubmit}
+					/*
+			handleChange={handleChange}
+			name={name}
+			setName={setName}
+			setEmail={setEmail}
+			setChecked={setChecked}
+			*/
+				/>
+			</div>
+			{!error && showSuccess && (
+				<h2 className='success-msg'>
+					Thank You! Your information has been received!
+				</h2>
+			)}
+			{error && (
+				<h2 className='error-msg'>
+					We're Sorry! There was a problem. Please try again.
+				</h2>
+			)}
+		</div>
 	);
 };
 
