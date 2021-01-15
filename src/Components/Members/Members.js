@@ -29,7 +29,7 @@ const Members = () => {
 					<div className='members-image-container'>
 						<ul>
 							<li>
-								<Link to='#'>
+								<Link to='/members/aaron'>
 									<img
 										src={Aaron_Profile}
 										alt='aaron-profile'
@@ -42,7 +42,7 @@ const Members = () => {
 								</Link>
 							</li>
 							<li>
-								<Link to='#'>
+								<Link to='/members/john'>
 									<img
 										src={Aaron_Profile}
 										alt='aaron-profile'
@@ -56,7 +56,7 @@ const Members = () => {
 								</Link>
 							</li>
 							<li>
-								<Link to='#'>
+								<Link to='/members/nick'>
 									<img
 										src={Aaron_Profile}
 										alt='aaron-profile'

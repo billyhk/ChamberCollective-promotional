@@ -114,14 +114,14 @@ html:not([data-scroll='0']) .sidebar-links {
 		opacity: 1;
 	}
 	p {
-		font-size: 2rem;
+		font-size: 10vmin;
 		padding-bottom: 5%;
 		margin: 0 5%;
 		cursor: pointer;
 	}
 	img {
-		padding: 0 2%;
-		height: 25px;
+		padding-top: 5%;
+		height: 15vmin;
 	}
 }
 
@@ -154,6 +154,7 @@ html:not([data-scroll='0']) .sidebar-links {
 
 	div {
 		// background: $header-base-color;
+
 		background: rgb(167, 178, 222);
 
 		transition: 1s;

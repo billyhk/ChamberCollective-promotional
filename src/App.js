@@ -13,7 +13,9 @@ import Members from './Components/Members/Members';
 import Contact from './Components/Contact/Contact';
 import Services from './Components/Services/Services';
 
-// import ContactForm from './Components/Contact-Form/Contact';
+import MemberAaron from './Components/Members-Profiles/Aaron';
+import MemberJohn from './Components/Members-Profiles/JohnJoseph';
+import MemberNick from './Components/Members-Profiles/NickPags';
 
 import $ from 'jquery';
 window.jQuery = $;
@@ -51,14 +53,10 @@ const App = () => {
 					<Route exact path='/members' component={Members} />
 					<Route exact path='/contact' component={Contact} />
 					<Route exact path='/services' component={Services} />
+					<Route exact path='/members/aaron' component={MemberAaron} />
+					<Route exact path='/members/john' component={MemberJohn} />
+					<Route exact path='/members/nick' component={MemberNick} />
 				</Switch>
-
-				{/* <Route
-					path='*'
-					render={() => {
-						return <ContactForm />;
-					}}
-				/> */}
 			</main>
 			{/* <Route
 				path='*'

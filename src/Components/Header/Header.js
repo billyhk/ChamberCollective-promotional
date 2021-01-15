@@ -51,7 +51,10 @@ const Header = () => {
 					&#9776;
 				</p>
 				<Link to='/'>
-					<img src={logo} alt='nucalm-logo' className='header-logo'></img>
+					<img
+						src='https://thechambercollective.s3.us-east-2.amazonaws.com/Logos/The+Chamber+Logo+01152021.png'
+						alt='nucalm-logo'
+						className='header-logo'></img>
 				</Link>
 			</div>
 			<nav

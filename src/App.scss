@@ -45,6 +45,16 @@ main {
 	}
 }
 
+.break-hidden {
+	display: auto;
+}
+
+@media only screen and (max-width: 1100px) {
+	.break-hidden {
+		display: none;
+	}
+}
+
 @media only screen and (max-width: 765px) {
 	main {
 		main {
@@ -53,7 +63,7 @@ main {
 				// max-height: auto;
 				// height: 100vh;
 				// min-width: 100vw;
-				min-width: 100%;
+				// min-width: 100%;
 				// min-width: auto;
 			}
 		}

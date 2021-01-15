@@ -1,0 +1,71 @@
+.a1,
+.a2,
+.a3,
+.a4,
+.a5,
+.a6 {
+	#member-john-header {
+		padding: 2% 0;
+		max-width: 85vw;
+		h1,
+		h2 {
+			text-align: center;
+			font-weight: 200;
+		}
+		h1 {
+			letter-spacing: 0;
+			font-size: 6.5vmin;
+		}
+		h2 {
+			font-size: 3.5vmin;
+		}
+		p {
+			text-align: center;
+			font-size: 2vmin;
+		}
+		ul {
+			li {
+				font-size: 2vmin;
+				padding: 1% 0;
+			}
+		}
+	}
+}
+
+.a3 {
+	&#member-john-header {
+		* {
+			text-align: left;
+		}
+	}
+}
+
+.a4 {
+	#member-john-header {
+		h1 {
+			font-size: 5vmin;
+		}
+	}
+}
+
+.a5,
+.a6 {
+	#member-john-header {
+		display: grid;
+		place-items: center;
+		grid-gap: 10%;
+		h2 {
+			font-size: 4vmin;
+		}
+	}
+}
+
+.john-anchor {
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	transition: 1s;
+}
+.john-anchor:hover {
+	color: rgb(94, 124, 245);
+}
