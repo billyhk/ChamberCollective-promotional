@@ -1,3 +1,4 @@
+/* HEADER */
 .a1,
 .a2,
 .a3,
@@ -20,6 +21,7 @@
 	}
 }
 
+/* SLIDE 2 HEADER */
 .a2-header {
 	&#members-header {
 		h2 {
@@ -28,7 +30,7 @@
 		}
 	}
 }
-
+/* PROFILE IMAGES */
 .members-image-container {
 	ul {
 		display: grid;
@@ -67,7 +69,7 @@
 		}
 	}
 }
-
+/* ARTICLE */
 .a3-header,
 .a4-header {
 	&#members-header {
@@ -80,7 +82,7 @@
 		}
 	}
 }
-
+/* BACKGROUND IMAGE & SLIDE 1 */
 .members-container {
 	.a1:before {
 		content: '';

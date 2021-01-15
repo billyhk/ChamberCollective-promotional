@@ -20,10 +20,21 @@
 			font-size: 3.5vmin;
 		}
 		p {
-			text-align: center;
-			font-size: 2vmin;
-		}
+			text-align: left;
+			font-size: 2vmin;	
+		}.column-1 {
+				column-count: 1;
+				text-align: center;
+			}
+			.column-2 {
+				column-count: 2;
+				text-align: justify;
+				column-gap: 10vw;
+			}
 		ul {
+			column-count: 2;
+			column-gap: 10vw;
+			text-align: left;
 			li {
 				font-size: 2vmin;
 				padding: 1% 0;
