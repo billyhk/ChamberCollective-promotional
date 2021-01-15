@@ -15,8 +15,8 @@ const Contact = () => {
 	};
 
 	return (
-		<article className='a1'>
-			<div className='a1-header' id='contact-header'>
+		<article className='a-contact'>
+			<div className='a-contact-header' id='contact-form-header'>
 				<h1>Contact</h1>
 				<h2>Community is the foundation of the Chamber Collective.</h2>
 				<h2>Contact us, and let us know how we can help.</h2>

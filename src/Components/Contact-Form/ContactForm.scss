@@ -1,5 +1,5 @@
-.a1 {
-	#contact-header {
+.a-contact {
+	#contact-form-header {
 		text-align: center;
 
 		h1,
@@ -25,6 +25,11 @@
 			.contact-form-input-container {
 				display: flex;
 				justify-content: space-evenly;
+			}
+			@media only screen and (max-width: 765px) {
+				.contact-form-input-container {
+					display: grid;
+				}
 			}
 			.contact-form-input-container > * {
 				background: transparent;
