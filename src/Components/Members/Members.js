@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Members.scss';
 
-import Aaron_Profile from '../../Component-Images/Aaron_Profile.png';
+// import Aaron_Profile from '../../Component-Images/Aaron_Profile.png';
 
 import ContactForm from '../Contact-Form/Contact';
 
@@ -31,7 +31,7 @@ const Members = () => {
 							<li>
 								<Link to='/members/aaron'>
 									<img
-										src={Aaron_Profile}
+										src='https://thechambercollective.s3.us-east-2.amazonaws.com/Members/Aaron/Images/Aaron_Profile.png'
 										alt='aaron-profile'
 										className='profile-img'
 									/>
@@ -44,8 +44,8 @@ const Members = () => {
 							<li>
 								<Link to='/members/john'>
 									<img
-										src={Aaron_Profile}
-										alt='aaron-profile'
+										src='https://thechambercollective.s3.us-east-2.amazonaws.com/Members/JohnJoseph/John+Joseph+Profile.png'
+										alt='john-profile'
 										className='profile-img'
 									/>
 									<p className='members-text-overlay'>
@@ -58,8 +58,8 @@ const Members = () => {
 							<li>
 								<Link to='/members/nick'>
 									<img
-										src={Aaron_Profile}
-										alt='aaron-profile'
+										src='https://thechambercollective.s3.us-east-2.amazonaws.com/Members/NickPags/Nick+Pags+Profile.png'
+										alt='nick-profile'
 										className='profile-img'
 									/>
 									<p className='members-text-overlay'>
