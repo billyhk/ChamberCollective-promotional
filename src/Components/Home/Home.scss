@@ -1,3 +1,27 @@
+/* HEADER SLIDE */
+.a1 {
+	#home-header {
+		max-width: 70vw;
+		position: absolute;
+
+		h1,
+		h2 {
+			font-weight: 200;
+			text-align: center;
+		}
+		h1 {
+			font-size: 9.5vmin;
+		}
+		h2 {
+			font-size: 4.25vmin;
+		}
+	}
+	.title-video {
+		width: 100%;
+		opacity: 0.7;
+	}
+}
+
 /* SLIDES 2 THRU 5  */
 .a2,
 .a3,
@@ -30,30 +54,51 @@
 	}
 }
 
-/* HEADER SLIDE */
-.a1 {
-	#home-header {
-		max-width: 70vw;
-
-		h1,
-		h2 {
-			font-weight: 200;
-			text-align: center;
-		}
-		h1 {
-			font-size: 9.5vmin;
-		}
-		h2 {
-			font-size: 4.25vmin;
-		}
-	}
-}
 /* FULL PAGE & BACKGROUND IMAGE */
 .home-container {
-	.a1:before,
-	.a2:before,
-	.a3:before,
-	.a4:before,
+	.a2:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Images/city+2.jpg);
+		opacity: 0.45;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.a3:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Images/Home+John+1.png);
+		opacity: 0.65;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.a4:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Images/home+john+4.png);
+		opacity: 0.65;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 	.a5:before {
 		content: '';
 		position: absolute;
@@ -62,10 +107,13 @@
 		bottom: 0px;
 		left: 0px;
 
-		background: url(../../Component-Images/NYC_Skyline.png);
-		opacity: 0.25;
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Images/side+plank.jpg);
+		opacity: 0.5;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 }
+
+
+// https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Images/swing1.jpg

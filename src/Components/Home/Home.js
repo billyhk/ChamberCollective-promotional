@@ -18,10 +18,20 @@ const Home = () => {
 			// behavior: 'smooth',
 		});
 	};
+	const homeVideoUrl =
+		'https://thechambercollective.s3.us-east-2.amazonaws.com/Members/Aaron/Video/Aaron.mp4';
+
 
 	return (
 		<main className='home-container'>
 			<article className='a1' id='opening-panel'>
+				<video
+					class='title-video'
+					alt='Video of Aaron'
+					autoPlay
+					muted
+					loop
+					src={homeVideoUrl}></video>
 				<div className='a1-header' id='home-header'>
 					<h1>The Community</h1>
 					<h2>A partnership about growth and recovery</h2>
@@ -72,7 +82,6 @@ const Home = () => {
 			<article className='a-contact'>
 				<ContactForm />
 			</article>
-			
 		</main>
 	);
 };
