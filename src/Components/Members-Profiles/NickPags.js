@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
 
+import '../Members-Profiles/NickPags.scss'
+
 const MemberNick = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -15,7 +17,6 @@ const MemberNick = () => {
 			<article className='a2'>
 				{' '}
 				<div className='a2-header' id='member-nick-header'>
-					<img src='' alt='nick-profile'></img>
 					<p>
 						Nick Pags is a motivational speaker and thought leader, mindset and
 						emotional intelligence coach, consultant, Founding Theragun Master
@@ -45,10 +46,10 @@ const MemberNick = () => {
 						cohort in mid February. You can go to the link in his Instagram bio
 						to apply.
 					</p>
-					<a href='https://nucalm.com/' target='blank'>
+					<a className='nick-anchor' href='https://nucalm.com/' target='blank'>
 						Click here to learn more about NuCalm
-					</a>
-					<a href='https://nucalm.com/store/' target='blank'>
+					</a> <br/>
+					<a className='nick-anchor' href='https://nucalm.com/store/' target='blank'>
 						Proceed to the NuCalm Shop
 					</a>
 				</div>
