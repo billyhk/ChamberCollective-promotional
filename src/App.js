@@ -22,20 +22,20 @@ window.jQuery = $;
 require('jquery-scrollify');
 
 const App = () => {
-	useEffect(() => {
-		$(function () {
-			$.scrollify({
-				section: 'article',
-				// easing: 'easeOutExpo',
-				scrollSpeed: 850,
-				offset: 0,
-				overflowScroll: true,
-				updateHash: true,
-				touchScroll: true,
-				setHeights: true,
-			});
-		});
-	}, []);
+	// useEffect(() => {
+	// 	$(function () {
+	// 		$.scrollify({
+	// 			section: 'article',
+	// 			// easing: 'easeOutExpo',
+	// 			scrollSpeed: 850,
+	// 			offset: 0,
+	// 			overflowScroll: true,
+	// 			updateHash: true,
+	// 			touchScroll: true,
+	// 			setHeights: true,
+	// 		});
+	// 	});
+	// }, []);
 
 	return (
 		<div className='app-container'>
