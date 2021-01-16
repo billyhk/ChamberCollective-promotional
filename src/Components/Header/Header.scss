@@ -70,6 +70,17 @@ html:not([data-scroll='0']) .sidebar-links {
 		font-size: 1.5vmin;
 		width: 15vw;
 	}
+	@media only screen and (max-height: 550px) {
+		a {
+			font-size: 4vmin;
+		}
+	}
+		@media only screen and (max-height: 750px) {
+		a {
+			font-size: 3vmin;
+		}
+	}
+
 	a:hover {
 		opacity: 1;
 	}
