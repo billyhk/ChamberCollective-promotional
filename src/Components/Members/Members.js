@@ -14,6 +14,10 @@ const topTop = () => {
 	window.scrollTo(0, 0);
 };
 
+const mediaVideoUrl =
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4';
+
+
 const Members = ({fullPageKey}) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -28,6 +32,16 @@ const Members = ({fullPageKey}) => {
 						<ReactFullpage.Wrapper>
 							<div className='section'>
 								<article className='a1'>
+									<video
+										className='title-video'
+										alt='Video of Aaron'
+										autoPlay
+										muted
+										loop
+										style={{ opacity: '0.6' }}>
+										<source data-src={mediaVideoUrl} />
+									</video>
+
 									<div className='a1-header' id='members-header'>
 										<h1>The Members</h1>
 										<h2>A partnership about growth and recovery</h2>

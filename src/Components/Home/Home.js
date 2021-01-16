@@ -12,6 +12,10 @@ const toTop = () => {
 };
 const homeVideoUrl =
 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Videos/Home+video+.mp4';
+const aboutVideoUrl =
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/About/Videos/About+video+.mp4';
+const contactVideoUrl =
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/contact+video.mp4';
 
 const Home = ({ fullPageKey }) => {
 	useEffect(() => {
@@ -44,6 +48,15 @@ const Home = ({ fullPageKey }) => {
 							</div>
 							<div className='section'>
 								<article className='a2'>
+									{' '}
+									<video
+										className='title-video'
+										alt='Video of Aaron'
+										autoPlay
+										muted
+										loop>
+										<source data-src={aboutVideoUrl} />
+									</video>
 									<div className='a2-header' id='home-header'>
 										<Link to='/about' onClick={toTop}>
 											<h1>About</h1>
@@ -58,6 +71,20 @@ const Home = ({ fullPageKey }) => {
 							</div>
 							<div className='section'>
 								<article className='a3'>
+									<div className='three-images-background'>
+										<img
+											data-src='https://thechambercollective.s3.us-east-2.amazonaws.com/Members/Aaron/Images/Aaron_Profile.png'
+											alt='aaron'
+										/>
+										<img
+											data-src='https://thechambercollective.s3.us-east-2.amazonaws.com/Members/JohnJoseph/John+Joseph+Profile.png'
+											alt='john'
+										/>
+										<img
+											data-src='https://thechambercollective.s3.us-east-2.amazonaws.com/Members/NickPags/Nick+Pags+Profile.png'
+											alt='nick'
+										/>
+									</div>
 									<div className='a3-header' id='home-header'>
 										<Link to='/members' onClick={toTop}>
 											<h1>Members</h1>
@@ -98,6 +125,15 @@ const Home = ({ fullPageKey }) => {
 							</div>
 							<div className='section'>
 								<article className='a-contact'>
+									{' '}
+									<video
+										className='title-video'
+										alt='Video of Aaron'
+										autoPlay
+										muted
+										loop>
+										<source data-src={contactVideoUrl} />
+									</video>
 									<ContactForm />
 								</article>
 							</div>

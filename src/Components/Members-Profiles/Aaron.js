@@ -3,7 +3,7 @@ import './Aaron.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
-const MemberAaron = ({fullPageKey}) => {
+const MemberAaron = ({ fullPageKey }) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -24,8 +24,9 @@ const MemberAaron = ({fullPageKey}) => {
 										alt='Video of Aaron'
 										autoPlay
 										muted
-										loop
-										src={aaronTitleVideoUrl}></video>
+										loop>
+										<source data-src={aaronTitleVideoUrl} />
+									</video>
 									<div className='a1-header' id='member-aaron-header'>
 										<h1>Aaron Drogoszewski</h1>
 									</div>

@@ -38,6 +38,7 @@ const Contact = ({ fullPageKey }) => {
 							</div>
 							<div class='section'>
 								<article className='a-contact'>
+								<img></img>
 									<ContactForm />
 								</article>
 							</div>

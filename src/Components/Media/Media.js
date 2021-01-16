@@ -13,7 +13,10 @@ import '../Contact-Form/ContactForm.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
-const Media = ({fullPageKey}) => {
+const mediaVideoUrl =
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4';
+
+const Media = ({ fullPageKey }) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -28,6 +31,15 @@ const Media = ({fullPageKey}) => {
 						<ReactFullpage.Wrapper>
 							<div className='section'>
 								<article className='a1'>
+									<video
+										className='title-video'
+										alt='Video of Aaron'
+										autoPlay
+										muted
+										loop
+										style={{ opacity: '0.6' }}>
+										<source data-src={mediaVideoUrl} />
+									</video>
 									<div className='a1-header' id='media-header'>
 										<h1>The Cache</h1>
 										<h2>The latest media and insights from our team</h2>

@@ -73,8 +73,8 @@
 		bottom: 0px;
 		left: 0px;
 
-		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Services/services+1.jpg);
-		opacity: 1;
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Images/side+plank.jpg);
+		opacity: 0.8;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -87,8 +87,8 @@
 		bottom: 0px;
 		left: 0px;
 
-		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/About/Images/about+climb+1.jpg);
-		opacity: .65;
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Images/city+2.jpg);
+		opacity: 0.5;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -101,8 +101,28 @@
 		bottom: 0px;
 		left: 0px;
 
-		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Images/pottery1.jpg);
-		opacity: .9;
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Images/swing1.jpg);
+		opacity: 0.65;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	@media only screen and (max-height: 850px) {
+		.a3:before {
+			background-position: 0 35%;
+		}
+	}
+	.a-contact:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Services/services+1.jpg);
+		opacity: 0.65;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
