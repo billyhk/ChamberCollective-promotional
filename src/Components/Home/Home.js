@@ -19,14 +19,13 @@ const Home = () => {
 		});
 	};
 	const homeVideoUrl =
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/Members/Aaron/Video/Aaron.mp4';
-
+		'https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Videos/Home+video+.mp4';
 
 	return (
 		<main className='home-container'>
 			<article className='a1' id='opening-panel'>
 				<video
-					class='title-video'
+					className='title-video'
 					alt='Video of Aaron'
 					autoPlay
 					muted
