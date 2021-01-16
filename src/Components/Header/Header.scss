@@ -75,7 +75,7 @@ html:not([data-scroll='0']) .sidebar-links {
 			font-size: 4vmin;
 		}
 	}
-		@media only screen and (max-height: 750px) {
+	@media only screen and (max-height: 750px) {
 		a {
 			font-size: 2.5vmin;
 		}
@@ -89,14 +89,14 @@ html:not([data-scroll='0']) .sidebar-links {
 	color: white;
 	position: fixed;
 	bottom: 0;
-	right: 2%;
+	left: 2%;
 	z-index: 200;
 	transition: 1s;
 	opacity: 0.5;
 	font-size: 5vmin;
 	border: 2px solid whitesmoke;
-	padding: 2.5vmin;
-	border-radius: 50%;
+	padding: 2%;
+	border-radius: 25%;
 	cursor: pointer;
 }
 
