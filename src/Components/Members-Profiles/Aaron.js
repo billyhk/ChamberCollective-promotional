@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import "./Aaron.scss";
 
 const MemberAaron = () => {
 	useEffect(() => {
@@ -7,24 +8,21 @@ const MemberAaron = () => {
 	return (
 		<main className='member-aaron-container'>
 			<article className='a1'>
-				<video class='title-video' alt='Video of Aaron' autoplay muted loop>
-					<source src='' />
-				</video>
-				<div className='a1-header' id='member-john-header'>
+				<div className='a1-header' id='member-aaron-header'>
 					<h1>Aaron Drogoszewski</h1>
 				</div>
 			</article>
 			<article className='a2'>
-				<div className='a2-header' id='member-john-header'>
+				<div className='a2-header' id='member-aaron-header'>
 					<h2>
 						There’s only one technology on the planet with a patent to minimize
-						stress without pharmaceuticals.
-					</h2>
-					<h3>That technology is the NuCalm system.</h3>
+						stress without pharmaceuticals. 
+						<br/><br/>
+						That technology is the NuCalm system.</h2>
 				</div>
 			</article>
 			<article className='a3'>
-				<div className='a3-header' id='member-john-header'>
+				<div className='a3-header' id='member-aaron-header'>
 					<p>
 						Stress isn’t a feeling…it’s a cocktail of biochemicals released by
 						our 40-million years evolved “Reptilian Brain”. Independent of
@@ -32,7 +30,7 @@ const MemberAaron = () => {
 						beautifully designed to keep us safe in the face of danger by:
 					</p>
 					<br />
-					<ul>
+					<ul className='aaron-list'>
 						<li>Heightening our senses</li>
 						<li>Increasing heart and respiratory rate</li>
 						<li>
@@ -45,10 +43,6 @@ const MemberAaron = () => {
 							take a back seat for a while
 						</li>
 					</ul>
-				</div>
-			</article>
-			<article className='a4'>
-				<div className='a4-header' id='member-john-header'>
 					<p>
 						Unfortunately, our Reptilian Brain has a 34-million-year head start
 						over our 6 million years evolved “rational brain”, the Frontal and
@@ -56,7 +50,7 @@ const MemberAaron = () => {
 						making us human beings….it fails miserably at deciphering true
 						life-threating danger from:
 					</p>
-					<ul>
+					<ul className='aaron-list'>
 						<li>Financial uncertainty</li>
 						<li>Social unrest</li>
 						<li>
@@ -65,17 +59,18 @@ const MemberAaron = () => {
 						</li>
 						<li>Prolonged bursts of strenuous exercise and more</li>
 					</ul>
-				</div>
-			</article>
-			<article className='a5'>
-				<div className='a1-header' id='member-john-header'>
-					{' '}
 					<p>
 						The reptilian brain wastes no time stepping in for the shortcomings
 						of our “rational” brain in these moments and does what it had been
 						doing for 34 million years prior…fear, stress, and anxiety were once
 						paramount to our survival when confronted with true danger.
 					</p>
+				</div>
+			</article>
+			<article className='a4'>
+				<div className='a4-header' id='member-aaron-header'>
+					{' '}
+					
 					<p>
 						Seeing as you “can’t teach an old dog new tricks”… the portion of
 						our brains with “veteran status” proceeds to then signal the
@@ -99,18 +94,13 @@ const MemberAaron = () => {
 						<li>Proliferation of multiple diseases</li>
 						<li>Premature death</li>
 					</ul>
-				</div>
-			</article>
-			<article className='a6'>
-				<div className='a6-header' id='member-john-header'>
-					{' '}
 					<p>
-						Feelings aren’t facts…and the facts are that stress is the greatest
+						Feelings aren’t facts. The fact is that stress is the greatest
 						disruptor of our performance and quality of life (whether you “feel
 						it” or not). You cannot think or will your way out of a 40-million
 						year physiological response, as it’s too deeply engrained in our
 						history. The only way to quickly, predictably, and effectively
-						disrupt the great disruptor with this much history..is to utilize
+						disrupt the great disruptor with this much history is to utilize
 						the technology of the future, built through 20-years of
 						neuroscientific research.
 					</p>
@@ -119,16 +109,16 @@ const MemberAaron = () => {
 						relaxing and recovering are far from synonymous.
 					</h2>
 				</div>
-			</article>{' '}
-			<article className='a7'>
-				<div className='a7-header' id='member-john-header'>
+			</article>
+			<article className='a5'>
+				<div className='a5-header' id='member-aaron-header'>
 					{' '}
-					<h3>
+					<h2>
 						NuCalm is the world’s only patented system for minimizing stress
 						without pharmaceuticals.
-					</h3>
-					<h4>What NuCalm is NOT:</h4>
-					<ul>
+					</h2>
+					<p>What NuCalm is NOT:</p>
+					<ul className='aaron-list'>
 						<li>A meditation app</li>
 						<li>A Binaural beat app</li>
 						<li>A new company / technology</li>
@@ -138,8 +128,14 @@ const MemberAaron = () => {
 						<li>Effective for some but not others</li>
 						<li>Less effective over time due to adaptation</li>
 					</ul>
-					<h3>What NuCalm IS:</h3>
-					<ul>
+					
+				</div>
+			</article>{' '}
+			<article className='a6'>
+				<div className='a6-header' id='member-aaron-header'>
+					{' '}
+					<p>What NuCalm IS:</p>
+					<ul className='aaron-list'>
 						<li>
 							The creation of a 20-year neuroscience company, designed by
 							neuroscientists, physicists, mathematicians, and naturopaths
@@ -178,35 +174,26 @@ const MemberAaron = () => {
 					</ul>
 				</div>
 			</article>{' '}
-			<article className='a8'>
-				<div className='a8-header' id='member-john-header'>
+			<article className='a7'>
+				<div className='a7-header' id='member-aaron-header'>
 					{' '}
-					<p>There are thousands of options to help you relax.</p>
+					<h2>There are thousands of options to help you relax.</h2>
 					<p>
-						But…If you are looking to recover, minimize stress, improve sleep
+						But if you are looking to recover, minimize stress, improve sleep
 						quality, and optimize performance:
 					</p>
 					<ul>
-						<p>There are no competitors.</p>
-						<p>There’s only one choice.</p>
-						<p>There’s only NuCalm.</p>
-					</ul>
-					<div class='final-anchor-container'>
-						<a href='https://www.nucalm.com/' target='blank' id='final-anchor'>
+						<h2>There are no competitors...</h2>
+						<h2>There’s only one choice...</h2>
+						<h2>There’s only NuCalm.</h2>
+					</ul><br/>
+					
+					<a href='https://www.nucalm.com/' target='blank' className= 'aaron-anchor'>
 							Click here for more information.
-						</a>
-					</div>
+					</a>
+					
 				</div>
 			</article>{' '}
-			<article className='a9'>
-				<div className='a9-header' id='member-john-header'></div>
-			</article>{' '}
-			<article className='a10'>
-				<div className='a10-header' id='member-john-header'></div>
-			</article>{' '}
-			<article className='a11'>
-				<div className='a11-header' id='member-john-header'></div>
-			</article>
 		</main>
 	);
 };

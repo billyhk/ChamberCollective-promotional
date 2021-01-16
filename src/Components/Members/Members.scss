@@ -73,12 +73,19 @@
 .a3-header,
 .a4-header {
 	&#members-header {
-		padding: 0 8%;
+		padding: 20% 10%;
 		h2 {
-			text-align: right;
+			text-align: center;
+			font-size: 3vmin;
 		}
 		p {
-			font-size: 2.5vmin;
+			font-size: 2vmin;
+			text-align: center;
+		}
+		.column-2 {
+			column-count: 2;
+			column-gap: 2.5em;
+			text-align: left;
 		}
 	}
 }

@@ -223,6 +223,7 @@ const MemberJohn = () => {
 			</article>
 		</main>
 	);
+
 };
 
 export default MemberJohn;
