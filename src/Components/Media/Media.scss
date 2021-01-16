@@ -42,7 +42,21 @@
 
 /* FULL PAGE & BACKGROUND IMAGE */
 .media-container {
-	.a1:before,
+	.a1:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Images/media+1.png);
+		opacity: 0.45;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
 	.a2:before {
 		content: '';
 		position: absolute;
@@ -51,8 +65,8 @@
 		bottom: 0px;
 		left: 0px;
 
-		background: url(../../Component-Images/NYC_Skyline.png);
-		opacity: 0.45;
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Members/members+2.png);
+		opacity: 0.3;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
