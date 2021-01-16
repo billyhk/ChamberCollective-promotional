@@ -79,64 +79,60 @@ const Members = () => {
 			<article className='a3'>
 				<div className='a3-header' id='members-header'>
 					<p>
-						What I, personally have been known to say is: <br />
+						I have been known to say: <br />
 						<br />
 						“Fully comprehensive recovery is more than just technology”.
 						<br />
-						<br /> Not only do I still feel this way…but, the longer I’m in the
+						<br /> The longer I’m in the
 						game, the more I realize how crucial it is to expand and deliver on
-						that statement. I don’t only want to help people live their best
-						lives… I want to change the world. The only way I can do so,
+						that statement. I don’t want to only help people live their best
+						life; I want to change the world. The way I can do so
 						requires the subscription to two concepts:
 					</p>
 					<p>
-						1. The understanding that “changing the world” can only be done by
-						changing one person’s world at a time. “The world exists as you
-						perceive it. It is not what you see…..but how you see it. It is not
-						what you hear…but how you hear it. It is not what you feel….but how
-						you feel about it” -Rumi <br /> <br /> *If we have the power to help
+						&emsp;1. The understanding that <i>“changing the world”</i> must be done one person at a time. </p><h2> <i>“The world exists as you
+						perceive it. It is not what you see... but how you see it. It is not
+						what you hear... but how you hear it. It is not what you feel... but how
+						you feel about it”<br/> -Rumi</i></h2>
+						<p> &emsp;*If we have the power to help
 						one person out of the 7,830,458,560 people on this planet today…it’s
 						not only a start, but our responsibility
 					</p>
 					<p>
-						2. The belief that one person’s efforts to do so will never have the
+						&emsp;2. The belief that one person’s efforts to do so will never have the
 						potential for success that a syndicate of passionate human beings
 						working together can accomplish.
 					</p>
 
-					<p>
-						The Chamber is a hub for information, inspiration, community, and
-						networking.
-					</p>
+					
 				</div>
 			</article>
 			<article className='a4'>
 				<div className='a4-header' id='members-header'>
-					<p>
-						The Chamber Syndicate is the collection of carefully, hand-picked
+					<p className='column-2'>
+						The Chamber is a hub for information, inspiration, community, and
+						networking.	The Chamber Syndicate is a collection of hand-picked
 						professionals I have asked to help me utilize everything inside the
-						Chamber to make the world outside of it, one that I’d feel proud to
-						live in. Stress, poor sleep, worry, anxiety, uncertainty, and the
+						Chamber to make the world outside of it one that I’d feel proud to
+						live in. 
+						<br/><br/>
+						Stress, poor sleep, worry, anxiety, uncertainty, and the
 						feelings of disconnection from a positive source of energy, or
 						connection to a community will all negatively impact the world as it
 						was beautifully articulated by Rumi. The word “salvation” is often
 						associated with religious gestures…however, if the dictionary
-						defines it as:
-					</p>
-					<p>“Preservation or deliverance from harm, ruin, or loss”</p>
-					<p>
+						defines it as: “Preservation or deliverance from harm, ruin, or loss”
+						<br/><br/>
 						Isn’t that what the Chamber Syndicate will be doing by helping
 						ourselves, and those around us avoid everything listed above?{' '}
-					</p>
-					<p>
+						<br/><br/>
 						Stress, poor sleep, worry, anxiety and everything else already
 						written will undoubtedly ruin opportunities in the moment, at the
 						very least….If not an entire day. When a moment, or a day are
 						ruined…the opportunity to live the best life is lost. That’s only a
 						single grain of sand lost…but how many grains of sand are in the
 						hourglass of life?
-					</p>
-					<p>
+						<br/><br/>
 						Life is too short to gamble on that answer, as if it was a mason jar
 						filled with Jellybeans, offering a prize to the best guess. Everyone
 						invited to be part of the Chamber Syndicate is a high-performer:
@@ -144,8 +140,7 @@ const Members = () => {
 						them. Sometimes all somebody needs is the right boost, information,
 						inspiration, and guidance to follow the path of the high-performers
 						in their life.
-					</p>
-					<p>
+						<br/><br/>
 						That is why RēCOVER was created. That is what the Chamber provides.
 						That is what the Chamber Syndicate delivers.
 					</p>
