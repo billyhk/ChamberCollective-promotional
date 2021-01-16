@@ -9,9 +9,20 @@ const About = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
+	const aboutVideoUrl =
+		'https://thechambercollective.s3.us-east-2.amazonaws.com/About/Videos/About+video+.mp4';
+
 	return (
 		<main className='about-container'>
 			<article className='a1'>
+				<video
+					className='title-video'
+					alt='Video of Aaron'
+					autoPlay
+					muted
+					loop
+					src={aboutVideoUrl}></video>
+
 				<div className='a1-header' id='about-header'>
 					<h1>About</h1>
 				</div>

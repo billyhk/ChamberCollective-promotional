@@ -70,6 +70,17 @@ html:not([data-scroll='0']) .sidebar-links {
 		font-size: 1.5vmin;
 		width: 15vw;
 	}
+	@media only screen and (max-height: 550px) {
+		a {
+			font-size: 4vmin;
+		}
+	}
+		@media only screen and (max-height: 750px) {
+		a {
+			font-size: 2.5vmin;
+		}
+	}
+
 	a:hover {
 		opacity: 1;
 	}
@@ -114,14 +125,14 @@ html:not([data-scroll='0']) .sidebar-links {
 		opacity: 1;
 	}
 	p {
-		font-size: 10vmin;
+		font-size: 6vmin;
 		padding-bottom: 5%;
 		margin: 0 5%;
 		cursor: pointer;
 	}
 	img {
 		padding-top: 5%;
-		height: 15vmin;
+		height: 10vmin;
 	}
 }
 
@@ -165,7 +176,7 @@ html:not([data-scroll='0']) .sidebar-links {
 		top: 100%;
 		padding: 2.5%;
 		border-bottom-right-radius: 2ch;
-		width: 50vw;
+		width: 50vmin;
 
 		a {
 			text-decoration: none;
@@ -174,10 +185,10 @@ html:not([data-scroll='0']) .sidebar-links {
 			opacity: 0.65;
 			transition: 1s;
 			font-weight: 500;
-			font-size: 5vmin;
+			font-size: 4vmin;
 			letter-spacing: 1vmin;
 			width: 100%;
-			padding: 10% 5% 10% 5%;
+			padding: 5vmin 0;
 		}
 		a:hover {
 			opacity: 1;

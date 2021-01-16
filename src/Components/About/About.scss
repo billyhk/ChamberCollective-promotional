@@ -1,4 +1,27 @@
-.a1,
+.a1 {
+	#about-header {
+		position: absolute;
+		opacity: 1;
+		text-align: center;
+		max-width: 65vw;
+		h1,
+		h2 {
+			font-weight: 200;
+			text-align: center;
+		}
+		h1 {
+			font-size: 8.5vmin;
+		}
+		h2 {
+			font-size: 4vmin;
+		}
+
+		a {
+			text-decoration: none;
+			color: white;
+		}
+	}
+}
 .a2,
 .a3,
 .a4,
@@ -27,8 +50,20 @@
 }
 
 .about-container {
-	.a1:before,
-	.a2:before,
+	.a2:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url();
+		opacity: 0.45;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 	.a3:before {
 		content: '';
 		position: absolute;
@@ -37,7 +72,7 @@
 		bottom: 0px;
 		left: 0px;
 
-		background: url(../../Component-Images/NYC_Skyline.png);
+		background: url();
 		opacity: 0.45;
 		background-position: center;
 		background-repeat: no-repeat;

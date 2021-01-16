@@ -1,0 +1,113 @@
+.member-john-container {
+	.a1:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Members/JohnJoseph/John-Joseph-cred-Ray-Lego.jpg);
+		opacity: 0.65;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	@media only screen and (min-width: 1050px) {
+		.a1:before {
+			background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Members/JohnJoseph/john-joseph-vegan-wellness-guru-01.jpg);
+		}
+	}
+	@media only screen and (max-height: 700px) {
+		.a1:before {
+			background-position: 0 25%;
+		}
+	}
+	.a2:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Members/JohnJoseph/John+Joseph+Profile.png);
+		-webkit-mask-image: linear-gradient(
+			to left,
+			rgba(0, 0, 0, 0.25),
+			rgba(0, 0, 0, 0.5)
+		);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	.a3:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/About/Images/about+gloves+2.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		-webkit-mask-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.25),
+			rgba(0, 0, 0, 0.5)
+		);
+	}
+	.a4:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: linear-gradient(
+			to top,
+			rgba(28, 91, 201, 0.514) 0%,
+			rgba(84, 84, 84, 0.269) 25%
+		);
+	}
+	.a5:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: linear-gradient(
+			to bottom,
+			rgba(28, 91, 201, 0.514) 0%,
+			rgba(84, 84, 84, 0.269) 25%
+		);
+	}
+
+	.a6:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Members/members+2.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		// -webkit-mask-image: linear-gradient(
+		// 	to left,
+		// 	rgba(0,0,0, 0.25),
+		// 	rgba(0, 0, 0, 0.5)
+		// );
+		opacity: 0.35;
+	}
+}
