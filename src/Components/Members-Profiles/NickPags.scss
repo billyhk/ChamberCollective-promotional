@@ -21,16 +21,17 @@
 		}
 		p {
 			text-align: left;
-			font-size: 2vmin;	
-		}.column-1 {
-				column-count: 1;
-				text-align: center;
-			}
-			.column-2 {
-				column-count: 2;
-				text-align: justify;
-				column-gap: 10vw;
-			}
+			font-size: 2vmin;
+		}
+		.column-1 {
+			column-count: 1;
+			text-align: center;
+		}
+		.column-2 {
+			column-count: 2;
+			text-align: justify;
+			column-gap: 10vw;
+		}
 		ul {
 			column-count: 2;
 			column-gap: 10vw;
@@ -39,12 +40,11 @@
 				font-size: 2vmin;
 				padding: 1% 0;
 			}
-			
 		}
 		.nick-list {
-				padding: 0 15%;
-				column-count: 1;
-			}
+			padding: 0 15%;
+			column-count: 1;
+		}
 	}
 }
 
@@ -64,14 +64,41 @@
 	}
 }
 
+.member-nick-container {
+	.a1:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Members/NickPags/Nick+Pags+Profile.png);
+		-webkit-mask-image: linear-gradient(
+			to left,
+			rgba(0, 0, 0, 0.85),
+			rgba(0, 0, 0, 1)
+		);
+		opacity: 0.8;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	@media only screen and (min-width: 1000px) {
+		.a1:before {
+			background-position: 0 15%;
+			background-size: cover;
+		}
+	}
+}
+
 .nick-anchor {
 	text-decoration: none;
-    color: white;
-    font-size: 1.5em;
+	color: white;
+	font-size: 1.5em;
 	font-weight: 500;
-    transition: 1s;
-    text-align: center;
-    
+	transition: 1s;
+	text-align: center;
 }
 .nick-anchor:hover {
 	color: rgb(94, 124, 245);

@@ -1,13 +1,22 @@
 import { useEffect } from 'react';
-import "./Aaron.scss";
+import './Aaron.scss';
 
 const MemberAaron = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
+	const aaronTitleVideoUrl =
+		'https://thechambercollective.s3.us-east-2.amazonaws.com/Members/Aaron/Video/Aaron.mp4';
 	return (
 		<main className='member-aaron-container'>
 			<article className='a1'>
+				<video
+					className='title-video'
+					alt='Video of Aaron'
+					autoPlay
+					muted
+					loop
+					src={aaronTitleVideoUrl}></video>
 				<div className='a1-header' id='member-aaron-header'>
 					<h1>Aaron Drogoszewski</h1>
 				</div>
@@ -16,9 +25,11 @@ const MemberAaron = () => {
 				<div className='a2-header' id='member-aaron-header'>
 					<h2>
 						There’s only one technology on the planet with a patent to minimize
-						stress without pharmaceuticals. 
-						<br/><br/>
-						That technology is the NuCalm system.</h2>
+						stress without pharmaceuticals.
+						<br />
+						<br />
+						That technology is the NuCalm system.
+					</h2>
 				</div>
 			</article>
 			<article className='a3'>
@@ -70,7 +81,6 @@ const MemberAaron = () => {
 			<article className='a4'>
 				<div className='a4-header' id='member-aaron-header'>
 					{' '}
-					
 					<p>
 						Seeing as you “can’t teach an old dog new tricks”… the portion of
 						our brains with “veteran status” proceeds to then signal the
@@ -100,9 +110,9 @@ const MemberAaron = () => {
 						it” or not). You cannot think or will your way out of a 40-million
 						year physiological response, as it’s too deeply engrained in our
 						history. The only way to quickly, predictably, and effectively
-						disrupt the great disruptor with this much history is to utilize
-						the technology of the future, built through 20-years of
-						neuroscientific research.
+						disrupt the great disruptor with this much history is to utilize the
+						technology of the future, built through 20-years of neuroscientific
+						research.
 					</p>
 					<h2>
 						Over 2,000 apps currently exist to help people relax. Unfortunately,
@@ -128,7 +138,6 @@ const MemberAaron = () => {
 						<li>Effective for some but not others</li>
 						<li>Less effective over time due to adaptation</li>
 					</ul>
-					
 				</div>
 			</article>{' '}
 			<article className='a6'>
@@ -186,12 +195,14 @@ const MemberAaron = () => {
 						<h2>There are no competitors...</h2>
 						<h2>There’s only one choice...</h2>
 						<h2>There’s only NuCalm.</h2>
-					</ul><br/>
-					
-					<a href='https://www.nucalm.com/' target='blank' className= 'aaron-anchor'>
+					</ul>
+					<br />
+						<a
+							href='https://www.nucalm.com/'
+							target='blank'
+							className='aaron-anchor'>
 							Click here for more information.
-					</a>
-					
+						</a>
 				</div>
 			</article>{' '}
 		</main>
