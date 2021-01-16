@@ -6,7 +6,7 @@
 .a6 {
 	#member-nick-header {
 		padding: 2% 0;
-		max-width: 85vw;
+		max-width: 65vw;
 		h1,
 		h2 {
 			text-align: center;
@@ -21,7 +21,7 @@
 		}
 		p {
 			text-align: left;
-			font-size: 2vmin;
+			font-size: 3vmin;
 		}
 		.column-1 {
 			column-count: 1;
@@ -89,6 +89,45 @@
 			background-position: 0 15%;
 			background-size: cover;
 		}
+	}
+	@media only screen and (max-height: 1000px) {
+		.a1:before {
+			background-position: 0 15%;
+			background-size: cover;
+		}
+	}
+	.a2:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/About/Images/about+gloves+3.jpg);
+		-webkit-mask-image: linear-gradient(
+			to left,
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.7)
+		);
+		// opacity: 0.3;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.a3:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: linear-gradient(
+			to top,
+			rgba(164, 164, 164, 0.514) 0%,
+			rgba(99, 105, 138, 0.269) 25%
+		);
 	}
 }
 

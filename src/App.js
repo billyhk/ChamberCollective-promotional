@@ -29,7 +29,7 @@ const App = () => {
 				// easing: 'easeOutExpo',
 				scrollSpeed: 850,
 				offset: 0,
-				overflowScroll: false,
+				overflowScroll: true,
 				updateHash: true,
 				touchScroll: true,
 				setHeights: true,
