@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import './MembersProfiles.scss';
 import './JohnJoseph.scss'
 
 const MemberJohn = () => {

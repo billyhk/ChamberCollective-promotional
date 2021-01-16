@@ -7,6 +7,7 @@
 	#member-aaron-header {
 		padding: 2% 0;
 		max-width: 85vw;
+		position: absolute;
 		h1,
 		h2 {
 			text-align: center;
@@ -21,16 +22,17 @@
 		}
 		p {
 			text-align: left;
-			font-size: 2vmin;	
-		}.column-1 {
-				column-count: 1;
-				text-align: center;
-			}
-			.column-2 {
-				column-count: 2;
-				text-align: justify;
-				column-gap: 10vw;
-			}
+			font-size: 2vmin;
+		}
+		.column-1 {
+			column-count: 1;
+			text-align: center;
+		}
+		.column-2 {
+			column-count: 2;
+			text-align: justify;
+			column-gap: 10vw;
+		}
 		ul {
 			column-count: 2;
 			column-gap: 10vw;
@@ -39,17 +41,16 @@
 				font-size: 2vmin;
 				padding: 1% 0;
 			}
-			
 		}
 		.aaron-list {
-				padding: 0 15%;
-				column-count: 1;
-			}
+			padding: 0 15%;
+			column-count: 1;
+		}
 	}
 }
 
 .a3 {
-	&#member-aaron-header {
+	#member-aaron-header {
 		* {
 			text-align: left;
 		}
@@ -64,15 +65,100 @@
 	}
 }
 
+.a7 {
+	#member-aaron-header {
+		padding: 0 4%;
+	}
+}
+
+.member-aaron-container {
+	.a2:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Members/Aaron/Images/Aaron_Profile.png);
+		-webkit-mask-image: linear-gradient(
+			to left,
+			rgba(0, 0, 0, 0.25),
+			rgba(0, 0, 0, 0.75)
+		);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.a3:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Members/Aaron/Images/Aaron_Stairs.png);
+		-webkit-mask-image: linear-gradient(
+			to left,
+			rgba(0, 0, 0, 0.25),
+			rgba(0, 0, 0, 0.75)
+		);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.a4:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: linear-gradient(
+			to top,
+			rgba(164, 164, 164, 0.514) 0%,
+			rgba(84, 84, 84, 0.269) 25%
+		);
+	}
+	.a5:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: linear-gradient(
+			to bottom,
+			rgba(164, 164, 164, 0.514) 0%,
+			rgba(84, 84, 84, 0.269) 25%
+		);
+	}
+	.a6:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+
+		background: linear-gradient(
+			to bottom,
+			rgba(97, 136, 220, 0.514) 0%,
+			rgba(84, 84, 84, 0.269) 25%
+		);
+	}
+}
+
 .aaron-anchor {
 	text-decoration: none;
-    color: white;
-    font-size: 1.5em;
+	color: white;
+	font-size: 1.5em;
 	font-weight: 500;
-    transition: 1s;
-    text-align: center;
-    padding: 20%;
-    
+	transition: 1s;
+	text-align: center;
 }
 .aaron-anchor:hover {
 	color: rgb(94, 124, 245);

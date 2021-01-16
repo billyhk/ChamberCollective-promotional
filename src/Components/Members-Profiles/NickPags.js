@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
-
-import '../Members-Profiles/NickPags.scss'
+import './NickPags.scss'
 
 const MemberNick = () => {
 	useEffect(() => {
