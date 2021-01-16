@@ -26,9 +26,9 @@ body {
 .hidden {
 	display: none;
 }
-
-main {
+// main {
 	article {
+
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -43,7 +43,7 @@ main {
 		width: 100vw;
 		// min-width: 100vw;
 	}
-}
+// }
 
 .break-hidden {
 	display: auto;
