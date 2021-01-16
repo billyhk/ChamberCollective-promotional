@@ -4,7 +4,7 @@
 .a4,
 .a5,
 .a6 {
-	#member-john-header, #member-aaron-header {
+	#member-aaron-header {
 		padding: 2% 0;
 		max-width: 85vw;
 		h1,
@@ -49,7 +49,7 @@
 }
 
 .a3 {
-	&#member-john-header {
+	&#member-aaron-header {
 		* {
 			text-align: left;
 		}
@@ -57,31 +57,23 @@
 }
 
 .a4 {
-	#member-john-header {
+	#member-aaron-header {
 		h1 {
 			font-size: 5vmin;
 		}
 	}
 }
 
-.a5,
-.a6 {
-	#member-john-header {
-		display: grid;
-		place-items: center;
-		grid-gap: 10%;
-		h2 {
-			font-size: 4vmin;
-		}
-	}
-}
-
-.john-anchor {
+.aaron-anchor {
 	text-decoration: none;
-	color: white;
+    color: white;
+    font-size: 1.5em;
 	font-weight: 500;
-	transition: 1s;
+    transition: 1s;
+    text-align: center;
+    padding: 20%;
+    
 }
-.john-anchor:hover {
+.aaron-anchor:hover {
 	color: rgb(94, 124, 245);
 }
