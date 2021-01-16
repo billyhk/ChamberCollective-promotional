@@ -14,13 +14,14 @@ const topTop = () => {
 	window.scrollTo(0, 0);
 };
 
-const Members = () => {
+const Members = ({fullPageKey}) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
 	return (
 		<ReactFullpage
 			scrollingSpeed={1000}
+			licenseKey={fullPageKey}
 			render={({ fullpageApi }) => {
 				return (
 					<main className='members-container'>

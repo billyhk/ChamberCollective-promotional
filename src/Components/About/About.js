@@ -6,7 +6,7 @@ import './About.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
-const About = () => {
+const About = ({ fullPageKey }) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -17,6 +17,7 @@ const About = () => {
 	return (
 		<ReactFullpage
 			scrollingSpeed={1000}
+			licenseKey={fullPageKey}
 			render={({ fullpageApi }) => {
 				return (
 					<main className='about-container'>
@@ -29,7 +30,9 @@ const About = () => {
 										autoPlay
 										muted
 										loop
-										src={aboutVideoUrl}></video>
+										>
+										<source data-src={aboutVideoUrl}/>
+									</video>
 
 									<div className='a1-header' id='about-header'>
 										<h1>About</h1>

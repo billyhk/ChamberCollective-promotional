@@ -3,13 +3,14 @@ import './NickPags.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
-const MemberNick = () => {
+const MemberNick = ({fullPageKey}) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
 	return (
 		<ReactFullpage
 			scrollingSpeed={1000}
+			licenseKey={fullPageKey}
 			render={({ fullpageApi }) => {
 				return (
 					<main className='member-nick-container'>

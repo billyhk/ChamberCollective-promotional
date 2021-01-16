@@ -13,7 +13,7 @@ const toTop = () => {
 const homeVideoUrl =
 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Videos/Home+video+.mp4';
 
-const Home = () => {
+const Home = ({ fullPageKey }) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -21,6 +21,7 @@ const Home = () => {
 	return (
 		<ReactFullpage
 			scrollingSpeed={1000}
+			licenseKey={fullPageKey}
 			render={({ fullpageApi }) => {
 				return (
 					<main className='home-container'>
@@ -32,8 +33,9 @@ const Home = () => {
 										alt='Video of Aaron'
 										autoPlay
 										muted
-										loop
-										src={homeVideoUrl}></video>
+										loop>
+										<source data-src={homeVideoUrl} />
+									</video>
 									<div className='a1-header' id='home-header'>
 										<h1>The Community</h1>
 										<h2>A partnership about growth and recovery</h2>

@@ -6,7 +6,7 @@ import '../Contact-Form/ContactForm.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
-const Services = () => {
+const Services = (fullPageKey) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -14,6 +14,7 @@ const Services = () => {
 	return (
 		<ReactFullpage
 			scrollingSpeed={1000}
+			licenseKey={fullPageKey}
 			render={({ fullpageApi }) => {
 				return (
 					<main className='services-container'>

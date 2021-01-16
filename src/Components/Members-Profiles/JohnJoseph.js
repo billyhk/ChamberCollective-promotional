@@ -3,7 +3,7 @@ import './JohnJoseph.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
-const MemberJohn = () => {
+const MemberJohn = ({ fullPageKey }) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -11,6 +11,7 @@ const MemberJohn = () => {
 	return (
 		<ReactFullpage
 			scrollingSpeed={1000}
+			licenseKey={fullPageKey}
 			render={({ fullpageApi }) => {
 				return (
 					<main className='member-john-container'>

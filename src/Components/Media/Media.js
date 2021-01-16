@@ -13,7 +13,7 @@ import '../Contact-Form/ContactForm.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
-const Media = () => {
+const Media = ({fullPageKey}) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -21,6 +21,7 @@ const Media = () => {
 	return (
 		<ReactFullpage
 			scrollingSpeed={1000}
+			licenseKey={fullPageKey}
 			render={({ fullpageApi }) => {
 				return (
 					<main className='media-container'>

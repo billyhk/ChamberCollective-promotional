@@ -3,7 +3,7 @@ import './Aaron.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
-const MemberAaron = () => {
+const MemberAaron = ({fullPageKey}) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -12,6 +12,7 @@ const MemberAaron = () => {
 	return (
 		<ReactFullpage
 			scrollingSpeed={1000}
+			licenseKey={fullPageKey}
 			render={({ fullpageApi }) => {
 				return (
 					<main className='member-aaron-container'>

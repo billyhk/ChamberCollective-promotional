@@ -6,14 +6,17 @@ import '../Contact-Form/ContactForm.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
-const Contact = () => {
+const contactVideoUrl =
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/contact+video.mp4';
+
+const Contact = ({ fullPageKey }) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
-
 	return (
 		<ReactFullpage
 			scrollingSpeed={1000}
+			licenseKey={fullPageKey}
 			render={({ fullpageApi }) => {
 				return (
 					<main className='contact-container'>
@@ -25,8 +28,9 @@ const Contact = () => {
 										alt='Contact Video'
 										autoPlay
 										muted
-										loop
-										src='https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/contact+video.mp4'></video>
+										loop>
+										<source data-src={contactVideoUrl} />
+									</video>
 									<div className='a1-header' id='contact-header'>
 										<h1>Connect with the Chamber</h1>
 									</div>
