@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import './Media.scss';
+import './Media.scss'
 import NYT_Logo from '../../Component-Images/NYT_Logo.png';
 import FastCo_Logo from '../../Component-Images/FastCo_Logo.png';
 import GMA_Logo from '../../Component-Images/GMA_Logo.png';
@@ -17,7 +17,7 @@ const Media = () => {
 	}, []);
 
 	return (
-		<main className='home-container'>
+		<main className='media-container'>
 			<article className='a1'>
 				<div className='a1-header' id='media-header'>
 					<h1>The Cache</h1>

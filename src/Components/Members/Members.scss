@@ -37,7 +37,7 @@
 		place-items: center;
 		grid-template-columns: repeat(auto-fit, minmax(15px, 2fr));
 		grid-gap: 2rem;
-
+		list-style: none;
 		padding: 4% 2%;
 
 		li {
@@ -89,7 +89,7 @@
 		}
 	}
 }
-/* BACKGROUND IMAGE & SLIDE 1 */
+/* BACKGROUND IMAGE */
 .members-container {
 	.a1:before {
 		content: '';
@@ -98,9 +98,51 @@
 		right: 0px;
 		bottom: 0px;
 		left: 0px;
+	
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/About/Images/about+gloves+2.jpg);
+		opacity: .9;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.a2:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
 
-		background: url(../../Component-Images/NYC_Skyline.png);
-		opacity: 0.45;
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Members/members+2.png);
+		opacity: 0.1;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.a3:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+	
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Members/members+2.png);
+		opacity: 0.1;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.a4:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+	
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Members/members+2.png);
+		opacity: 0.1;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;

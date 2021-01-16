@@ -21,7 +21,15 @@ const Contact = () => {
 	return (
 		<main className='contact-container'>
 			<article className='a1'>
+				<video
+					className='title-video'
+					alt='Contact Video'
+					autoPlay
+					muted
+					loop
+					src='https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/contact+video.mp4'></video>
 				<div className='a1-header' id='contact-header'>
+				
 					<h1>Connect with the Chamber</h1>
 				</div>
 			</article>
