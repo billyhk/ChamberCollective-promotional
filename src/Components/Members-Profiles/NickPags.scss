@@ -1,0 +1,78 @@
+.a1,
+.a2,
+.a3,
+.a4,
+.a5,
+.a6 {
+	#member-nick-header {
+		padding: 2% 0;
+		max-width: 85vw;
+		h1,
+		h2 {
+			text-align: center;
+			font-weight: 200;
+		}
+		h1 {
+			letter-spacing: 0;
+			font-size: 6.5vmin;
+		}
+		h2 {
+			font-size: 3.5vmin;
+		}
+		p {
+			text-align: left;
+			font-size: 2vmin;	
+		}.column-1 {
+				column-count: 1;
+				text-align: center;
+			}
+			.column-2 {
+				column-count: 2;
+				text-align: justify;
+				column-gap: 10vw;
+			}
+		ul {
+			column-count: 2;
+			column-gap: 10vw;
+			text-align: left;
+			li {
+				font-size: 2vmin;
+				padding: 1% 0;
+			}
+			
+		}
+		.nick-list {
+				padding: 0 15%;
+				column-count: 1;
+			}
+	}
+}
+
+.a3 {
+	&#member-nick-header {
+		* {
+			text-align: left;
+		}
+	}
+}
+
+.a4 {
+	#member-nick-header {
+		h1 {
+			font-size: 5vmin;
+		}
+	}
+}
+
+.nick-anchor {
+	text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+	font-weight: 500;
+    transition: 1s;
+    text-align: center;
+    
+}
+.nick-anchor:hover {
+	color: rgb(94, 124, 245);
+}
