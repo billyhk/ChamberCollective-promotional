@@ -101,13 +101,13 @@
 		opacity: 1;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 	}
-	@media only screen and (max-height: 750px) {
-		.a1:before {
-			background-position: 0 15%;
-		}
-	}
+	// @media only screen and (max-height: 750px) {
+	// 	.a1:before {
+	// 		background-position: 0 15%;
+	// 	}
+	// }
 	.a5:before {
 		content: '';
 		position: absolute;
