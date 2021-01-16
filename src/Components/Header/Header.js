@@ -50,7 +50,7 @@ const Header = () => {
 				<p className='hamburger-icon' onClick={toggleSide}>
 					&#9776;
 				</p>
-				<Link to='/'>
+				<Link to='/' onClick={toTop}>
 					<img
 						src='https://thechambercollective.s3.us-east-2.amazonaws.com/Logos/The+Chamber+Logo+01152021.png'
 						alt='nucalm-logo'
