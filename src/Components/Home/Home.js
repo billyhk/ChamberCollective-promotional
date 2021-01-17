@@ -47,9 +47,9 @@ const Home = ({ fullPageKey }) => {
 										<h1>The Community</h1>
 										<h2>A partnership about growth and recovery</h2>
 									</div> */}
-									<p className='scroll-down-text'>
+									{/* <p className='scroll-down-text'>
 										&#x21e3; Scroll Down &#x21e3;
-									</p>
+									</p> */}
 								</article>
 							</div>
 							<div className='section'>
