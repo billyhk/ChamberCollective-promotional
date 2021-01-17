@@ -87,7 +87,7 @@ html:not([data-scroll='0']) .sidebar-links {
 }
 .nav-to-top {
 	color: white;
-	position: fixed;
+	position: absolute;
 	bottom: 5vmin;
 	left: 5vmin;
 	z-index: 200;
