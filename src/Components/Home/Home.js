@@ -14,8 +14,8 @@ const homeVideoUrl =
 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Videos/Home+video+.mp4';
 const aboutVideoUrl =
 	'https://thechambercollective.s3.us-east-2.amazonaws.com/About/Videos/About+video+.mp4';
-	const mediaVideoUrl =
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4';
+const mediaVideoUrl =
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4';
 
 const contactVideoUrl =
 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/contact+video.mp4';
@@ -47,6 +47,9 @@ const Home = ({ fullPageKey }) => {
 										<h1>The Community</h1>
 										<h2>A partnership about growth and recovery</h2>
 									</div> */}
+									<p className='scroll-down-text'>
+										&#x21e3; Scroll Down &#x21e3;
+									</p>
 								</article>
 							</div>
 							<div className='section'>
@@ -112,7 +115,7 @@ const Home = ({ fullPageKey }) => {
 										style={{ opacity: '0.6' }}>
 										<source data-src={mediaVideoUrl} />
 									</video>
-									
+
 									<div className='a4-header' id='home-header'>
 										<Link to='/media' onClick={toTop}>
 											<h1>The Cache</h1>

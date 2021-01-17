@@ -18,6 +18,17 @@
 	}
 }
 
+.scroll-down-text {
+	position: absolute;
+	bottom: 0;
+	color: rgb(110, 117, 131);
+	font-size: 3vmin;
+	padding: .5%;
+	background: black;
+	border-radius: 1ch;
+	letter-spacing: .25vmin;
+}
+
 /* SLIDES 2 THRU 5  */
 .a2,
 .a3,
