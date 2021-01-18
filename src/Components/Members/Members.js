@@ -44,8 +44,8 @@ const Members = ({fullPageKey}) => {
 									</video>
 
 									<div className='a1-header' id='members-header'>
-										<h1>The Members</h1>
-										<h2>A partnership about growth and recovery</h2>
+										<h1>The Collective</h1>
+										<h2>A partnership paving the pursuit towards excellence</h2>
 									</div>
 								</article>
 							</div>

@@ -73,9 +73,11 @@ const Home = ({ fullPageKey }) => {
 										<Link to='/about' onClick={toTop}>
 											<h1>About</h1>
 											<h2>
-												To bring together high-performing individuals who will
-												make a positive impact on the world through personal
-												discovery and growth.
+												Aaron Drogoszewski, co-founder of RēCOVER and his
+												network of high- performing friends, have come together
+												to collectively make a positive impact on the world by
+												sharing their gifts of knowledge, passion, and service
+												to all who aspire to level up in life, work, and play.
 											</h2>
 										</Link>
 									</div>
@@ -101,9 +103,15 @@ const Home = ({ fullPageKey }) => {
 										<Link to='/members' onClick={toTop}>
 											<h1>Members</h1>
 											<h2>
-												We're a collective of individuals, athletes, sons,
-												daughters, hi-performers, entrepreneurs, moms, dads,
-												musicians.
+												We’re a collective of individuals who wear many hats in
+												life, yet we all share one foundational truth.
+											</h2>
+											<h2>
+												If “Home is where you hang your hat”…
+												<br />{' '}
+												<strong>
+													Our “home” is the pursuit of excellence.
+												</strong>
 											</h2>
 										</Link>
 									</div>
@@ -127,7 +135,10 @@ const Home = ({ fullPageKey }) => {
 										<Link to='/media' onClick={toTop}>
 											<h1>The Cache</h1>
 											<h2>
-												The latest media on what our members have been up to.
+												“I cannot teach anybody anything. I can only make them
+												think.”
+												<br />
+												― Socrates
 											</h2>
 										</Link>
 									</div>

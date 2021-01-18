@@ -235,10 +235,17 @@ const MemberAaron = ({ fullPageKey }) => {
 										</ul>
 										<br />
 										<a
-											href='https://www.nucalm.com/'
-											target='blank'
-											className='aaron-anchor'>
-											Click here for more information.
+											className='aaron-anchor'
+											href='https://nucalm.com/'
+											target='blank'>
+											Click here to learn more about NuCalm
+										</a>{' '}
+										<br />
+										<a
+											className='aaron-anchor'
+											href='https://nucalm.com/store/'
+											target='blank'>
+											Proceed to the NuCalm Shop
 										</a>
 									</div>
 								</article>

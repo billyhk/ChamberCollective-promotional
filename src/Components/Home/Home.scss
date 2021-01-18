@@ -23,10 +23,10 @@
 	bottom: 0;
 	color: rgb(110, 117, 131);
 	font-size: 3vmin;
-	padding: .5%;
+	padding: 0.5%;
 	background: black;
 	border-radius: 1ch;
-	letter-spacing: .25vmin;
+	letter-spacing: 0.25vmin;
 }
 
 /* SLIDES 2 THRU 5  */
@@ -38,7 +38,7 @@
 		opacity: 0.5;
 		transition: 1s;
 		padding: 2%;
-		max-width: 70vw;
+		max-width: 90vw;
 		position: absolute;
 		h1,
 		h2 {
@@ -82,11 +82,6 @@
 }
 /* FULL PAGE & BACKGROUND IMAGE */
 .home-container {
-	.a4 {
-		:nth-child(2) {
-			position: absolute;
-		}
-	}
 	.a-contact {
 		:nth-child(2) {
 			position: absolute;

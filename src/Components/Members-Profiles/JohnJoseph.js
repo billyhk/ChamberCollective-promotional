@@ -254,9 +254,22 @@ const MemberJohn = ({ fullPageKey }) => {
 										</ul>
 										<p className='column-1'>
 											NuCalm is the ONLY system in the world that can legally
-											say it can create balance where it’s needed
-										</p>
+											say it can create balance where it’s needed...
 										<h2>no matter who you are, or what you do.</h2>
+										</p>
+										<a
+											className='john-anchor'
+											href='https://nucalm.com/'
+											target='blank'>
+											Click here to learn more about NuCalm
+										</a>{' '}
+										<br />
+										<a
+											className='john-anchor'
+											href='https://nucalm.com/store/'
+											target='blank'>
+											Proceed to the NuCalm Shop
+										</a>
 									</div>
 								</article>
 							</div>

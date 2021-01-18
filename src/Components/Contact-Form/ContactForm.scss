@@ -34,12 +34,32 @@
 			.contact-form-input-container > * {
 				background: transparent;
 				border: none;
-				color: white;
 				outline: none;
 				height: 30px;
 				text-align: left;
-				padding: 1%;
 				border-bottom: 2px solid white;
+				font-weight: 500;
+				margin: 2vmin;
+			}
+			::-webkit-input-placeholder {
+				/* Chrome/Opera/Safari */
+				color: white;
+				font-weight: 800;
+			}
+			::-moz-placeholder {
+				/* Firefox 19+ */
+				color: white;
+				font-weight: 800;
+			}
+			:-ms-input-placeholder {
+				/* IE 10+ */
+				color: white;
+				font-weight: 800;
+			}
+			:-moz-placeholder {
+				/* Firefox 18- */
+				color: white;
+				font-weight: 800;
 			}
 		}
 		.checkbox-container {
@@ -53,15 +73,14 @@
 			place-items: center;
 		}
 		.submit-button {
-			// margin: 2%;
-			background-color: rgba(0, 0, 0, 0);
+			background: transparent;
 			color: white;
-			height: 4vmin;
 			font-size: 3vmin;
-			border: 3px solid white;
+			border: 2.5px solid white;
 			border-radius: 1ch;
-			padding: 1% 2%;
+			padding: 2% 4%;
 			height: 100%;
+			// width: 100%;
 			transition: 1s;
 		}
 

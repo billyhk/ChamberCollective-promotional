@@ -39,6 +39,7 @@ const ContactForm = ({
 					*/
 				/>
 			</div>
+			{/*
 			<div className='checkbox-container'>
 				<label htmlFor='newsletter'>
 					Check this box to opt-in for our latest news and events.
@@ -47,14 +48,15 @@ const ContactForm = ({
 					id='newsletter'
 					type='checkbox'
 					name='newsletter'
-					/*
+					
 					onChange={(e) => {
 						setChecked(e.target.checked);
 						handleChange(e);
 					}}
-					*/
+					
 				/>
 			</div>
+				*/}
 			<div className='button-container'>
 				<input type='submit' className='submit-button' value='Learn More' />
 			</div>

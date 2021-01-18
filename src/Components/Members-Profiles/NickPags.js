@@ -3,7 +3,7 @@ import './NickPags.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
-const MemberNick = ({fullPageKey}) => {
+const MemberNick = ({ fullPageKey }) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -35,6 +35,8 @@ const MemberNick = ({fullPageKey}) => {
 											Ambassador. While serving as a top contributor to the
 											fitness industry, he is also laser focused on the
 											community around him where he aims to inspire and educate.
+										</p>
+										<p>
 											Nick has been working in the fitness industry for over 10
 											years. As a certified Behavioral Change Specialist and
 											Weight Management Specialist, Nick’s training is
@@ -58,11 +60,14 @@ const MemberNick = ({fullPageKey}) => {
 											businesses over the last 2 years. He created his podcast
 											“LESSGOO” in March of 2019, with a mission of educating,
 											motivating, and inspiring individuals to create dynamic
-											change in their lives. Nick’s signature 8-week mindset
-											coaching program, Project Limitless, kicks off another
-											cohort in mid February. You can go to the link in his
-											Instagram bio to apply.
+											change in their lives.
 										</p>
+										<p>
+											Nick’s signature 8-week mindset coaching program, Project
+											Limitless, kicks off another cohort in mid February. You
+											can go to the link in his Instagram bio to apply.
+										</p>
+										<br />
 										<a
 											className='nick-anchor'
 											href='https://nucalm.com/'

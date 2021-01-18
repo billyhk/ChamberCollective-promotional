@@ -128,11 +128,16 @@
 		bottom: 0px;
 		left: 0px;
 
-		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Members/members+2.png);
-		opacity: 0.2;
+		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Members/new+chamber+darker.png);
+		opacity: 0.75;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
+	}
+	@media only screen and (max-height: 850px) {
+		.a3:before {
+			background-position: 0 35%;
+		}
 	}
 	.a4:before {
 		content: '';
@@ -143,7 +148,7 @@
 		left: 0px;
 
 		background: url(https://thechambercollective.s3.us-east-2.amazonaws.com/Members/members+2.png);
-		opacity: 0.1;
+		opacity: 0.35;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
