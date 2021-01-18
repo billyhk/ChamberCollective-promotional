@@ -25,7 +25,8 @@ const Contact = ({ fullPageKey }) => {
 								<article className='a1'>
 									<video
 										className='title-video'
-										alt='Contact Video'
+										alt='contact video'
+										controls
 										autoPlay
 										muted
 										loop>

@@ -12,6 +12,8 @@ const toTop = () => {
 };
 const homeVideoUrl =
 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Videos/Home+video+.mp4';
+const homeVideoUrl2 =
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Videos/Home+page+hero.mp4';
 const aboutVideoUrl =
 	'https://thechambercollective.s3.us-east-2.amazonaws.com/About/Videos/About+video+.mp4';
 const mediaVideoUrl =
@@ -35,14 +37,15 @@ const Home = ({ fullPageKey }) => {
 						<ReactFullpage.Wrapper>
 							<div className='section'>
 								<article className='a1' id='opening-panel'>
-									{/* <video
+									<video
 										className='title-video'
 										alt='Video of Aaron'
+										controls
 										autoPlay
 										muted
 										loop>
-										<source data-src={homeVideoUrl} />
-									</video> */}
+										<source data-src={homeVideoUrl2} />
+									</video>
 									{/* <div className='a1-header' id='home-header'>
 										<h1>The Community</h1>
 										<h2>A partnership about growth and recovery</h2>
@@ -57,7 +60,8 @@ const Home = ({ fullPageKey }) => {
 									{' '}
 									<video
 										className='title-video'
-										alt='Video of Aaron'
+										alt='about nucalm'
+										controls
 										autoPlay
 										muted
 										loop>
@@ -108,7 +112,8 @@ const Home = ({ fullPageKey }) => {
 								<article className='a4'>
 									<video
 										className='title-video'
-										alt='Video of Aaron'
+										alt='media video'
+										controls
 										autoPlay
 										muted
 										loop
@@ -144,7 +149,8 @@ const Home = ({ fullPageKey }) => {
 									{' '}
 									<video
 										className='title-video'
-										alt='Video of Aaron'
+										alt='contact video'
+										controls
 										autoPlay
 										muted
 										loop>
