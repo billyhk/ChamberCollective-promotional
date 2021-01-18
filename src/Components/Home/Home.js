@@ -42,7 +42,7 @@ const Home = ({ fullPageKey }) => {
 									<video
 										className='title-video'
 										alt='Video of Aaron'
-										controls
+										// controls
 										autoPlay
 										muted
 										loop>
@@ -63,7 +63,7 @@ const Home = ({ fullPageKey }) => {
 									<video
 										className='title-video'
 										alt='about nucalm'
-										controls
+										// controls
 										autoPlay
 										muted
 										loop>
@@ -123,7 +123,7 @@ const Home = ({ fullPageKey }) => {
 									<video
 										className='title-video'
 										alt='media video'
-										controls
+										// controls
 										autoPlay
 										muted
 										loop
@@ -137,9 +137,8 @@ const Home = ({ fullPageKey }) => {
 											<h2>
 												“I cannot teach anybody anything. I can only make them
 												think.”
-												<br />
-												― Socrates
 											</h2>
+											<h2>― Socrates</h2>
 										</Link>
 									</div>
 								</article>
@@ -163,7 +162,7 @@ const Home = ({ fullPageKey }) => {
 									<video
 										className='title-video'
 										alt='contact video'
-										controls
+										// controls
 										autoPlay
 										muted
 										loop>

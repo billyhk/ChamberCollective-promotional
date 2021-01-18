@@ -36,7 +36,7 @@ const Media = ({ fullPageKey }) => {
 									<video
 										className='title-video'
 										alt='media video'
-										controls
+										// controls
 										autoPlay
 										muted
 										loop

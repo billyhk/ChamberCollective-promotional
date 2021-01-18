@@ -27,7 +27,7 @@ const About = ({ fullPageKey }) => {
 									<video
 										className='title-video'
 										alt='about nucalm'
-										controls
+										// controls
 										autoPlay
 										muted
 										loop
