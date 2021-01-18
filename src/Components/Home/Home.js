@@ -18,6 +18,8 @@ const aboutVideoUrl =
 	'https://thechambercollective.s3.us-east-2.amazonaws.com/About/Videos/About+video+.mp4';
 const mediaVideoUrl =
 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4';
+const mediaVideoUrl2 =
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+XYZ.mp4';
 
 const contactVideoUrl =
 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/contact+video.mp4';
@@ -118,7 +120,7 @@ const Home = ({ fullPageKey }) => {
 										muted
 										loop
 										style={{ opacity: '0.6' }}>
-										<source data-src={mediaVideoUrl} />
+										<source data-src={mediaVideoUrl2} />
 									</video>
 
 									<div className='a4-header' id='home-header'>

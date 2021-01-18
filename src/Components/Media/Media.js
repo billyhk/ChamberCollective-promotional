@@ -15,6 +15,8 @@ import ReactFullpage from '@fullpage/react-fullpage';
 
 const mediaVideoUrl =
 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4';
+const mediaVideoUrl2 =
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+XYZ.mp4';
 
 const Media = ({ fullPageKey }) => {
 	useEffect(() => {
@@ -39,7 +41,7 @@ const Media = ({ fullPageKey }) => {
 										muted
 										loop
 										style={{ opacity: '0.6' }}>
-										<source data-src={mediaVideoUrl} />
+										<source data-src={mediaVideoUrl2} />
 									</video>
 									<div className='a1-header' id='media-header'>
 										<h1>The Cache</h1>
