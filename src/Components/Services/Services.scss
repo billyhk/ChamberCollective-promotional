@@ -113,6 +113,11 @@
 			background-position: 0 35%;
 		}
 	}
+		@media only screen and (min-width: 1200px) {
+		.a3:before {
+			background-position: 0 35%;
+		}
+	}
 	.a-contact:before {
 		content: '';
 		position: absolute;
