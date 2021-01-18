@@ -1,5 +1,5 @@
 $header-base-color: rgba(0, 0, 0, 0);
-$header-animation-color: rgb(63, 98, 159);
+$header-animation-color: rgb(72, 115, 187);
 
 //  --------------------------------------- //
 // ------- STICKY HEADER Animation ------- //
@@ -112,6 +112,7 @@ html:not([data-scroll='0']) .sidebar-links {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+	position: relative;
 
 	margin-left: 1%;
 
@@ -151,6 +152,7 @@ html:not([data-scroll='0']) .sidebar-links {
 
 .side-nav {
 	display: none;
+	// top: 100%;
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -166,17 +168,19 @@ html:not([data-scroll='0']) .sidebar-links {
 	div {
 		// background: $header-base-color;
 
-		background: rgb(167, 178, 222);
+		// background: rgb(167, 178, 222);
+		background: rgb(69, 50, 196);
 
 		transition: 1s;
 
 		display: grid;
-		text-align: left;
+		text-align: center;
 		position: absolute;
-		top: 100%;
-		padding: 2.5%;
-		border-bottom-right-radius: 2ch;
+		padding: 10vh 2.5%;
+		// padding: 2.5%;
+		// border-bottom-right-radius: 2ch;
 		width: 50vmin;
+		height: 80vh;
 
 		a {
 			text-decoration: none;
@@ -200,6 +204,11 @@ html:not([data-scroll='0']) .sidebar-links {
 	.hamburger-icon,
 	.side-nav {
 		display: unset;
+	}
+	.header-logo {
+		position: absolute;
+		left: 80vw;
+		top: 10%;
 	}
 	.header-right {
 		display: none;

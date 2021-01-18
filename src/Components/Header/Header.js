@@ -48,7 +48,7 @@ const Header = () => {
 		<header className='header-container'>
 			<div className='header-left'>
 				<p className='hamburger-icon' onClick={toggleSide}>
-					&#9776;
+					{!open ? '☰' : '×'}
 				</p>
 				<Link to='/' onClick={toTop}>
 					<img
