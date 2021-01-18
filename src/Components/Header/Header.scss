@@ -206,9 +206,9 @@ html:not([data-scroll='0']) .sidebar-links {
 		display: unset;
 	}
 	.header-logo {
-		position: absolute;
+		position: fixed;
 		left: 80vw;
-		top: 10%;
+		top: -2%;
 	}
 	.header-right {
 		display: none;
