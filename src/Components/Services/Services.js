@@ -68,6 +68,12 @@ const Services = (fullPageKey) => {
 											<br /> Other than how to get it to your team sooner than
 											later.
 										</h2>
+										<a
+											className='nick-anchor'
+											href='https://nucalm.com/store/'
+											target='blank'>
+											Proceed to the NuCalm Shop
+										</a>
 									</div>
 								</article>
 							</div>
