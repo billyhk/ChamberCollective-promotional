@@ -60,7 +60,7 @@ const Members = ({ fullPageKey }) => {
 												<li>
 													<Link to='/members/aaron' onClick={topTop}>
 														<img
-															src='https://thechambercollective.s3.us-east-2.amazonaws.com/Members/Aaron/Images/Aaron_Profile.png'
+															src='https://d1amesytz4ny5q.cloudfront.net/fit-in/800x600/Members/Aaron/Images/Aaron_Profile.png'
 															alt='aaron-profile'
 															className='profile-img'
 														/>
@@ -73,7 +73,7 @@ const Members = ({ fullPageKey }) => {
 												<li>
 													<Link to='/members/john' onClick={topTop}>
 														<img
-															src='https://thechambercollective.s3.us-east-2.amazonaws.com/Members/JohnJoseph/John+Joseph+Profile.png'
+															src='https://d1amesytz4ny5q.cloudfront.net/fit-in/800x600/Members/JohnJoseph/John%20Joseph%20Profile.png'
 															alt='john-profile'
 															className='profile-img'
 														/>
@@ -87,7 +87,7 @@ const Members = ({ fullPageKey }) => {
 												<li>
 													<Link to='/members/nick' onClick={topTop}>
 														<img
-															src='https://thechambercollective.s3.us-east-2.amazonaws.com/Members/NickPags/Nick+Pags+Profile.png'
+															src='https://d1amesytz4ny5q.cloudfront.net/fit-in/800x600/Members/NickPags/Nick%20Pags%20Profile.png'
 															alt='nick-profile'
 															className='profile-img'
 														/>

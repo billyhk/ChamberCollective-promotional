@@ -80,15 +80,15 @@ const Home = ({ fullPageKey }) => {
 								<article className='a3'>
 									<div className='three-images-background'>
 										<img
-											data-src='https://thechambercollective.s3.us-east-2.amazonaws.com/Members/Aaron/Images/Aaron_Profile.png'
+											data-src='https://d1amesytz4ny5q.cloudfront.net/fit-in/800x600/Members/Aaron/Images/Aaron_Profile.png'
 											alt='aaron'
 										/>
 										<img
-											data-src='https://thechambercollective.s3.us-east-2.amazonaws.com/Members/JohnJoseph/John+Joseph+Profile.png'
+											data-src='https://d1amesytz4ny5q.cloudfront.net/fit-in/800x600/Members/JohnJoseph/John%20Joseph%20Profile.png'
 											alt='john'
 										/>
 										<img
-											data-src='https://thechambercollective.s3.us-east-2.amazonaws.com/Members/NickPags/Nick+Pags+Profile.png'
+											data-src='https://d1amesytz4ny5q.cloudfront.net/fit-in/800x600/Members/NickPags/Nick%20Pags%20Profile.png'
 											alt='nick'
 										/>
 									</div>
