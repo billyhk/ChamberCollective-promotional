@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import './App.scss';
@@ -20,6 +20,7 @@ import MemberNick from './Components/Members-Profiles/NickPags';
 const fullPageKey = process.env.REACT_APP_FULLPAGE_KEY;
 
 const App = () => {
+	// console.log(videos)
 	return (
 		<div className='app-container'>
 			<Route
@@ -30,7 +31,12 @@ const App = () => {
 			/>
 			<main>
 				<Switch>
-					<Route exact path='/' component={Home} fullPageKey={fullPageKey} />
+					<Route
+						exact
+						path='/'
+						component={Home}
+						fullPageKey={fullPageKey}
+					/>
 					<Route
 						exact
 						path='/about'
@@ -54,6 +60,7 @@ const App = () => {
 						path='/contact'
 						component={Contact}
 						fullPageKey={fullPageKey}
+						
 					/>
 					<Route
 						exact
@@ -66,6 +73,7 @@ const App = () => {
 						path='/members/aaron'
 						component={MemberAaron}
 						fullPageKey={fullPageKey}
+						
 					/>
 					<Route
 						exact

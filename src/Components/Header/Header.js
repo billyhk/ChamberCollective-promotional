@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Header.scss';
 import { Link } from 'react-router-dom';
-import logo from '../../Component-Images/NuCalm_Logo.png';
 
 const Header = () => {
 	/*
@@ -34,14 +33,6 @@ const Header = () => {
 
 	const toTop = () => {
 		window.scrollTo(0, 0);
-	};
-
-	const toTopSmooth = () => {
-		window.scrollTo({
-			top: 100,
-			left: 100,
-			behavior: 'smooth',
-		});
 	};
 
 	return (

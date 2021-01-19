@@ -10,14 +10,11 @@ import '../Contact-Form/ContactForm.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
+import { videos } from '../../videoData';
+
 const topTop = () => {
 	window.scrollTo(0, 0);
 };
-
-// const mediaVideoUrl =
-// 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4';
-const mediaVideoUrl =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/media+2X-720.mov';
 
 const Members = ({ fullPageKey }) => {
 	useEffect(() => {
@@ -41,7 +38,7 @@ const Members = ({ fullPageKey }) => {
 										muted
 										loop
 										style={{ opacity: '0.6' }}>
-										<source data-src={mediaVideoUrl} />
+										<source data-src={videos.mediaVideoUrl720} />
 									</video>
 
 									<div className='a1-header' id='members-header'>

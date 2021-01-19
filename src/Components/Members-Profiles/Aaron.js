@@ -3,12 +3,14 @@ import './Aaron.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
+import { videos } from '../../videoData';
+
+
 const MemberAaron = ({ fullPageKey }) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
-	const aaronTitleVideoUrl =
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/Members/Aaron/Video/Aaron.mp4';
+
 	return (
 		<ReactFullpage
 			scrollingSpeed={1000}
@@ -25,7 +27,7 @@ const MemberAaron = ({ fullPageKey }) => {
 										autoPlay
 										muted
 										loop>
-										<source data-src={aaronTitleVideoUrl} />
+										<source data-src={videos.aaronTitleVideoUrl} />
 									</video>
 									<div className='a1-header' id='member-aaron-header'>
 										<h1>Aaron Drogoszewski</h1>

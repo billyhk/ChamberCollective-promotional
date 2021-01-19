@@ -7,37 +7,17 @@ import '../Contact-Form/ContactForm.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
+import { videos } from '../../videoData';
+
 const toTop = () => {
 	window.scrollTo(0, 0);
 };
-const homeVideoUrl =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Videos/Home+video+.mp4';
-const homeVideoUrl2 =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Videos/Home+page+hero.mp4';
-// const aboutVideoUrl =
-// 	'https://thechambercollective.s3.us-east-2.amazonaws.com/About/Videos/About+video+.mp4';
-const aboutVideoUrl =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/About+video+-720.mov';
-// const mediaVideoUrl =
-// 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4';
-
-// const mediaVideoUrl2 =
-// 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+XYZ.mp4';
-
-const mediaVideoUrl2 =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/media%2BXYZ-720.mov';
-
-// const contactVideoUrl =
-// 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/contact+video.mp4';
-
-const contactVideoUrl =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/contact+video-720.mov';
 
 const Home = ({ fullPageKey }) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
-
+	console.log(videos);
 	return (
 		<ReactFullpage
 			scrollingSpeed={1000}
@@ -55,7 +35,7 @@ const Home = ({ fullPageKey }) => {
 										autoPlay
 										muted
 										loop>
-										<source data-src={homeVideoUrl2} />
+										<source data-src={videos.homeVideoUrl2} />
 									</video>
 									{/* <div className='a1-header' id='home-header'>
 										<h1>The Community</h1>
@@ -76,7 +56,7 @@ const Home = ({ fullPageKey }) => {
 										autoPlay
 										muted
 										loop>
-										<source data-src={aboutVideoUrl} />
+										<source data-src={videos.aboutVideoUrl720} />
 									</video>
 									<div className='a2-header' id='home-header'>
 										<Link to='/about' onClick={toTop}>
@@ -137,7 +117,7 @@ const Home = ({ fullPageKey }) => {
 										muted
 										loop
 										style={{ opacity: '0.6' }}>
-										<source data-src={mediaVideoUrl2} />
+										<source data-src={videos.mediaVideoUrl2720} />
 									</video>
 
 									<div className='a4-header' id='home-header'>
@@ -175,7 +155,7 @@ const Home = ({ fullPageKey }) => {
 										autoPlay
 										muted
 										loop>
-										<source data-src={contactVideoUrl} />
+										<source data-src={videos.contactVideoUrl720} />
 									</video>
 									<ContactForm />
 								</article>

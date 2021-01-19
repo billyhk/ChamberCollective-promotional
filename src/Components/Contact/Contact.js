@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import './Contact.scss';
 
 import ContactForm from '../Contact-Form/Contact';
@@ -6,9 +6,7 @@ import '../Contact-Form/ContactForm.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
-// const contactVideoUrl =	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/contact+video.mp4';
-const contactVideoUrl =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/contact+video-720.mov';
+import { videos } from '../../videoData';
 
 const Contact = ({ fullPageKey }) => {
 	useEffect(() => {
@@ -31,7 +29,7 @@ const Contact = ({ fullPageKey }) => {
 										autoPlay
 										muted
 										loop>
-										<source data-src={contactVideoUrl} />
+										<source data-src={videos.contactVideoUrl720} />
 									</video>
 									<div className='a1-header' id='contact-header'>
 										<h1>Connect with the Chamber</h1>

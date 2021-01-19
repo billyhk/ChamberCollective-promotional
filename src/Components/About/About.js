@@ -6,15 +6,13 @@ import './About.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
+import { videos } from '../../videoData';
+
+
 const About = ({ fullPageKey }) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
-
-	// const aboutVideoUrl =
-	// 	'https://thechambercollective.s3.us-east-2.amazonaws.com/About/Videos/About+video+.mp4';
-
-	const aboutVideoUrl = 'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/About+video+-720.mov'
 
 	return (
 		<ReactFullpage
@@ -33,7 +31,7 @@ const About = ({ fullPageKey }) => {
 										autoPlay
 										muted
 										loop>
-										<source data-src={aboutVideoUrl} />
+										<source data-src={videos.aboutVideoUrl720} />
 									</video>
 
 									<div className='a1-header' id='about-header'>
