@@ -32,6 +32,7 @@ const Home = ({ fullPageKey }) => {
 										className='title-video'
 										alt='Video of Aaron'
 										// controls
+										playsInline
 										autoPlay
 										muted
 										loop>
@@ -53,6 +54,7 @@ const Home = ({ fullPageKey }) => {
 										className='title-video'
 										alt='about nucalm'
 										// controls
+										playsInline
 										autoPlay
 										muted
 										loop>
@@ -113,6 +115,7 @@ const Home = ({ fullPageKey }) => {
 										className='title-video'
 										alt='media video'
 										// controls
+										playsInline
 										autoPlay
 										muted
 										loop
@@ -152,6 +155,7 @@ const Home = ({ fullPageKey }) => {
 										className='title-video'
 										alt='contact video'
 										// controls
+										playsInline
 										autoPlay
 										muted
 										loop>
