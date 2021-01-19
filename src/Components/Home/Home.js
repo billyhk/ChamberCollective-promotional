@@ -33,7 +33,9 @@ const Home = ({ fullPageKey }) => {
 										alt='Video of Aaron'
 										// controls
 										playsInline
-										autoPlay
+										// autoPlay
+										data-autoplay
+										// data-keepplaying
 										muted
 										loop>
 										<source data-src={videos.homeVideoUrl2} />
@@ -55,7 +57,7 @@ const Home = ({ fullPageKey }) => {
 										alt='about nucalm'
 										// controls
 										playsInline
-										autoPlay
+										data-autoplay
 										muted
 										loop>
 										<source data-src={videos.aboutVideoUrl720} />
@@ -116,7 +118,7 @@ const Home = ({ fullPageKey }) => {
 										alt='media video'
 										// controls
 										playsInline
-										autoPlay
+										data-autoplay
 										muted
 										loop
 										style={{ opacity: '0.6' }}>
@@ -156,7 +158,7 @@ const Home = ({ fullPageKey }) => {
 										alt='contact video'
 										// controls
 										playsInline
-										autoPlay
+										data-autoplay
 										muted
 										loop>
 										<source data-src={videos.contactVideoUrl720} />

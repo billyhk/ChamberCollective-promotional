@@ -29,7 +29,7 @@ const About = ({ fullPageKey }) => {
 										alt='about nucalm'
 										// controls
 										playsInline
-										autoPlay
+										data-autoplay
 										muted
 										loop>
 										<source data-src={videos.aboutVideoUrl720} />

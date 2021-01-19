@@ -27,7 +27,7 @@ const Contact = ({ fullPageKey }) => {
 										alt='contact video'
 										// controls
 										playsInline
-										autoPlay
+										data-autoplay
 										muted
 										loop>
 										<source data-src={videos.contactVideoUrl720} />

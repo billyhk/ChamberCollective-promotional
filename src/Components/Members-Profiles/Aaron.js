@@ -25,7 +25,7 @@ const MemberAaron = ({ fullPageKey }) => {
 										className='title-video'
 										alt='Video of Aaron'
 										playsInline
-										autoPlay
+										data-autoplay
 										muted
 										loop>
 										<source data-src={videos.aaronTitleVideoUrl} />

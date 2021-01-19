@@ -35,7 +35,7 @@ const Media = ({ fullPageKey }) => {
 										alt='media video'
 										// controls
 										playsInline
-										autoPlay
+										data-autoplay
 										muted
 										loop
 										style={{ opacity: '0.6' }}>
