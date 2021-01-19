@@ -11,8 +11,10 @@ const About = ({ fullPageKey }) => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const aboutVideoUrl =
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/About/Videos/About+video+.mp4';
+	// const aboutVideoUrl =
+	// 	'https://thechambercollective.s3.us-east-2.amazonaws.com/About/Videos/About+video+.mp4';
+
+	const aboutVideoUrl = 'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/About+video+-720.mov'
 
 	return (
 		<ReactFullpage
@@ -30,9 +32,8 @@ const About = ({ fullPageKey }) => {
 										// controls
 										autoPlay
 										muted
-										loop
-										>
-										<source data-src={aboutVideoUrl}/>
+										loop>
+										<source data-src={aboutVideoUrl} />
 									</video>
 
 									<div className='a1-header' id='about-header'>

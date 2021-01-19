@@ -13,10 +13,13 @@ import '../Contact-Form/ContactForm.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
-const mediaVideoUrl =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4';
+// const mediaVideoUrl =
+// 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4';
+// const mediaVideoUrl2 =
+// 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+XYZ.mp4';
+
 const mediaVideoUrl2 =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+XYZ.mp4';
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/media%2BXYZ-720.mov';
 
 const Media = ({ fullPageKey }) => {
 	useEffect(() => {

@@ -14,15 +14,24 @@ const homeVideoUrl =
 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Videos/Home+video+.mp4';
 const homeVideoUrl2 =
 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Videos/Home+page+hero.mp4';
+// const aboutVideoUrl =
+// 	'https://thechambercollective.s3.us-east-2.amazonaws.com/About/Videos/About+video+.mp4';
 const aboutVideoUrl =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/About/Videos/About+video+.mp4';
-const mediaVideoUrl =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4';
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/About+video+-720.mov';
+// const mediaVideoUrl =
+// 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4';
+
+// const mediaVideoUrl2 =
+// 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+XYZ.mp4';
+
 const mediaVideoUrl2 =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+XYZ.mp4';
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/media%2BXYZ-720.mov';
+
+// const contactVideoUrl =
+// 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/contact+video.mp4';
 
 const contactVideoUrl =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/contact+video.mp4';
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/contact+video-720.mov';
 
 const Home = ({ fullPageKey }) => {
 	useEffect(() => {

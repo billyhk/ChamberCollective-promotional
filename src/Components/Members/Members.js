@@ -14,11 +14,12 @@ const topTop = () => {
 	window.scrollTo(0, 0);
 };
 
+// const mediaVideoUrl =
+// 	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4';
 const mediaVideoUrl =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4';
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/media+2X-720.mov';
 
-
-const Members = ({fullPageKey}) => {
+const Members = ({ fullPageKey }) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);

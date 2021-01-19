@@ -6,8 +6,9 @@ import '../Contact-Form/ContactForm.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
+// const contactVideoUrl =	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/contact+video.mp4';
 const contactVideoUrl =
-	'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/contact+video.mp4';
+	'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/contact+video-720.mov';
 
 const Contact = ({ fullPageKey }) => {
 	useEffect(() => {
