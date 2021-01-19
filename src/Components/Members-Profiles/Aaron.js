@@ -24,6 +24,7 @@ const MemberAaron = ({ fullPageKey }) => {
 									<video
 										className='title-video'
 										alt='Video of Aaron'
+										playsInline
 										autoPlay
 										muted
 										loop>

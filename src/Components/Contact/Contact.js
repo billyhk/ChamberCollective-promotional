@@ -26,6 +26,7 @@ const Contact = ({ fullPageKey }) => {
 										className='title-video'
 										alt='contact video'
 										// controls
+										playsInline
 										autoPlay
 										muted
 										loop>

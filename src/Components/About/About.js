@@ -28,6 +28,7 @@ const About = ({ fullPageKey }) => {
 										className='title-video'
 										alt='about nucalm'
 										// controls
+										playsInline
 										autoPlay
 										muted
 										loop>
