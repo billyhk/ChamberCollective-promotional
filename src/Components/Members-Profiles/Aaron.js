@@ -28,7 +28,7 @@ const MemberAaron = ({ fullPageKey }) => {
 										data-autoplay
 										muted
 										loop>
-										<source data-src={videos.aaronTitleVideoUrl} />
+										<source data-src={videos.aaronNewIntro720} />
 									</video>
 									<div className='a1-header' id='member-aaron-header'>
 										<h1>Aaron Drogoszewski</h1>

@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import './JohnJoseph.scss';
+import { videos } from '../../videoData';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
@@ -19,9 +20,18 @@ const MemberJohn = ({ fullPageKey }) => {
 						<ReactFullpage.Wrapper>
 							<div class='section'>
 								<article className='a1'>
-									<div className='a1-header' id='member-john-header'>
+									{/* <div className='a1-header' id='member-john-header'>
 										<h1>John Joseph</h1>
-									</div>
+									</div> */}
+									<video
+										className='title-video'
+										alt='Video of Aaron'
+										playsInline
+										data-autoplay
+										muted
+										loop>
+										<source data-src={videos.johnNewIntro720} />
+									</video>
 								</article>
 							</div>
 							<div class='section'>
@@ -255,7 +265,7 @@ const MemberJohn = ({ fullPageKey }) => {
 										<p className='column-1'>
 											NuCalm is the ONLY system in the world that can legally
 											say it can create balance where it’s needed...
-										<h2>no matter who you are, or what you do.</h2>
+											<h2>no matter who you are, or what you do.</h2>
 										</p>
 										<a
 											className='john-anchor'
