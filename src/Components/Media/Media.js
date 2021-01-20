@@ -1,11 +1,12 @@
 import { useEffect } from 'react';
 
 import './Media.scss';
-import NYT_Logo from '../../Component-Images/NYT_Logo.png';
-import FastCo_Logo from '../../Component-Images/FastCo_Logo.png';
-import GMA_Logo from '../../Component-Images/GMA_Logo.png';
-import Today_Show_Logo from '../../Component-Images/Today_Show_Logo.png';
-import WS_Logo from '../../Component-Images/WS_Logo.png';
+
+import NYT_Logo from '../../Component-Images/logos-white/NYT_Logo.png';
+import FastCo_Logo from '../../Component-Images/logos-white/FastCo_Logo.png.png';
+import GMA_Logo from '../../Component-Images/logos-white/GMA_Logo.png.png';
+import Today_Show_Logo from '../../Component-Images/logos-white/Today_Show_Logo.png';
+import WS_Logo from '../../Component-Images/logos-white/WS_Logo.png';
 
 import ContactForm from '../Contact-Form/Contact';
 
