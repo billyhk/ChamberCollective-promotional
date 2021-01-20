@@ -52,42 +52,62 @@ const Media = ({ fullPageKey }) => {
 									<div className='a2-header' id='media-header'>
 										<h1>Be In The Know</h1>
 										<ul className='logos-list'>
-											<li className='logos-item'>
-												<img
-													className='logos-image'
-													src={NYT_Logo}
-													alt='New York Times logo'
-												/>
-											</li>
-											<li className='logos-item'>
-												<img
-													className='logos-image'
-													d
-													src={WS_Logo}
-													alt='Wall Street Journal logo'
-												/>
-											</li>
-											<li className='logos-item'>
-												<img
-													className='logos-image'
-													src={FastCo_Logo}
-													alt='Fast Company logo'
-												/>
-											</li>
-											<li className='logos-item'>
-												<img
-													className='logos-image'
-													src={Today_Show_Logo}
-													alt='Today Show logo'
-												/>
-											</li>
-											<li className='logos-item'>
-												<img
-													className='logos-image'
-													src={GMA_Logo}
-													alt='GMA logo'
-												/>
-											</li>
+											<a
+												href='https://thechambercollective.s3.us-east-2.amazonaws.com/PDFs/NYT+-+How+to+Recover+Like+an+Elite+Athlete+-+The+New+York+Times.pdf'
+												target='blank'>
+												<li className='logos-item'>
+													<img
+														className='logos-image'
+														src={NYT_Logo}
+														alt='New York Times logo'
+													/>
+												</li>
+											</a>
+											<a
+												href='https://thechambercollective.s3.us-east-2.amazonaws.com/PDFs/WSJ+-+ReCOVER_WSJ_8.9.18.pdf'
+												target='blank'>
+												<li className='logos-item'>
+													<img
+														className='logos-image'
+														d
+														src={WS_Logo}
+														alt='Wall Street Journal logo'
+													/>
+												</li>
+											</a>
+											<a
+												href='https://thechambercollective.s3.us-east-2.amazonaws.com/PDFs/Fast+Co+-+Can+this+biohacking+relaxation+center+make+you+more+productive_.pdf'
+												target='blank'>
+												<li className='logos-item'>
+													<img
+														className='logos-image'
+														src={FastCo_Logo}
+														alt='Fast Company logo'
+													/>
+												</li>
+											</a>
+											<a
+												href='https://www.today.com/video/spring-reboot-craig-melvin-tries-therapies-for-relaxation-1486236739560'
+												target='blank'>
+												<li className='logos-item'>
+													<img
+														className='logos-image'
+														src={Today_Show_Logo}
+														alt='Today Show logo'
+													/>
+												</li>
+											</a>
+											<a
+												href='https://thechambercollective.s3.us-east-2.amazonaws.com/PDFs/GMA+-+Is+recovery+the+new+cardio_+How+taking+time+for+yourself+is+taking+over+fitness+_+GMA.pdf'
+												target='blank'>
+												<li className='logos-item'>
+													<img
+														className='logos-image'
+														src={GMA_Logo}
+														alt='GMA logo'
+													/>
+												</li>
+											</a>
 										</ul>
 
 										<h2>
