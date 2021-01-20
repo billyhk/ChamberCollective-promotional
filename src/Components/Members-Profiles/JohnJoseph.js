@@ -276,7 +276,7 @@ const MemberJohn = ({ fullPageKey }) => {
 										<br />
 										<a
 											className='john-anchor'
-											href='https://nucalm.com/store/'
+											href='http://shareasale.com/r.cfm?b=1598116&u=2693400&m=100346'
 											target='blank'>
 											Proceed to the NuCalm Shop
 										</a>
