@@ -49,7 +49,7 @@ const Services = (fullPageKey) => {
 										</h2>{' '}
 										<a
 											className='nick-anchor'
-											href='http://shareasale.com/r.cfm?b=1598116&u=2693400&m=100346'
+											href='https://nucalm.com/store/'
 											target='blank'>
 											Proceed to the NuCalm Shop
 										</a>
