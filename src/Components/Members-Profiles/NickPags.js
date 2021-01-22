@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import './NickPags.scss';
+import { videos } from '../../videoData';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
@@ -18,10 +19,19 @@ const MemberNick = ({ fullPageKey }) => {
 						<ReactFullpage.Wrapper>
 							<div class='section'>
 								<article className='a1'>
-									<div className='a1-header' id='member-nick-header'>
+									<video
+										className='title-video'
+										alt='Video of Aaron'
+										playsInline
+										data-autoplay
+										muted
+										loop>
+										<source data-src={videos.nickNewIntro720} />
+									</video>
+									{/* <div className='a1-header' id='member-nick-header'>
 										<h1>Nick Pags</h1>
 										<h2>Coach, Speaker, Creator of Project Limitless</h2>
-									</div>
+									</div> */}
 								</article>
 							</div>
 							<div class='section'>
@@ -72,14 +82,14 @@ const MemberNick = ({ fullPageKey }) => {
 											className='nick-anchor'
 											href='https://nucalm.com/'
 											target='blank'>
-											Click here to learn more about NuCalm
+											<strong>Click here to learn more about NuCalm</strong>
 										</a>{' '}
 										<br />
 										<a
 											className='nick-anchor'
-											href='http://shareasale.com/r.cfm?b=1598116&u=2693400&m=100346'
+											href='https://www.shareasale.com/r.cfm?b=1598116&u=2693400&m=100346'
 											target='blank'>
-											Proceed to the NuCalm Shop
+											<strong>Proceed to the NuCalm Shop</strong>
 										</a>
 									</div>
 								</article>

@@ -29,4 +29,6 @@ export const videos = {
 		'https://thechambercollective.s3.us-east-2.amazonaws.com/Members/Aaron/Video/Aarons-new-intro-720.mov',
 	johnNewIntro720:
 		'https://thechambercollective.s3.us-east-2.amazonaws.com/Members/JohnJoseph/john-new-vid-720.mov',
+	nickNewIntro720:
+		'https://thechambercollective.s3.us-east-2.amazonaws.com/Members/NickPags/Nick-final-720.mov',
 };

@@ -271,14 +271,14 @@ const MemberJohn = ({ fullPageKey }) => {
 											className='john-anchor'
 											href='https://nucalm.com/'
 											target='blank'>
-											Click here to learn more about NuCalm
+											<strong>Click here to learn more about NuCalm</strong>
 										</a>{' '}
 										<br />
 										<a
 											className='john-anchor'
 											href='https://nucalm.com/store/'
 											target='blank'>
-											Proceed to the NuCalm Shop
+											<strong>Proceed to the NuCalm Shop</strong>
 										</a>
 									</div>
 								</article>

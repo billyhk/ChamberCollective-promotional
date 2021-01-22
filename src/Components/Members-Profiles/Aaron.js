@@ -30,9 +30,9 @@ const MemberAaron = ({ fullPageKey }) => {
 										loop>
 										<source data-src={videos.aaronNewIntro720} />
 									</video>
-									<div className='a1-header' id='member-aaron-header'>
+									{/* <div className='a1-header' id='member-aaron-header'>
 										<h1>Aaron Drogoszewski</h1>
-									</div>
+									</div> */}
 								</article>
 							</div>
 							<div class='section'>
@@ -246,7 +246,7 @@ const MemberAaron = ({ fullPageKey }) => {
 										<br />
 										<a
 											className='aaron-anchor'
-											href='https://shareasale.com/r.cfm?b=1598116&u=2700721&m=100346&urllink=&afftrack='
+											href='https://www.shareasale.com/r.cfm?b=1598116&u=2700721&m=100346&urllink=&afftrack='
 											target='blank'>
 											Proceed to the NuCalm Shop
 										</a>

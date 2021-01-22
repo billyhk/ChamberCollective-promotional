@@ -109,6 +109,20 @@
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
+	// .a4:before {
+	// 	content: '';
+	// 	position: absolute;
+	// 	top: 0px;
+	// 	right: 0px;
+	// 	bottom: 0px;
+	// 	left: 0px;
+
+	// 	background: linear-gradient(
+	// 		to top,
+	// 		rgba(164, 164, 164, 0.514) 0%,
+	// 		rgba(84, 84, 84, 0.269) 25%
+	// 	);
+	// }
 	.a4:before {
 		content: '';
 		position: absolute;
@@ -117,12 +131,31 @@
 		bottom: 0px;
 		left: 0px;
 
-		background: linear-gradient(
-			to top,
-			rgba(164, 164, 164, 0.514) 0%,
-			rgba(84, 84, 84, 0.269) 25%
+		background: url(https://d1amesytz4ny5q.cloudfront.net/fit-in/2000x1200/About/Images/about%20gloves%203.jpg);
+		-webkit-mask-image: linear-gradient(
+			to left,
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.7)
 		);
+		// opacity: 0.3;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
+	// .a5:before {
+	// 	content: '';
+	// 	position: absolute;
+	// 	top: 0px;
+	// 	right: 0px;
+	// 	bottom: 0px;
+	// 	left: 0px;
+
+	// 	background: linear-gradient(
+	// 		to bottom,
+	// 		rgba(164, 164, 164, 0.514) 0%,
+	// 		rgba(84, 84, 84, 0.269) 25%
+	// 	);
+	// }
 	.a5:before {
 		content: '';
 		position: absolute;
@@ -132,8 +165,8 @@
 		left: 0px;
 
 		background: linear-gradient(
-			to bottom,
-			rgba(164, 164, 164, 0.514) 0%,
+			to top,
+			rgba(97, 136, 220, 0.514) 0%,
 			rgba(84, 84, 84, 0.269) 25%
 		);
 	}
