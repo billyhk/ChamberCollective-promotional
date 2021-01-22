@@ -245,7 +245,7 @@ const MemberAaron = ({ fullPageKey }) => {
 										<br />
 										<a
 											className='aaron-anchor'
-											href='https://www.shareasale.com/r.cfm?b=1598116&u=2700721&m=100346&urllink=&afftrack='
+											href='https://shareasale.com/r.cfm?b=1598116&u=2700721&m=100346&urllink=&afftrack='
 											target='blank'>
 											<strong>Proceed to the NuCalm Shop</strong>
 										</a>
