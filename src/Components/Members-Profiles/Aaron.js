@@ -5,7 +5,6 @@ import ReactFullpage from '@fullpage/react-fullpage';
 
 import { videos } from '../../videoData';
 
-
 const MemberAaron = ({ fullPageKey }) => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -241,14 +240,14 @@ const MemberAaron = ({ fullPageKey }) => {
 											className='aaron-anchor'
 											href='https://nucalm.com/'
 											target='blank'>
-											Click here to learn more about NuCalm
+											<strong>Click here to learn more about NuCalm</strong>
 										</a>{' '}
 										<br />
 										<a
 											className='aaron-anchor'
 											href='https://www.shareasale.com/r.cfm?b=1598116&u=2700721&m=100346&urllink=&afftrack='
 											target='blank'>
-											Proceed to the NuCalm Shop
+											<strong>Proceed to the NuCalm Shop</strong>
 										</a>
 									</div>
 								</article>
