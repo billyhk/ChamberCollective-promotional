@@ -58,7 +58,7 @@ const ContactForm = ({
 			</div>
 				*/}
 			<div className='button-container'>
-				<input type='submit' className='submit-button' value='Learn More' />
+				<input type='submit' className='submit-button' value='Sign Up' />
 			</div>
 		</form>
 	);
