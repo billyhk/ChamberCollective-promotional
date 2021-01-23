@@ -87,7 +87,7 @@ const MemberNick = ({ fullPageKey }) => {
 										<br />
 										<a
 											className='nick-anchor'
-											href='https://nucalm.com/store/?sscid=11k5_ndsnv&utm_source=ShareASale&utm_medium=affiliate&utm_campaign=sas-2700721'
+											href='https://nucalm.com/join/?sscid=11k5_ndsnv&utm_source=ShareASale&utm_medium=affiliate&utm_campaign=sas-2700721'
 											target='blank'>
 											<strong>Proceed to the NuCalm Shop</strong>
 										</a>

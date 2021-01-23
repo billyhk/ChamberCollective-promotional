@@ -134,11 +134,11 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	@media only screen and (max-height: 850px) {
-		.a3:before {
-			background-position: 0 35%;
-		}
-	}
+	// @media only screen and (min-width: 950px) {
+	// 	.a3:before {
+	// 		background-position: 0 35%;
+	// 	}
+	// }
 	.a4:before {
 		content: '';
 		position: absolute;
