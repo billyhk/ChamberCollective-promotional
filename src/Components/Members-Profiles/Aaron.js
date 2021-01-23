@@ -18,7 +18,7 @@ const MemberAaron = ({ fullPageKey }) => {
 				return (
 					<main className='member-aaron-container'>
 						<ReactFullpage.Wrapper>
-							<div class='section'>
+							<div className='section'>
 								<article className='a1'>
 									<video
 										className='title-video'
@@ -34,7 +34,7 @@ const MemberAaron = ({ fullPageKey }) => {
 									</div> */}
 								</article>
 							</div>
-							<div class='section'>
+							<div className='section'>
 								<article className='a2'>
 									<div className='a2-header' id='member-aaron-header'>
 										<h2>
@@ -47,7 +47,7 @@ const MemberAaron = ({ fullPageKey }) => {
 									</div>
 								</article>
 							</div>
-							<div class='section'>
+							<div className='section'>
 								<article className='a3'>
 									<div className='a3-header' id='member-aaron-header'>
 										<p>
@@ -98,7 +98,7 @@ const MemberAaron = ({ fullPageKey }) => {
 									</div>
 								</article>
 							</div>
-							<div class='section'>
+							<div className='section'>
 								<article className='a4'>
 									<div className='a4-header' id='member-aaron-header'>
 										{' '}
@@ -147,7 +147,7 @@ const MemberAaron = ({ fullPageKey }) => {
 									</div>
 								</article>
 							</div>
-							<div class='section'>
+							<div className='section'>
 								<article className='a5'>
 									<div className='a5-header' id='member-aaron-header'>
 										{' '}
@@ -171,7 +171,7 @@ const MemberAaron = ({ fullPageKey }) => {
 									</div>
 								</article>
 							</div>
-							<div class='section'>
+							<div className='section'>
 								<article className='a6'>
 									<div className='a6-header' id='member-aaron-header'>
 										{' '}
@@ -221,7 +221,7 @@ const MemberAaron = ({ fullPageKey }) => {
 									</div>
 								</article>{' '}
 							</div>
-							<div class='section'>
+							<div className='section'>
 								<article className='a7'>
 									<div className='a7-header' id='member-aaron-header'>
 										{' '}
