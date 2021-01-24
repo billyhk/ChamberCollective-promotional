@@ -15,6 +15,7 @@ import '../Contact-Form/ContactForm.scss';
 import ReactFullpage from '@fullpage/react-fullpage';
 
 import { videos } from '../../videoData';
+import mediaVideo from '../../resized-videos/media-XYZ-720.mov';
 
 const Media = ({ fullPageKey }) => {
 	useEffect(() => {
@@ -40,7 +41,8 @@ const Media = ({ fullPageKey }) => {
 										muted
 										loop
 										style={{ opacity: '0.6' }}>
-										<source data-src={videos.mediaVideoUrl2720} />
+										{/* <source data-src={videos.mediaVideoUrl2720} /> */}
+										<source data-src={mediaVideo} />
 									</video>
 									<div className='a1-header' id='media-header'>
 										<h1>The Cache</h1>

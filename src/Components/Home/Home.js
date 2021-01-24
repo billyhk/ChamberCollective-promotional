@@ -7,7 +7,17 @@ import '../Contact-Form/ContactForm.scss';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
+// VIDEOS
 import { videos } from '../../videoData';
+import homeHero from '../../resized-videos/home-hero-720.mov';
+import aboutVideo from '../../resized-videos/About-video-720.mov';
+import mediaVideo from '../../resized-videos/media-XYZ-720.mov';
+import contactVideo from '../../resized-videos/contact-video-720.mov';
+
+// IMAGES
+import aaronProfile from '../../resized-images/Aaron_Profile.jpg';
+import johnProfile from '../../resized-images/John Joseph Profile.jpg';
+import nickProfile from '../../resized-images/Nick Pags Profile.jpg';
 
 const toTop = () => {
 	window.scrollTo(0, 0);
@@ -38,7 +48,8 @@ const Home = ({ fullPageKey }) => {
 										// data-keepplaying
 										muted
 										loop>
-										<source data-src={videos.homeVideoUrl2} />
+										{/* <source data-src={videos.homeVideoUrl2} /> */}
+										<source data-src={homeHero} />
 									</video>
 									{/* <div className='a1-header' id='home-header'>
 										<h1>The Community</h1>
@@ -60,7 +71,8 @@ const Home = ({ fullPageKey }) => {
 										data-autoplay
 										muted
 										loop>
-										<source data-src={videos.aboutVideoUrl720} />
+										{/* <source data-src={videos.aboutVideoUrl720} /> */}
+										<source data-src={aboutVideo} />
 									</video>
 									<div className='a2-header' id='home-header'>
 										<Link to='/about' onClick={toTop}>
@@ -79,7 +91,7 @@ const Home = ({ fullPageKey }) => {
 							<div className='section'>
 								<article className='a3'>
 									<div className='three-images-background'>
-										<img
+										{/* <img
 											data-src='https://d1amesytz4ny5q.cloudfront.net/fit-in/800x600/Members/Aaron/Images/Aaron_Profile.png'
 											alt='aaron'
 										/>
@@ -90,7 +102,10 @@ const Home = ({ fullPageKey }) => {
 										<img
 											data-src='https://d1amesytz4ny5q.cloudfront.net/fit-in/800x600/Members/NickPags/Nick%20Pags%20Profile.png'
 											alt='nick'
-										/>
+										/> */}
+										<img data-src={aaronProfile} alt='aaron' />
+										<img data-src={johnProfile} alt='john' />
+										<img data-src={nickProfile} alt='nick' />
 									</div>
 									<div className='a3-header' id='home-header'>
 										<Link to='/members' onClick={toTop}>
@@ -122,7 +137,8 @@ const Home = ({ fullPageKey }) => {
 										muted
 										loop
 										style={{ opacity: '0.6' }}>
-										<source data-src={videos.mediaVideoUrl2720} />
+										{/* <source data-src={videos.mediaVideoUrl2720} /> */}
+										<source data-src={mediaVideo} />
 									</video>
 
 									<div className='a4-header' id='home-header'>
@@ -161,7 +177,8 @@ const Home = ({ fullPageKey }) => {
 										data-autoplay
 										muted
 										loop>
-										<source data-src={videos.contactVideoUrl720} />
+										{/* <source data-src={videos.contactVideoUrl720} /> */}{' '}
+										<source data-src={contactVideo} />
 									</video>
 									<ContactForm />
 								</article>

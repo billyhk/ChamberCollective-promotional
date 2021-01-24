@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Header.scss';
 import { Link } from 'react-router-dom';
+import headerLogo from '../../resized-images/The Chamber Logo 01152021.png';
 
 const Header = () => {
 	/*
@@ -43,7 +44,8 @@ const Header = () => {
 				</p>
 				<Link to='/' onClick={toTop}>
 					<img
-						src='https://thechambercollective.s3.us-east-2.amazonaws.com/Logos/The+Chamber+Logo+01152021.png'
+						// src='https://thechambercollective.s3.us-east-2.amazonaws.com/Logos/The+Chamber+Logo+01152021.png'
+						src={headerLogo}
 						alt='nucalm-logo'
 						className='header-logo'></img>
 				</Link>

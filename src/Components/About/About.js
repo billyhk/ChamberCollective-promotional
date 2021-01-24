@@ -7,6 +7,8 @@ import './About.scss';
 import ReactFullpage from '@fullpage/react-fullpage';
 
 import { videos } from '../../videoData';
+import aboutVideo from '../../resized-videos/About-video-720.mov';
+
 
 
 const About = ({ fullPageKey }) => {
@@ -32,7 +34,8 @@ const About = ({ fullPageKey }) => {
 										data-autoplay
 										muted
 										loop>
-										<source data-src={videos.aboutVideoUrl720} />
+										{/* <source data-src={videos.aboutVideoUrl720} /> */}
+										<source data-src={aboutVideo} />
 									</video>
 
 									<div className='a1-header' id='about-header'>

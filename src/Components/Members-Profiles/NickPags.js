@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import './NickPags.scss';
 import { videos } from '../../videoData';
+import nickVideo from '../../resized-videos/Nick-final-720.mov';
 
 import ReactFullpage from '@fullpage/react-fullpage';
 
@@ -26,7 +27,8 @@ const MemberNick = ({ fullPageKey }) => {
 										data-autoplay
 										muted
 										loop>
-										<source data-src={videos.nickNewIntro720} />
+										{/* <source data-src={videos.nickNewIntro720} /> */}
+										<source data-src={nickVideo} />
 									</video>
 									{/* <div className='a1-header' id='member-nick-header'>
 										<h1>Nick Pags</h1>

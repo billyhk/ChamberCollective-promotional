@@ -11,6 +11,7 @@ import '../Contact-Form/ContactForm.scss';
 import ReactFullpage from '@fullpage/react-fullpage';
 
 import { videos } from '../../videoData';
+import mediaVideo from '../../resized-videos/media-XYZ-720.mov';
 
 const topTop = () => {
 	window.scrollTo(0, 0);
@@ -39,7 +40,8 @@ const Members = ({ fullPageKey }) => {
 										muted
 										loop
 										style={{ opacity: '0.6' }}>
-										<source data-src={videos.mediaVideoUrl720} />
+										{/* <source data-src={videos.mediaVideoUrl720} /> */}
+										<source data-src={mediaVideo} />
 									</video>
 
 									<div className='a1-header' id='members-header'>
