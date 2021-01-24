@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Header.scss';
 import { Link } from 'react-router-dom';
-import headerLogo from '../../resized-images/The Chamber Logo 01152021.png';
+import headerLogo from '../../Component-Images/The Chamber Logo 01152021.png';
 
 const Header = () => {
 	/*

@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import './JohnJoseph.scss';
 import { videos } from '../../videoData';
-import johnVideo from '../../resized-videos/john-new-vid-720.mov';
 
 
 import ReactFullpage from '@fullpage/react-fullpage';
@@ -32,8 +31,7 @@ const MemberJohn = ({ fullPageKey }) => {
 										data-autoplay
 										muted
 										loop>
-										{/* <source data-src={videos.johnNewIntro720} /> */}
-										<source data-src={johnVideo} />
+										<source data-src={videos.johnNewIntro720} />
 									</video>
 								</article>
 							</div>

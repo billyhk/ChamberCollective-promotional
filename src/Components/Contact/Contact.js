@@ -7,7 +7,6 @@ import '../Contact-Form/ContactForm.scss';
 import ReactFullpage from '@fullpage/react-fullpage';
 
 import { videos } from '../../videoData';
-import contactVideo from '../../resized-videos/contact-video-720.mov';
 
 const Contact = ({ fullPageKey }) => {
 	useEffect(() => {
@@ -31,8 +30,7 @@ const Contact = ({ fullPageKey }) => {
 										data-autoplay
 										muted
 										loop>
-										{/* <source data-src={videos.contactVideoUrl720} /> */}
-										<source data-src={contactVideo} />
+										<source data-src={videos.contactVideoUrl720} />
 									</video>
 									<div className='a1-header' id='contact-header'>
 										<h1>Connect with the Chamber</h1>

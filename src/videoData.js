@@ -1,34 +1,18 @@
 export const videos = {
-	homeVideoUrl:
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Videos/Home+video+.mp4',
-	homeVideoUrl2:
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/Home/Videos/Home+page+hero.mp4',
-	aboutVideoUrl:
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/About/Videos/About+video+.mp4',
+	homeVideoUrl2720:
+		'https://chambercollective-project.s3.amazonaws.com/videos/home-hero-720.mov',
 	aboutVideoUrl720:
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/About+video+-720.mov',
-	mediaVideoUrl:
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+2X.mp4',
+		'https://chambercollective-project.s3.amazonaws.com/videos/About-video-720.mov',
 	mediaVideoUrl720:
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/media+2X-720.mov',
-
-	mediaVideoUrl2:
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/media+XYZ.mp4',
-
+		'https://chambercollective-project.s3.amazonaws.com/videos/media-2X-720.mov',
 	mediaVideoUrl2720:
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/media%2BXYZ-720.mov',
-
-	contactVideoUrl:
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/Cache%2BContact/Videos/contact+video.mp4',
-
+		'https://chambercollective-project.s3.amazonaws.com/videos/media-XYZ-720.mov',
 	contactVideoUrl720:
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/resized+videos+(720p)/contact+video-720.mov',
-	aaronTitleVideoUrl:
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/Members/Aaron/Video/Aaron.mp4',
+		'https://chambercollective-project.s3.amazonaws.com/videos/contact-video-720.mov',
 	aaronNewIntro720:
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/Members/Aaron/Video/Aarons-new-intro-720.mov',
+		'https://chambercollective-project.s3.amazonaws.com/videos/Aarons-new-intro-720.mov',
 	johnNewIntro720:
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/Members/JohnJoseph/john-new-vid-720.mov',
+		'https://chambercollective-project.s3.amazonaws.com/videos/john-new-vid-720.mov',
 	nickNewIntro720:
-		'https://thechambercollective.s3.us-east-2.amazonaws.com/Members/NickPags/Nick-final-720.mov',
+		'https://chambercollective-project.s3.amazonaws.com/videos/Nick-final-720.mov',
 };

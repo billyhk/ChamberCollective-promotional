@@ -22,4 +22,3 @@ This app serves as a promotional vehicle for _The Chamber Collective_, which is 
 - Integrated with Google Analytics and Google Tag Manager
 - Amazon Web Services for hosting media files (videos and images)
   - Thumbor service used via AWS/S3 for dynamic resizing of hi-res images 'on the fly'
-  - (This is partially implemented in this repo, which contains local copies of all media)

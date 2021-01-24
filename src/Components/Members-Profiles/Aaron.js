@@ -4,8 +4,6 @@ import './Aaron.scss';
 import ReactFullpage from '@fullpage/react-fullpage';
 
 import { videos } from '../../videoData';
-import aaronVideo from '../../resized-videos/Aarons-new-intro-720.mov';
-
 
 const MemberAaron = ({ fullPageKey }) => {
 	useEffect(() => {
@@ -29,8 +27,7 @@ const MemberAaron = ({ fullPageKey }) => {
 										data-autoplay
 										muted
 										loop>
-										{/* <source data-src={videos.aaronNewIntro720} /> */}
-										<source data-src={aaronVideo} />
+										<source data-src={videos.aaronNewIntro720} />
 									</video>
 									{/* <div className='a1-header' id='member-aaron-header'>
 										<h1>Aaron Drogoszewski</h1>
