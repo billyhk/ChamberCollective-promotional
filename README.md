@@ -1,6 +1,6 @@
 # The Chamber Collective
 
-Click here to view [demo, deployed with heroku](https://chambercollective-demo.herokuapp.com/).
+Click here to view [demo](https://chambercollective-demo.herokuapp.com/), deployed with heroku.
 
 This app serves as a promotional vehicle for _The Chamber Collective_, which is a fitness startup comprised of three personal trainers:
 
