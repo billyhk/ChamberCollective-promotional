@@ -6,7 +6,7 @@ import NYT_Logo from '../../Component-Images/logos-white/NYT_Logo.png';
 import FastCo_Logo from '../../Component-Images/logos-white/FastCo_Logo.png.png';
 import GMA_Logo from '../../Component-Images/logos-white/GMA_Logo.png.png';
 import Today_Show_Logo from '../../Component-Images/logos-white/Today_Show_Logo.png';
-import WS_Logo from '../../Component-Images/logos-white/WS_Logo.png';
+import WSJ_Logo from '../../Component-Images/logos-white/WS_Logo.png';
 
 import ContactForm from '../Contact-Form/Contact';
 
@@ -56,7 +56,8 @@ const Media = ({ fullPageKey }) => {
 										<h1>Be In The Know</h1>
 										<ul className='logos-list'>
 											<a
-												href='https://thechambercollective.s3.us-east-2.amazonaws.com/PDFs/NYT+-+How+to+Recover+Like+an+Elite+Athlete+-+The+New+York+Times.pdf'
+												// href='https://thechambercollective.s3.us-east-2.amazonaws.com/PDFs/NYT+-+How+to+Recover+Like+an+Elite+Athlete+-+The+New+York+Times.pdf'
+												href='https://drive.google.com/file/d/1zcN4BGvGTG4MC9H_MFUTqXjSBHlebRQ7/view?usp=sharing'
 												target='blank'>
 												<li className='logos-item'>
 													<img
@@ -67,19 +68,21 @@ const Media = ({ fullPageKey }) => {
 												</li>
 											</a>
 											<a
-												href='https://thechambercollective.s3.us-east-2.amazonaws.com/PDFs/WSJ+-+ReCOVER_WSJ_8.9.18.pdf'
+												// href='https://thechambercollective.s3.us-east-2.amazonaws.com/PDFs/WSJ+-+ReCOVER_WSJ_8.9.18.pdf'
+												href='https://drive.google.com/file/d/1oJCuKXlp8W1v0kTV35Oey4IxMens3lKo/view?usp=sharing'
 												target='blank'>
 												<li className='logos-item'>
 													<img
 														className='logos-image'
 														d
-														src={WS_Logo}
+														src={WSJ_Logo}
 														alt='Wall Street Journal logo'
 													/>
 												</li>
 											</a>
 											<a
-												href='https://thechambercollective.s3.us-east-2.amazonaws.com/PDFs/Fast+Co+-+Can+this+biohacking+relaxation+center+make+you+more+productive_.pdf'
+												// href='https://thechambercollective.s3.us-east-2.amazonaws.com/PDFs/Fast+Co+-+Can+this+biohacking+relaxation+center+make+you+more+productive_.pdf'
+												href='https://drive.google.com/file/d/1SYtmy3XdvzKZxx4IphC7746_ApfB-0-8/view?usp=sharing'
 												target='blank'>
 												<li className='logos-item'>
 													<img
@@ -101,7 +104,8 @@ const Media = ({ fullPageKey }) => {
 												</li>
 											</a>
 											<a
-												href='https://thechambercollective.s3.us-east-2.amazonaws.com/PDFs/GMA+-+Is+recovery+the+new+cardio_+How+taking+time+for+yourself+is+taking+over+fitness+_+GMA.pdf'
+												// href='https://thechambercollective.s3.us-east-2.amazonaws.com/PDFs/GMA+-+Is+recovery+the+new+cardio_+How+taking+time+for+yourself+is+taking+over+fitness+_+GMA.pdf'
+												href='https://drive.google.com/file/d/1aoSZAp5ypGHg__ZrunHddW3svu8fyggn/view?usp=sharing'
 												target='blank'>
 												<li className='logos-item'>
 													<img
