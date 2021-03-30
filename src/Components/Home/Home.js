@@ -11,9 +11,9 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import { videos } from '../../videoData';
 
 // IMAGES
-// import aaronProfile from '../../resized-images/Aaron_Profile.jpg';
-// import johnProfile from '../../resized-images/John Joseph Profile.jpg';
-// import nickProfile from '../../resized-images/Nick Pags Profile.jpg';
+import aaronProfile from '../../Component-Images/resized-images/Aaron_Profile.jpg';
+import johnProfile from '../../Component-Images/resized-images/John Joseph Profile.jpg';
+import nickProfile from '../../Component-Images/resized-images/Nick Pags Profile.jpg';
 
 const toTop = () => {
 	window.scrollTo(0, 0);
@@ -87,21 +87,9 @@ const Home = ({ fullPageKey }) => {
 							<div className='section'>
 								<article className='a3'>
 									<div className='three-images-background'>
-										<img
-											data-src='https://d1amesytz4ny5q.cloudfront.net/fit-in/800x600/Members/Aaron/Images/Aaron_Profile.png'
-											alt='aaron'
-										/>
-										<img
-											data-src='https://d1amesytz4ny5q.cloudfront.net/fit-in/800x600/Members/JohnJoseph/John%20Joseph%20Profile.png'
-											alt='john'
-										/>
-										<img
-											data-src='https://d1amesytz4ny5q.cloudfront.net/fit-in/800x600/Members/NickPags/Nick%20Pags%20Profile.png'
-											alt='nick'
-										/>
-										{/* <img data-src={aaronProfile} alt='aaron' />
+										<img data-src={aaronProfile} alt='aaron' />
 										<img data-src={johnProfile} alt='john' />
-										<img data-src={nickProfile} alt='nick' /> */}
+										<img data-src={nickProfile} alt='nick' />
 									</div>
 									<div className='a3-header' id='home-header'>
 										<Link to='/members' onClick={toTop}>
